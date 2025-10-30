@@ -1,0 +1,122 @@
+.services-box{
+     background-image: url(../images/services-box-bg.png);
+     background-repeat: no-repeat;
+}
+
+.unveiling-card{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding: 30px;
+    height: 100%;
+    box-shadow: 0px 10px 40px 0px rgba(0,0,0,0.03);
+}
+
+.unveiling-card svg{
+    width: 140px;
+    height: 140px;
+}
+
+.unveiling-card h5{
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.unveiling-card p{
+    text-align: center;
+}
+
+.unveiling-card:hover{
+    background-color: #4AAB3D;
+    color: #FFFFFF;
+    transition: all 800ms;
+}
+
+.unveiling-card:hover svg circle{
+    fill: #FFFFFF;
+    transition: all 800ms;
+}
+
+.unveiling-card:hover svg path{
+    fill: #4AAB3D;
+    transition: all 800ms;
+}
+
+.unveiling-card:hover svg .services-logo-1{
+    stroke: #4AAB3D;
+    transition: all 800ms;
+}
+
+.unveiling-card-3:hover svg path{
+    fill: #FFFFFF;
+    stroke:#4AAB3D;
+    transition: all 800ms;
+}
+
+.unveiling-card-3:hover svg circle{
+    fill: #FFFFFF;
+}
+
+.unveiling-card-3:hover svg path:nth-child(1){
+    fill: #4AAB3D;
+    stroke: #FFFFFF;
+}
+
+.unveiling-card:hover p{
+    color: #EDEDED;
+    transition: all 800ms;
+}
+
+.unveiling-card:hover h5{
+    color: #FFFFFF;
+    transition: all 800ms;
+}
+
+@media (max-width:1399px) {
+   
+
+}
+
+@media (max-width:1199px) {
+    .unveiling-card-main{
+        row-gap: 30px;
+    }
+
+}
+
+@media (max-width:991px) {
+
+}
+
+@media (max-width:767px) {
+    .unveiling-card{
+        padding: 18px;
+    }
+    .unveiling-card-main{
+        justify-content: center;
+    }
+    .unveiling-card{
+        padding: 25px;
+    }
+}
+
+@media (max-width:575px) {
+
+
+}
+
+@media (max-width:500px) {
+   
+}
+
+@media (max-width:470px) {
+
+}
+
+
+@media (max-width:430px) {
+
+}
+

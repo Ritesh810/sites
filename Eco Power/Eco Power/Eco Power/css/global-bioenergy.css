@@ -1,0 +1,100 @@
+.global-bioenergy{
+    background-image: url('../images/global-bioenergy-bg.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.global-bioenergy-content p{
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+.global-bioenergy-content{
+    padding-right: 0;
+}
+
+.global-bioenergy-img{
+    justify-content: end;
+}
+
+.global-bioenergy-solar h6{
+    font-family: var(--primary-font-family);
+    font-weight: 400;
+    padding-top: 5px;
+}
+
+.global-bioenergy-solar img{
+    padding-top: 30px;
+}
+
+.global-bioenergy-solar{
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    text-wrap: nowrap;
+}
+
+.global-bioenergy-solar{
+    margin-left: 24px;
+}
+
+@media (max-width:1499px) {
+    .global-bioenergy-content{
+        padding-right: 12px;
+    }
+}
+
+@media (max-width:1199px) {
+    
+    .global-bioenergy-solar{
+        margin-left: 10px;
+    }
+    .global-bioenergy-solar h6{
+        text-align: center;
+    }
+}
+
+@media (max-width:991px) {
+    .global-bioenergy-content{
+        order: 1;
+    }
+    .global-bioenergy .row{
+        row-gap: 30px;
+    }
+    .global-bioenergy-img{
+        justify-content: center;
+    }
+    .global-bioenergy-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .global-bioenergy-content .prifix{
+        display: grid;
+        justify-items: center;
+    }
+    .global-bioenergy-content .prifix h3{
+        text-align: center;
+    }
+    .global-bioenergy-content p{
+        text-align: center;
+        padding-top: 20px;
+    }
+}
+
+@media (max-width:767px) {
+    
+}
+
+@media (max-width:575px) {
+
+}
+
+@media (max-width:450px) {
+
+}
+
+    
+
+
+

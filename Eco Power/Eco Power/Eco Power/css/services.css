@@ -1,0 +1,198 @@
+.services-content{
+    position: relative;
+    overflow: hidden;
+    min-height: 700px;
+    border-right: 1px solid #FFFFFF;
+}
+
+.services{
+    overflow: hidden;
+}
+
+.services{
+    background-size: cover;
+}
+
+.services-inner{
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    padding: 0px;
+}
+
+.services-hover-info{
+    padding: 35px 40px 40px 40px;
+}
+
+.services-inner img{
+     border: none;
+}
+
+.services-inner h5{
+    color: #FFFFFF;
+    font-weight: 500;
+    padding-top: 25px;
+    padding-bottom: 100px;
+}
+
+.services-info img{
+    border: none;
+}
+
+.services-inner p{
+    color: #EDEDED;
+    margin-bottom: 25px;
+    padding-top: 10px;
+}
+
+.services-content .theme-btn{ 
+    opacity: 1;
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.services-content .theme-btn:hover{
+    background-color: #FFFFFF;
+}
+
+.services-info img{
+    width: 61px;
+    height: 74px;
+}
+
+.services-inner{
+    transform: translateY(62%);
+}
+
+.services-content:hover .services-inner{
+    transform: translateY(0);
+    opacity: 1;
+    height: 100%;
+    display: grid;
+    align-items: end;
+    transition: all 800ms;
+}
+
+
+.services-content:hover .services-inner::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #4AAB3D;
+    z-index: -1;
+    opacity: 0.80;
+}
+
+.services-content:hover .services-inner h5{
+    padding-bottom: 0px;
+}
+
+@media (max-width:1499px) {
+    .services-content{
+        min-height: 550px;    
+    }
+
+    .services-inner{
+        transform: translateY(68%);
+        padding: 0;
+    }
+    .services-hover-info{
+        padding: 30px;
+    }
+    .services-inner p{
+        margin-bottom: 15px;
+    }
+    .services-content .theme-btn {
+        margin-top: 15px;
+    }
+    .services-content h5{
+        font-size: 18px;
+    }
+}
+
+@media (max-width:1199px) {
+    .services-inner{
+        padding: 0px;
+        overflow-y: auto;
+    }
+    .services-content .theme-button{
+        padding: 12px 15px;
+    } 
+    .services-inner{
+        transform: translateY(68%);
+    }
+    .services-hover-info{
+        padding: 20px;
+    }
+}
+
+@media (max-width:991px) {
+
+    .services-inner{
+        transform: translateY(64%);
+    }
+    .services-content{
+        border-right: 1px solid #FFFFFF;
+    }
+    .services .row{
+        display: flex;
+        justify-content: center;
+    }
+    .services-content-2{
+        display: flex;
+        justify-content: end;
+    }
+    .services-content-1{
+        display: flex;
+        justify-content: end;
+    }
+    .services-content-3{
+        border-top: 1px solid #FFFFFF;
+    }
+    .services-hover-info{
+        padding: 30px;
+    }
+    .services-content-4{
+        border-top: 1px solid #FFFFFF;
+    }
+}
+
+@media (max-width:767px) {
+    .services-content{
+        min-height: 500px;
+    }
+    .services-hover-info{
+        padding: 20px;
+    }
+}
+
+@media (max-width:575px) {
+    .services-content{
+        min-height: 460px;
+    }
+
+    .services-content-2{
+        border-top: 1px solid #FFFFFF;
+    }
+
+    .services-content img{
+        object-fit: fill;
+        object-position: center;
+    }
+
+    .services .row{
+        background-size: cover;
+    }
+    .services-inner{
+        transform: translateY(62%);
+    }
+}
+
+@media (max-width:450px) {
+
+}
+
+
+

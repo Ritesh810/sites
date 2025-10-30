@@ -1,0 +1,374 @@
+.client-feedback{
+   background-image: url('../images/client-feedback-bg.png'); 
+   background-position: top;background-repeat: no-repeat;
+   padding-top: 180px;
+}
+
+.client-feedback .prifix{
+    margin-bottom: 10px;
+}
+
+.client-feedback .feedback{
+    padding: 30px 35px;
+    margin: 25px 25px 25px 0px;
+    background-color: #FFFFFF;
+    width: 575px;
+}
+
+.client-feedback .feedback h6{
+    font-weight: 500;
+}
+
+.client-feedback .feedback .feedback-content{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.feedback .feedback-inner{
+    background-image: url(../images/feedback-bg.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.feedback-img{
+    justify-content: end;
+}
+
+.owl-carousel {
+    padding: 0;
+}
+
+.owl-item {
+    margin-right: 0;
+}
+
+.owl-prev,.owl-next{
+    position: absolute;
+    top: 40%;
+}
+
+.owl-prev{
+    top: 25%;
+    right: -1.8%;
+}
+
+.owl-next{
+    right: -4%;
+    top: 61.5%;
+}
+
+.owl-dots{
+    position: absolute;
+    top: 35%;
+    right: -3.9%;
+    display: flex;
+    flex-direction: column;
+    color: #E6E6E6;
+}
+
+.owl-stage .owl-item.active .feedback{
+    box-shadow: 0px 10px 40px 0px rgba(0,0,0,0.03);
+}
+
+.owl-dots .active{
+    color: #4AAB3D !important;
+}
+
+.owl-carousel button.owl-dot{
+    color: #E6E6E6 !important;
+}
+
+.owl-theme .owl-dots .owl-dot span{
+    background: #E6E6E6 !important;
+    width: 8px;
+    height: 14px;
+}
+
+.owl-theme .owl-dots .owl-dot span:hover{
+    background: #4AAB3D !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span{
+    background: #4AAB3D !important;
+    height: 20px;
+    transition: all 500ms;
+}
+
+.owl-nav{
+    display: flex;
+}
+
+.owl-prev span::before{
+    position: absolute !important;
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f106";
+    font-size: 16px;
+    color: #4AAB3D !important;
+    background-color: #FFFFFF !important;
+}
+
+.owl-next span::before{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f107";
+    font-size: 16px;
+    color: #4AAB3D!important;
+    background-color: #FFFFFF !important;
+}
+
+.owl-theme .owl-nav{
+    font-size: 0 !important;
+}
+
+.owl-prev:hover{
+    background-color: transparent !important; 
+}
+
+.owl-next:hover{
+    background-color: transparent !important; 
+}
+
+.owl-next span:hover::before{
+    color: #4AAB3D !important; 
+    background-color: transparent!important;
+    transition: all 800ms !important;
+}
+
+.owl-prev span:hover::before{
+    color: #4AAB3D !important;
+    background-color: transparent!important;
+    transition: all 800ms !important;
+}
+
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled{
+    display: block !important;
+}
+
+.owl-carousel span{
+    font-size: 0;
+}
+
+@media (max-width:1399px) {
+
+    .owl-prev span::before{
+        content: "\f104";
+    }
+    
+    .owl-next span::before{
+        content: "\f105";
+    }
+    .owl-prev,.owl-next{
+        position: absolute;
+        top: 100%;
+    }
+    
+    .owl-prev{
+        top: 100%;
+        right: 68%;
+    }
+    
+    .owl-next{
+        right: 43%;
+        top: 100%;
+    }
+    
+    .owl-dots{
+        top: 102%;
+        right: 47%;
+        display: flex;
+        flex-direction: row;
+        color: #E6E6E6;
+    }
+
+    .owl-dots .active{
+        color: #4AAB3D !important;
+    }
+    
+    .owl-carousel button.owl-dot{
+        color: #E6E6E6 !important;
+    }
+    
+    .owl-theme .owl-dots .owl-dot span{
+        background: #E6E6E6 !important;
+        width: 12px;
+        height: 7px;
+    }
+    
+    .owl-theme .owl-dots .owl-dot span:hover{
+        background: #4AAB3D !important;
+    }
+    
+    .owl-theme .owl-dots .owl-dot.active span{
+        background: #4AAB3D !important;
+        height: 7px;
+        width: 20px;
+        transition: all 500ms;
+    }
+    .client-feedback{
+        padding-top: 100px;
+    }
+}
+
+@media (max-width:1199px) {
+    .client-feedback .feedback{
+        padding-right: 55px;
+    }
+    .feedback .feedback-inner{
+        padding-right: 70px;
+    }
+    .owl-prev{
+        top: 100%;
+        right: 73%;
+    }
+    
+    .owl-next{
+        right: 42%;
+        top: 100%;
+    }
+
+    .owl-dots{
+        top: 102%;
+    }
+    .client-feedback .prifix {
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width:991px) {
+    .feedback-image{
+        order: 1;
+    }
+    .feedback-main {
+        order: 2;
+    }
+    .client-feedback{
+        padding-top: 70px;
+    }
+    .feedback-img{
+        justify-content: center;
+    }
+    .client-feedback .row{
+        row-gap: 30px;
+        justify-content: center;
+    }
+    .client-feedback .prifix{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .client-feedback .prifix h3{
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .client-feedback .feedback {
+        width: 100%;
+    }
+    .client-feedback .feedback{
+        padding-right: 50px;
+    }
+    .feedback .feedback-inner{
+        padding-right: 0px;
+    }
+    .owl-prev{
+        top: 100%;
+        right: 60%;
+    }
+    
+    .owl-next{
+        right: 43%;
+        top: 100%;
+    }
+    .owl-dots{
+        top: 102.5%;
+        left: 42%;
+    }
+    
+}
+
+@media (max-width:867px) {
+    .owl-prev{
+        top: 100%;
+        right: 60%;
+    }
+    
+    .owl-next{
+        right: 39%;
+        top: 100%;
+    }
+    .owl-dots{
+        top: 102.5%;
+        left: 42%;
+    }
+   
+}
+
+@media (max-width:767px) {
+    .client-feedback{
+        padding-top: 50px;
+    }
+    .owl-prev{
+        top: 100%;
+        right: 61%;
+    }
+    
+    .owl-next{
+        right: 39%;
+        top: 100%;
+    }
+    .owl-dots{
+        top: 102.5%;
+        left: 42%;
+    }
+}
+
+@media (max-width:687px) {
+    .owl-next{
+        right: 34%;
+        top: 100%;
+    }
+}
+
+@media (max-width:575px) {
+    .owl-next{
+        right: 31%;
+        top: 100%;
+    }
+    .owl-prev{
+        top: 100%;
+        right: 61%;
+    }
+    .owl-dots{
+        top: 102.5%;
+        left: 42%;
+    }
+}
+
+@media (max-width:500px) {
+    .owl-next{
+        right: 27%;
+        top: 100%;
+    }
+}
+
+@media (max-width:460px) {
+    .owl-dots{
+        top: 102%;
+        left: 30%;
+    }
+    .owl-next{
+        right: 29%;
+        top: 100%;
+    }
+    .owl-prev{
+        top: 100%;
+        right: 73%;
+    }
+}
+
+
+
+
+
+
+   

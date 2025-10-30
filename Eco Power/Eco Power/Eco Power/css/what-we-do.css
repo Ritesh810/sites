@@ -1,0 +1,142 @@
+.what-we-do{
+    position: relative;
+    background-image: url(../images/what-we-do-bg.png);
+    background-repeat: no-repeat;
+}
+
+
+.what-we-do::before{
+    content: '';
+    position: absolute;
+    background-image: url('../images/what-we-do-pattern.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    top: 0;
+    right: 0;
+    width: 40%;
+    height: 100%;
+    z-index: 1;
+}
+
+.what-we-do-img img{
+    margin-bottom: -150px; 
+    margin-top: 50px;
+    position: relative;
+    z-index: 2;
+}
+
+
+.what-we-do .prifix p{
+   margin-bottom: 10px;
+   margin-top: 15px;
+}
+
+.what-we-do .prifix p:nth-of-type(2) {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+.progress-content{
+    margin-top: 30px;
+}
+
+.progress-content h6{
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.progress-bar{
+    text-align: unset;
+}
+
+.progress-content .progress{
+    margin-bottom: 25px;
+}
+
+.progress{
+    height: 7px;
+    background-color: #4AAB3D;
+}
+
+.item-bar{
+    background-color: #edf7ec;
+} 
+
+.item-label{
+    display: inline-block;
+    
+    margin-bottom: 10px;
+}
+
+.item-value{
+    display: block;
+    float : inline-end;
+    margin-bottom: 10px;
+}
+
+@media (max-width:1499px) {
+
+}
+
+@media (max-width:1199px) {
+    .what-we-do-img img{
+        margin-bottom: 0;
+        margin-top: 100px;
+    }
+}
+
+@media (max-width:991px) {
+    .what-we-do-img img{
+        margin-top: 0;
+    }
+
+    .what-do-content{
+        order: 2;
+    }
+
+    .what-we-do-img{
+        order: 1;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .what-we-do::before{
+        width: 63%;
+    }
+    .what-we-do .row{
+        justify-content: center;
+    }
+    .what-do-content .prifix{
+        display: grid;
+        justify-items: center;
+    }
+    .what-do-content .prifix h3{
+        text-align: center;
+    }
+    .what-do-content .prifix p{
+        text-align: center;
+    }
+    .what-we-do .row .padding-bottom{
+        padding-top: 30px;
+    }
+}
+
+@media (max-width:767px) {
+    .what-we-do .prifix p{
+        margin-top: 0px;
+     }
+     .what-we-do::before{
+        display: none;
+    }
+}
+
+@media (max-width:575px) {
+ 
+}
+
+@media (max-width:450px) {
+
+}
+
+
+

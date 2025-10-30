@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Power</title>
+
+    <!-- favicon icon -->
+    <link rel="icon" sizes="16x16" href="images/favicon.ico" type="image/favicon-icon">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-icons.min.css">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- owl carousel css -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+
+    <!-- animate css -->
+    <link rel="stylesheet" href="css/animate.min.css">
+
+    <!-- slick-css -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+
+    <!-- Swiper-css -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <!-- fonts -->
+    <link rel="stylesheet" href="css/fonts.css">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/section-banner.css">
+    <link rel="stylesheet" href="css/projects-details.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+      <!-- header -->
+      <header>
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="logo col-lg-2 col-md-11 col-sm-10 col-10">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="logo" class="img-fluid">
+                    </a>
+                </div>
+                <div class="nav-items col-lg-10 d-flex gx-0 d-none d-lg-block">
+                    <div class="navbar-contact col-lg-12 d-flex">
+                        <div class="nav-contact col-lg-6 d-flex align-items-center">
+                            <a href="tel:+121234567890">
+                                <svg width="15" height="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M10.9324 14.9983C5.83277 15.1414 -3.19491 6.11619 1.14621 1.21111C1.16186 1.19612 1.82958 0.614931 1.82958 0.614931C2.24865 0.228064 2.79967 0.0153351 3.37035 0.0200959C3.94104 0.0248566 4.48842 0.246749 4.90096 0.640553L6.24767 2.08914C6.64436 2.50314 6.86374 3.05531 6.85918 3.62829C6.85462 4.20127 6.62649 4.74989 6.22326 5.15755L5.98046 5.40377C6.70358 7.00289 7.98296 8.28584 9.58126 9.01461L9.83847 8.76464C10.2556 8.36787 10.8096 8.14656 11.3857 8.14656C11.9618 8.14656 12.5159 8.36787 12.933 8.76464L14.3329 10.0614C14.7476 10.4659 14.9856 11.0175 14.9952 11.5963C15.0048 12.1751 14.7852 12.7343 14.3842 13.1523C14.3842 13.1523 13.8022 13.8184 13.7872 13.8341C13.4122 14.2072 12.9668 14.5022 12.4767 14.7021C11.9866 14.9019 11.4617 15.0026 10.9324 14.9983ZM2.45287 2.56221C-0.587859 6.32304 9.14509 15.4814 12.4374 12.5298C12.4374 12.5298 13.0156 11.868 13.0313 11.853C13.0899 11.7944 13.1229 11.715 13.1229 11.6321C13.1229 11.5493 13.0899 11.4698 13.0313 11.4112L11.6307 10.1151C11.443 9.95888 11.3372 9.95701 11.1633 10.0901L10.4524 10.7888C10.3241 10.9148 10.1624 11.0013 9.98629 11.0381C9.81022 11.0749 9.62728 11.0603 9.45924 10.9963C8.21055 10.5322 7.07635 9.80554 6.13354 8.86543C5.19073 7.92532 4.46134 6.79378 3.99482 5.5475C3.92692 5.37833 3.90987 5.19306 3.94577 5.01436C3.98167 4.83566 4.06896 4.67129 4.19695 4.54137L4.89033 3.83769C4.9219 3.80968 4.94728 3.7754 4.96483 3.73704C4.98238 3.69867 4.99172 3.65707 4.99225 3.6149C4.99278 3.57273 4.98449 3.53091 4.96791 3.49211C4.95133 3.45332 4.92682 3.41841 4.89596 3.38962L3.548 1.94103C3.48836 1.89126 3.41192 1.86612 3.33433 1.87077C3.25674 1.87541 3.18386 1.90949 3.1306 1.96603C3.11558 1.98165 2.45287 2.56221 2.45287 2.56221ZM15 5.93683C14.9982 4.36285 14.3712 2.85385 13.2567 1.74087C12.1422 0.62789 10.6311 0.00181935 9.05497 0C8.80602 0 8.56726 0.098761 8.39122 0.274557C8.21518 0.450352 8.11629 0.688782 8.11629 0.937395C8.11629 1.18601 8.21518 1.42444 8.39122 1.60023C8.56726 1.77603 8.80602 1.87479 9.05497 1.87479C10.1334 1.87611 11.1672 2.3045 11.9298 3.066C12.6923 3.82749 13.1213 4.85992 13.1226 5.93683C13.1226 6.18545 13.2215 6.42388 13.3976 6.59967C13.5736 6.77547 13.8124 6.87423 14.0613 6.87423C14.3103 6.87423 14.549 6.77547 14.7251 6.59967C14.9011 6.42388 15 6.18545 15 5.93683ZM11.871 5.93683C11.8702 5.19125 11.5733 4.47644 11.0453 3.94923C10.5174 3.42203 9.80159 3.12548 9.05497 3.12465C8.80602 3.12465 8.56726 3.22341 8.39122 3.39921C8.21518 3.575 8.11629 3.81343 8.11629 4.06204C8.11629 4.31066 8.21518 4.54909 8.39122 4.72488C8.56726 4.90068 8.80602 4.99944 9.05497 4.99944C9.30393 4.99944 9.54269 5.0982 9.71873 5.274C9.89476 5.44979 9.99366 5.68822 9.99366 5.93683C9.99366 6.18545 10.0926 6.42388 10.2686 6.59967C10.4446 6.77547 10.6834 6.87423 10.9324 6.87423C11.1813 6.87423 11.4201 6.77547 11.5961 6.59967C11.7721 6.42388 11.871 6.18545 11.871 5.93683Z" />
+                                </svg>
+                                +12 123 456 7890
+                            </a>
+                            <a href="mailto:info@ecopower.com">
+                                <i class="fa-regular fa-envelope"></i>
+                                info@ecopower.com
+                            </a>
+                        </div>
+                        <div class="nav-search col-lg-6 d-flex align-items-center">
+                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M17.67 16.0839L14.1862 12.5986C16.7929 9.115 16.0822 4.17775 12.5986 1.57096C9.115 -1.03583 4.17775 -0.325041 1.57096 3.15854C-1.03583 6.64212 -0.325041 11.5794 3.15854 14.1862C5.95684 16.2802 9.80025 16.2802 12.5986 14.1862L16.0839 17.6715C16.5219 18.1095 17.232 18.1095 17.67 17.6715C18.108 17.2335 18.108 16.5234 17.67 16.0854L17.67 16.0839ZM7.90761 13.5135C4.81156 13.5135 2.30176 11.0036 2.30176 7.90761C2.30176 4.81157 4.81156 2.30176 7.90761 2.30176C11.0036 2.30176 13.5135 4.81157 13.5135 7.90761C13.5102 11.0022 11.0023 13.5102 7.90761 13.5135Z"
+                                    fill="#515151" />
+                            </svg>
+                            <input type="search" name="query" placeholder="Type you search word...">
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <img src="images/flag.svg" alt="flag">
+                                    Eng
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#"><img src="images/flag.svg" alt="flag">
+                                            ENG</a></li>
+                                    <li><a class="dropdown-item" href="#"><img src="images/flag.svg" alt="flag">
+                                            GBP</a></li>
+                                    <li><a class="dropdown-item" href="#"><img src="images/flag.svg" alt="flag">
+                                            FRA</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav-menu col-lg-12 d-flex align-items-center">
+                        <div class="menu col-lg-6 d-none d-lg-block">
+                            <ul class="menu-inner d-flex justify-content-start">
+                                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                                <li class="nav-item"><a href="about-us.html" class="nav-link">About</a></li>
+                                <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+                                <li class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" id="pagesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Pages
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="pagesDropdown">
+                                        <li><a href="project.html" class="dropdown-item">Projects</a></li>
+                                        <li><a href="blog.html" class="dropdown-item">Blog</a></li>
+                                        <li><a href="our-team.html" class="dropdown-item">Our Team</a></li>
+                                        <li><a href="faq.html" class="dropdown-item">FAQ</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="nav-button col-lg-6 d-flex">
+                            <div class="theme-button">
+                                <i class="fa-solid fa-arrow-right"></i>
+                                <a href="contact.html">Request A Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="toggler col-md-1 col-sm-2 col-2 d-lg-none">
+                    <a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
+                        aria-controls="offcanvasScrolling">
+                        <i class="fa-solid fa-bars"></i>
+                    </a>
+                </div>
+                <div class="offcanvas offcanvas-start" id="offcanvasScrolling">
+                    <div class="offcanvas-header">
+                        <a href="index.html">
+                            <img src="images/logo.png" alt="logo">
+                        </a>
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <img src="images/flag.svg" alt="flag">
+                                Eng
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"><img src="images/flag.svg" alt="flag">
+                                        Eng</a></li>
+                                <li><a class="dropdown-item" href="#"><img src="images/flag.svg" alt="flag">
+                                        Eng</a></li>
+                                <li><a class="dropdown-item" href="#"><img src="images/flag.svg" alt="flag">
+                                        Eng</a></li>
+                            </ul>
+                        </div>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><i
+                                class="fa-solid fa-xmark"></i></button>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="menu-inner">
+                            <li><a href="index.html" class="nav-link menu-link">Home</a></li>
+                            <li><a href="about-us.html" class="nav-link menu-link">About</a></li>
+                            <li><a href="services.html" class="nav-link menu-link">Services</a></li>
+                            <li class="dropdown menu-dropdown">
+                                <a href="#" class="nav-link menu-link dropdown-toggle" id="pagesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Pages
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="pagesDropdown">
+                                    <li><a href="project.html" class="dropdown-item">Projects</a></li>
+                                    <li><a href="blog.html" class="dropdown-item">Blog</a></li>
+                                    <li><a href="our-team.html" class="dropdown-item">Our Team</a></li>
+                                    <li><a href="faq.html" class="dropdown-item">FAQ</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="contact.html" class="nav-link menu-link">Contact</a></li>
+                        </ul>
+                        <div class="nav-contact">
+                            <a href="tel:+121234567890">
+                                <svg width="15" height="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M10.9324 14.9983C5.83277 15.1414 -3.19491 6.11619 1.14621 1.21111C1.16186 1.19612 1.82958 0.614931 1.82958 0.614931C2.24865 0.228064 2.79967 0.0153351 3.37035 0.0200959C3.94104 0.0248566 4.48842 0.246749 4.90096 0.640553L6.24767 2.08914C6.64436 2.50314 6.86374 3.05531 6.85918 3.62829C6.85462 4.20127 6.62649 4.74989 6.22326 5.15755L5.98046 5.40377C6.70358 7.00289 7.98296 8.28584 9.58126 9.01461L9.83847 8.76464C10.2556 8.36787 10.8096 8.14656 11.3857 8.14656C11.9618 8.14656 12.5159 8.36787 12.933 8.76464L14.3329 10.0614C14.7476 10.4659 14.9856 11.0175 14.9952 11.5963C15.0048 12.1751 14.7852 12.7343 14.3842 13.1523C14.3842 13.1523 13.8022 13.8184 13.7872 13.8341C13.4122 14.2072 12.9668 14.5022 12.4767 14.7021C11.9866 14.9019 11.4617 15.0026 10.9324 14.9983ZM2.45287 2.56221C-0.587859 6.32304 9.14509 15.4814 12.4374 12.5298C12.4374 12.5298 13.0156 11.868 13.0313 11.853C13.0899 11.7944 13.1229 11.715 13.1229 11.6321C13.1229 11.5493 13.0899 11.4698 13.0313 11.4112L11.6307 10.1151C11.443 9.95888 11.3372 9.95701 11.1633 10.0901L10.4524 10.7888C10.3241 10.9148 10.1624 11.0013 9.98629 11.0381C9.81022 11.0749 9.62728 11.0603 9.45924 10.9963C8.21055 10.5322 7.07635 9.80554 6.13354 8.86543C5.19073 7.92532 4.46134 6.79378 3.99482 5.5475C3.92692 5.37833 3.90987 5.19306 3.94577 5.01436C3.98167 4.83566 4.06896 4.67129 4.19695 4.54137L4.89033 3.83769C4.9219 3.80968 4.94728 3.7754 4.96483 3.73704C4.98238 3.69867 4.99172 3.65707 4.99225 3.6149C4.99278 3.57273 4.98449 3.53091 4.96791 3.49211C4.95133 3.45332 4.92682 3.41841 4.89596 3.38962L3.548 1.94103C3.48836 1.89126 3.41192 1.86612 3.33433 1.87077C3.25674 1.87541 3.18386 1.90949 3.1306 1.96603C3.11558 1.98165 2.45287 2.56221 2.45287 2.56221ZM15 5.93683C14.9982 4.36285 14.3712 2.85385 13.2567 1.74087C12.1422 0.62789 10.6311 0.00181935 9.05497 0C8.80602 0 8.56726 0.098761 8.39122 0.274557C8.21518 0.450352 8.11629 0.688782 8.11629 0.937395C8.11629 1.18601 8.21518 1.42444 8.39122 1.60023C8.56726 1.77603 8.80602 1.87479 9.05497 1.87479C10.1334 1.87611 11.1672 2.3045 11.9298 3.066C12.6923 3.82749 13.1213 4.85992 13.1226 5.93683C13.1226 6.18545 13.2215 6.42388 13.3976 6.59967C13.5736 6.77547 13.8124 6.87423 14.0613 6.87423C14.3103 6.87423 14.549 6.77547 14.7251 6.59967C14.9011 6.42388 15 6.18545 15 5.93683ZM11.871 5.93683C11.8702 5.19125 11.5733 4.47644 11.0453 3.94923C10.5174 3.42203 9.80159 3.12548 9.05497 3.12465C8.80602 3.12465 8.56726 3.22341 8.39122 3.39921C8.21518 3.575 8.11629 3.81343 8.11629 4.06204C8.11629 4.31066 8.21518 4.54909 8.39122 4.72488C8.56726 4.90068 8.80602 4.99944 9.05497 4.99944C9.30393 4.99944 9.54269 5.0982 9.71873 5.274C9.89476 5.44979 9.99366 5.68822 9.99366 5.93683C9.99366 6.18545 10.0926 6.42388 10.2686 6.59967C10.4446 6.77547 10.6834 6.87423 10.9324 6.87423C11.1813 6.87423 11.4201 6.77547 11.5961 6.59967C11.7721 6.42388 11.871 6.18545 11.871 5.93683Z" />
+                                </svg>
+                                +12 123 456 7890
+                            </a>
+                            <a href="mailto:info@ecopower.com">
+                                <i class="fa-regular fa-envelope"></i>
+                                info@ecopower.com
+                            </a>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="nav-button">
+                            <div class="theme-button">
+                                <i class="fa-solid fa-arrow-right"></i>
+                                <a href="contact.html">Request A Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- project-details-banner -->
+    <section class="section-banner">
+        <div class="container">
+            <div class="row">
+                <div class="sec-banner-content">
+                    <h1>Harnessing the Sun's Energy</h1>
+                    <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
+                        aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item"><a href="project.html">Projects</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Harnessing the Sun's Energy</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- project-details-banner-end -->
+
+    <!-- project-details -->
+    <section class="projects-details padding-vertical">
+        <div class="container">
+            <div class="row">
+                <div class="project-details-img col-lg-12">
+                    <img src="images/projects-details-img.png" alt="project-details-img" class="img-fluid">
+                </div>
+                <div class="projects-details-content col-lg-8">
+                    <h6>Solar Harmony</h6>
+                    <h4>Harnessing the Sun's Energy</h4>
+                    <p>“Harnessing the Sun’s Energy” is a captivating and environmentally-conscious endeavor that
+                        explores the incredible potential of solar power. In this project, we embark on a journey to
+                        capture the boundless energy radiating from our nearest star, the sun.</p>
+                    <p>In collaboration with our esteemed client, Green Living Communities, Inc., we proudly present the
+                        “Solar Horizon Residence” project. This innovative initiative harnesses the power of the sun to
+                        meet the energy needs of a modern residential community in the Sunnydale suburb of Solaris City.
+                    </p>
+                    <h5>Key Features:</h5>
+                    <div class="key-content d-flex">
+                        <ul>
+                            <li>Solar Photovoltaic (PV) Panels</li>
+                            <li>Energy Storage Systems</li>
+                        </ul>
+                        <ul>
+                            <li>Smart Grid Integration</li>
+                            <li>Energy-Efficient Design</li>
+                        </ul>
+                    </div>
+
+                    <p>This project exemplifies our commitment to providing sustainable energy solutions that benefit
+                        both our clients and the environment. If you’re interested in exploring similar initiatives or
+                        have unique energy needs, contact us to discuss how we can tailor a solution for your specific
+                        requirements.</p>
+                </div>
+                <div class="col-lg-4 project-details-card-main">
+                    <div class="project-details-card">
+                        <h5>Project Information</h5>
+                        <a href="">
+                            <div class="project-card-info d-flex align-items-center">
+                                <div class="project-card-info-icon">
+                                    <span class="social-icon">
+                                        <svg width="16" height="18" viewBox="0 0 16 18" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M9.52009 8.55615C10.4326 8.10481 11.1657 7.35811 11.6002 6.43741C12.0347 5.51671 12.145 4.47612 11.9132 3.48479C11.6815 2.49345 11.1213 1.60963 10.3237 0.97697C9.52603 0.34431 8.53788 0 7.51982 0C6.50175 0 5.5136 0.34431 4.71598 0.97697C3.91836 1.60963 3.35814 2.49345 3.12639 3.48479C2.89463 4.47612 3.00496 5.51671 3.43943 6.43741C3.87391 7.35811 4.60699 8.10481 5.51955 8.55615C3.93426 8.9936 2.53607 9.93867 1.53917 11.2466C0.542262 12.5545 0.0016004 14.1532 0 15.7977V16.5497C0 16.7492 0.0792266 16.9404 0.22025 17.0814C0.361274 17.2225 0.552544 17.3017 0.751982 17.3017H14.2877C14.4871 17.3017 14.6784 17.2225 14.8194 17.0814C14.9604 16.9404 15.0396 16.7492 15.0396 16.5497V15.7977C15.038 14.1532 14.4974 12.5545 13.5005 11.2466C12.5036 9.93867 11.1054 8.9936 9.52009 8.55615ZM4.51189 4.51801C4.51189 3.9231 4.6883 3.34155 5.01882 2.8469C5.34933 2.35225 5.81911 1.96671 6.36873 1.73905C6.91836 1.51139 7.52315 1.45182 8.10663 1.56788C8.69011 1.68394 9.22608 1.97042 9.64674 2.39109C10.0674 2.81175 10.3539 3.34771 10.4699 3.93119C10.586 4.51468 10.5264 5.11947 10.2988 5.6691C10.0711 6.21872 9.68558 6.6885 9.19093 7.01901C8.69628 7.34953 8.11473 7.52594 7.51982 7.52594C6.72206 7.52594 5.95699 7.20903 5.39289 6.64494C4.8288 6.08084 4.51189 5.31576 4.51189 4.51801ZM1.50396 15.7977C1.50396 14.2022 2.13777 12.6721 3.26597 11.5439C4.39416 10.4157 5.92431 9.78188 7.51982 9.78188C9.11532 9.78188 10.6455 10.4157 11.7737 11.5439C12.9019 12.6721 13.5357 14.2022 13.5357 15.7977H1.50396Z"
+                                                fill="#4AAB3D" />
+                                        </svg>
+                                    </span>
+                                </div>
+                                <div class="project-card-title">
+                                    <span>Client:</span>
+                                    <p>Green Living Communities, Inc.</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="project-card-info  project-card-info-2 d-flex align-items-center">
+                                <div class="project-card-info-icon">
+                                    <span class="social-icon">
+                                        <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M7.65 4.5C7.02699 4.5 6.41797 4.67155 5.89996 4.99295C5.38194 5.31435 4.9782 5.77118 4.73978 6.30565C4.50136 6.84012 4.43898 7.42824 4.56053 7.99564C4.68207 8.56303 4.98208 9.08422 5.42261 9.49329C5.86315 9.90235 6.42443 10.1809 7.03547 10.2938C7.64651 10.4067 8.27987 10.3487 8.85545 10.1273C9.43104 9.90596 9.923 9.53105 10.2691 9.05004C10.6153 8.56903 10.8 8.00351 10.8 7.425C10.8 6.64924 10.4681 5.90526 9.87739 5.35671C9.28665 4.80817 8.48543 4.5 7.65 4.5ZM7.65 8.8875C7.3385 8.8875 7.03399 8.80172 6.77498 8.64102C6.51597 8.48032 6.3141 8.25191 6.19489 7.98467C6.07568 7.71744 6.04449 7.42338 6.10526 7.13968C6.16604 6.85598 6.31604 6.59539 6.53631 6.39086C6.75658 6.18632 7.03721 6.04703 7.34273 5.9906C7.64825 5.93417 7.96493 5.96313 8.25273 6.07383C8.54052 6.18452 8.7865 6.37197 8.95957 6.61248C9.13263 6.85298 9.225 7.13574 9.225 7.425C9.225 7.81288 9.05906 8.18487 8.76369 8.45914C8.46832 8.73341 8.06772 8.8875 7.65 8.8875Z" fill="#4AAB3D"/>
+                                            <path d="M7.65 17.9999C7.00935 18.0032 6.37724 17.8551 5.80659 17.568C5.23595 17.281 4.74338 16.8633 4.37012 16.3501C1.47066 12.4077 0 9.44394 0 7.5406C0 5.54071 0.80598 3.62273 2.24063 2.20859C3.67529 0.794454 5.62109 0 7.65 0C9.67891 0 11.6247 0.794454 13.0594 2.20859C14.494 3.62273 15.3 5.54071 15.3 7.5406C15.3 9.44394 13.8293 12.4077 10.9299 16.3501C10.5566 16.8633 10.0641 17.281 9.49341 17.568C8.92276 17.8551 8.29065 18.0032 7.65 17.9999ZM7.65 1.63711C6.06173 1.6389 4.53904 2.2616 3.41596 3.36861C2.29289 4.47563 1.66115 5.97655 1.65934 7.5421C1.65934 9.04947 3.09956 11.837 5.71372 15.3909C5.93565 15.6922 6.2268 15.9375 6.56334 16.1066C6.89988 16.2757 7.27226 16.3638 7.65 16.3638C8.02774 16.3638 8.40012 16.2757 8.73666 16.1066C9.0732 15.9375 9.36435 15.6922 9.58628 15.3909C12.2004 11.837 13.6407 9.04947 13.6407 7.5421C13.6388 5.97655 13.0071 4.47563 11.884 3.36861C10.761 2.2616 9.23827 1.6389 7.65 1.63711Z" fill="#4AAB3D"/>
+                                        </svg>
+                                    </span>
+                                </div>
+                                <div class="project-card-title">
+                                    <span>Location:</span>
+                                    <p> Sunnydale Suburb, Solaris City</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- project-details-end -->
+
+   <!-- footer -->
+   <footer>
+    <section class="company">
+        <div class="container">
+            <div class="row">
+                <div class="company-logo col-lg-12 d-flex">
+                    <img src="images/company-logo-1.svg" alt="company-logo">
+                    <img src="images/company-logo-2.svg" alt="company-logo">
+                    <img src="images/company-logo-3.svg" alt="company-logo">
+                    <img src="images/company-logo-4.svg" alt="company-logo">
+                    <img src="images/company-logo-5.svg" alt="company-logo">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer-content padding-top">
+        <div class="container">
+            <div class="row">
+                <div class="company-link col-lg-2 col-md-6 col-sm-12">
+                    <h5>
+                        Company
+                    </h5>
+                    <ul>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="our-team.html">Our Team</a></li>
+                        <li><a href="blog.html">Latest News</a></li>
+                        <li><a href="project.html">Our Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="company-link service-link col-lg-3 col-md-6 col-sm-12">
+                    <h5>
+                        Services
+                    </h5>
+                    <ul>
+                        <li><a href="service-details.html">Solar Panel Energy</a></li>
+                        <li><a href="service-details.html">Wind Turbine Energy</a></li>
+                        <li><a href="service-details.html">Hydropower Plants Energy</a></li>
+                        <li><a href="service-details.html">Fossil Resources Service</a></li>
+                    </ul>
+                </div>
+                <div class="company-link support-link col-lg-2 col-md-6 col-sm-12">
+                    <h5>
+                        Support
+                    </h5>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms and Conditions</a></li>
+                        <li><a href="#">Disclaimer</a></li>
+                        <li><a href="contact.html">Customer Support</a></li>
+                    </ul>
+                </div>
+                <div class="company-link newsletter-link col-lg-5 col-md-6 col-sm-12">
+                    <h5>
+                        Our Newsletter
+                    </h5>
+                    <form>
+                        <input for="validationDefault02" form-control id="validationDefaultUsername"
+                            aria-describedby="inputGroupPrepend2" required class="newsletter-input" type="email"
+                            placeholder="Enter your email address">
+                        <button class="newsletter-button" type="submit"><i
+                                class="fa-solid fa-arrow-right"></i></button>
+                    </form>
+                    <div class="social-icon d-flex">
+                        <h5>Follow Us:</h5>
+                        <ul class="socialicon d-flex">
+                            <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="https://x.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="https://www.pinterest.com/" target="_blank"><i class="fa-brands fa-pinterest-p"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="row">
+            <div class="copyright col-12">
+                <p class="text-center">©EcoPower 2023. All Right Reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- footer end -->
+</body>
+
+</html>

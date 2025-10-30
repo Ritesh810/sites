@@ -1,0 +1,273 @@
+footer{
+    background-color: #253745;
+}
+
+footer .company{
+    padding: 80px 0;
+    border-bottom: 1px solid #3b4b58;
+}
+
+footer .company-logo img{
+    filter: brightness(0) saturate(100%) invert(98%) sepia(0%) saturate(506%) hue-rotate(136deg) brightness(87%) contrast(99%);
+}
+
+footer .company-logo img:hover{
+    filter: brightness(0) saturate(100%) invert(50%) sepia(98%) saturate(310%) hue-rotate(66deg) brightness(93%) contrast(94%);
+    transition: all 600ms;
+}
+
+footer .company-logo{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 35px;
+    row-gap: 30px;
+}
+
+footer .company-logo-2{
+    justify-content: center;
+}
+
+footer .company-logo-3{
+    justify-content: center;
+}
+
+footer .company-logo-4{
+    justify-content: center;
+}
+
+footer .company-logo-5{
+    justify-content: end;
+}
+
+.company-link{
+    padding: 0;
+}
+
+.service-link{
+    padding-left: 35px;
+}
+
+.support-link{
+    padding-left: 20px;
+}
+
+.newsletter-link{
+    padding-left: 100px;
+}
+
+.footer-content{
+    padding-bottom: 60px;
+}
+
+.footer-content h5{
+    color: #FFFFFF;
+    padding-bottom: 25px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.footer-content ul li{
+    font-size: 16px;
+    font-family: var(--primary-font-family);
+    font-weight: 400;
+    line-height: 30px;
+    color: #EDEDED;
+    padding-bottom: 15px;
+}
+
+.footer-content ul li:last-child{
+    padding-bottom: 0;
+}
+
+.footer-content ul li:hover{
+    color: #4AAB3D;
+    transition: 800ms;
+}
+
+.copyright p{
+    color: #EDEDED;
+}
+
+.copyright{
+    padding: 20px 0;
+    border-top: 1px solid #3b4b58;
+}
+
+.footer-content .newsletter-button{
+    padding: 0;
+    border-radius: 100%;
+    border: none;
+}
+
+.footer-content .newsletter-button i{
+    color: #FFFFFF;
+    background-color: #4AAB3D;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.footer-content .newsletter-button i:hover{
+    color: #4AAB3D;
+    background-color: #FFFFFF;
+    transition: all 600ms;
+}
+
+.footer-content .newsletter-input{
+    font-family: var(--primary-font-family);
+    font-size: 16px;
+    line-height: 30px;
+    color: #EDEDED;
+    padding: 8px 0;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+}
+
+.footer-content input::placeholder{
+    font-family: var(--primary-font-family);
+    font-size: 16px;
+    line-height: 30px;
+    color: #D5D5D5;
+}
+
+.newsletter-input:focus{
+    outline: none;
+    border: none;
+}
+
+.newsletter-link form{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #747474;
+    display: flex;
+}
+
+.newsletter-link .social-icon{
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+
+.newsletter-link .social-icon h5{
+    display: inline-block;
+}
+
+.newsletter-link .social-icon .socialicon{
+    display: inline-block;
+}
+
+.newsletter-link i{
+    font-size: 16px;
+}
+
+.newsletter-link .socialicon li{
+    padding-left: 30px;
+}
+
+.newsletter-link i:hover{
+    color: #4AAB3D;
+    transition: all 500ms;
+}
+
+@media (max-width:1399px) {
+    .company-link{
+        padding: 0 12px;
+    }
+    
+    .service-link{
+        padding: 0 12px;
+    }
+    
+    .support-link{
+        padding: 0 12px;
+    }
+    .newsletter-link{
+        padding-left: 70px;
+    }
+   
+}
+
+@media (max-width:1199px) {
+    .newsletter-link{
+        padding-left: 40px;
+    }
+}
+
+
+
+@media (max-width:991px) {
+    .company .container .row{
+        row-gap: 25px;
+        justify-content: center;
+    }
+    .company-logo{
+        padding: 0 12px;
+    }
+    footer .company{
+        padding: 70px 0;
+    }
+    .newsletter-link{
+        padding: 0 12px;
+    }
+    .footer-content .container .row{
+        row-gap: 30px;
+    }
+    .footer-content h5{
+        padding-bottom: 20px;
+    }
+    footer .company-logo{
+        justify-content: center;
+        column-gap: 80px;
+        row-gap: 30px;
+    }
+}
+
+@media (max-width:767px) {
+    footer .company-logo-3{
+        justify-content: center;
+    }
+    footer .company-logo-5{
+        justify-content: center;
+    }
+    footer .company{
+        padding: 50px 0;
+    } 
+    .footer-content {
+        padding-bottom: 40px;
+    }
+    .newsletter-link .social-icon {
+        margin-top: 25px;
+    }
+    footer .company-logo{
+        justify-content: center;
+        column-gap: 50px;
+        row-gap: 30px;
+    }
+}
+
+@media (max-width:575px) {
+    footer .company{
+        padding: 40px 0;
+    }
+    .company-link {
+        text-align: center;
+    }
+}
+
+@media (max-width:460px) {
+    footer .company-logo{
+        justify-content: center;
+        column-gap: 0px;
+        row-gap: 24px;
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+
+

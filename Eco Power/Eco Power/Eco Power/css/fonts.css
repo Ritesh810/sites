@@ -1,0 +1,57 @@
+/* lexend */
+@font-face {
+    font-family: 'lexend';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('font/lexend-medium.woff') format('woff'),
+        url('font/lexend-medium.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'lexend';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('font/lexend-bold.woff') format('woff'),
+        url('font/lexend-bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'lexend';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('font/lexend-semibold.woff') format('woff'),
+        url('font/lexend-semibold.woff2') format('woff2');
+}
+
+
+/* ibmplexsans */
+@font-face {
+    font-family: 'ibmplexsans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('font/ibmplexsans-regular.woff') format('woff'),
+        url('font/ibmplexsans-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'ibmplexsans';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('font/ibmplexsans-medium.woff') format('woff'),
+        url('font/ibmplexsans-medium.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'ibmplexsans';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('font/ibmplexsans-bold.woff') format('woff'),
+        url('font/ibmplexsans-bold.woff2') format('woff2');
+}
+

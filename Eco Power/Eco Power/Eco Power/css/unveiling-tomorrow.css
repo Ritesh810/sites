@@ -1,0 +1,461 @@
+.unveiling-tomorrow{
+    padding-top: 109px;
+    background-image: url(../images/unveiling-tomorrow-bg.png);
+    position: relative;
+    padding-bottom: 524px;
+    justify-content: center;
+}
+
+.unveiling-tomorrow-content h3{
+    color: #FFFFFF;
+}
+
+.unveiling-content{
+    padding-left: 90px;
+} 
+
+.unveiling-content P{
+    color: #EDEDED;
+    padding-top: 70px;
+}
+
+.unveiling-content p:nth-child(2){
+    padding-top: 10px;
+}
+
+.unveiling-card-main{
+    margin-top: 50px;
+}
+
+.unveiling-card{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding: 30px;
+    height: 100%;
+}
+
+.unveiling-card svg{
+    width: auto !important;
+    height: 140px !important;
+}
+
+.unveiling-card h5{
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.unveiling-card p{
+    text-align: center;
+}
+
+.unveiling-card:hover{
+    background-color: #4AAB3D;
+    color: #FFFFFF;
+    transition: all 800ms;
+}
+
+.unveiling-card:hover svg circle{
+    fill: #FFFFFF;
+    transition: all 800ms;
+}
+
+.unveiling-card:hover svg path{
+    fill: #4AAB3D;
+    transition: all 800ms;
+}
+
+.unveiling-card-3:hover svg path{
+    fill: #FFFFFF;
+    stroke:#4AAB3D;
+    transition: all 800ms;
+}
+
+.unveiling-card-3:hover svg circle{
+    fill: #FFFFFF;
+}
+
+.unveiling-card-3:hover svg path:nth-child(1){
+    fill: #4AAB3D;
+    stroke: #FFFFFF;
+}
+
+.unveiling-card:hover p{
+    color: #EDEDED;
+    transition: all 800ms;
+}
+
+.unveiling-card:hover h5{
+    color: #FFFFFF;
+    transition: all 800ms;
+}
+
+.req-form-container{
+    position: absolute;
+    bottom: -370px;
+    margin: auto;
+    z-index: 1;
+}
+
+.req-quote-main{
+    padding: 30px;
+    background-color: #FFFFFF;
+    z-index: 1;
+}
+
+.req-quote-about{
+    padding: 40px;
+    background-color: #4AAB3D;
+    position: relative;
+    z-index: 1;
+}
+
+.req-quote-about::before{
+    position: absolute;
+    content: '';
+    background-image: url(../images/req-about-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.05;
+    z-index: -1;
+}
+
+.req-quote-about p{
+    color: #FFFFFF;
+}
+
+.req-quote-about .theme-btn:hover i{
+    background-color: #FFFFFF;
+    color: #4AAB3D;
+}
+
+.req-quote-about .theme-btn{
+    background-color: transparent;
+    color: #FFFFFF;
+    border: none;
+    padding: 0;
+    margin-top: 25px;
+}
+
+.req-quote-about .theme-btn i{
+    color: #4AAB3D;
+}
+
+.req-quote-about .theme-btn:hover{
+    border: none;
+    color: #EDEDED;
+}
+
+.req-contact-info{
+    padding-top: 230px;
+}
+
+.req-contact-info a{
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.req-contact-info i{
+    font-size: 18px;
+    width: 42px;
+    height: 42px;
+    background-color: #63b65d;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.req-contact-info span{
+    margin-left: 15px;
+    font-family: var(--primary-font-family);
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.req-contact-info a:hover{
+    color: #EDEDED;
+    transition: all 400ms;
+}
+
+.req-quote-about .theme-btn-2{
+    background-color: #FFFFFF;
+    color: #4AAB3D;
+    margin-top: 15px;
+}
+
+.req-quote-about .theme-btn-2 i{
+    background-color: #4AAB3D;
+    color: #FFFFFF;
+}
+
+.req-quote-about .theme-btn-2:hover{
+    background-color: #FFFFFF;
+}
+
+.req-quote{
+    padding-top: 45px;
+    padding-left: 85px;
+    padding-right: 85px;
+}
+
+.req-quote h4{
+    padding-bottom: 15px;
+}
+
+.req-quote form{
+    padding-top: 20px;
+}
+
+.req-quote label{
+    margin-bottom: 10px;
+    margin-top: 4px;
+    font-family: var(--secondary-font-family);
+    font-weight: 500;
+    line-height: 30px;
+    color: #253745;
+}
+
+.form-check .form-check-label{
+    margin-top: 0;
+    line-height: 16px;
+}
+
+.f-name ,.u-name , .p-type{
+    padding-right: 15px;
+}
+
+.c-name, .p-number, .p-location{
+    padding-left: 15px;
+}
+
+.form-control:focus{
+    box-shadow: none;
+    border-color: unset;
+    border: 1px solid #EEEEEE;
+}
+
+.form-select{
+    height: 51px;
+}
+
+.form-select:focus {
+    box-shadow: none;
+    border-color: unset;
+    border: 1px solid #EEEEEE;
+} 
+
+.req-quote form input{
+    border: 1px solid #EEEEEE;
+    height: 51px;
+}
+
+.form-select{
+    --bs-form-select-bg-img:url('../images/select-arrow.svg');
+} 
+
+.req-quote ::placeholder{
+    font-size: 16px;
+    font-family: var(--primary-font-family);
+    font-weight: 400;
+    line-height: 21px;
+    color: #C9C9C9;
+    padding: 15px 10px 15px 10px;
+}
+
+.req-quote option{
+    font-size: 16px;
+    font-family: var(--primary-font-family);
+    font-weight: 400;
+    line-height: 21px;
+    color: #515151;
+    padding: 15px 10px 15px 10px !important;
+    margin-top: 10px;
+}
+
+.req-quote option:hover{
+    background-color: #FFFFFF;
+    color: #515151;
+}
+
+.req-quote .form-select{
+    font-size: 16px;
+    font-family: var(--primary-font-family);
+    font-weight: 400;
+    line-height: 21px;
+    color: #C9C9C9;
+    padding: 15px 10px 15px 20px;
+}
+ 
+.form-check-input:focus {
+    border-color: #515151;
+    outline: 0;
+    box-shadow: none;
+}
+
+.req-quote .form-check input{
+    height: 18px;
+}
+
+.req-quote textarea{
+    height: 120px;
+}
+
+.req-btn button{
+    width: 100%;
+}
+
+.req-btn .theme-btn:hover{
+    border: 1px solid #253745 !important;
+}
+
+
+@media (max-width:1399px) {
+    .unveiling-tomorrow{
+        padding-top: 100px;
+    }
+    .unveiling-content{
+        padding-left: 50px;
+    }
+    .req-quote{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .unveiling-card {
+        padding: 20px;
+    }
+}
+
+@media (max-width:1199px) {
+    .unveiling-content{
+        padding-left: 20px;
+    }
+    .unveiling-card-main{
+        row-gap: 30px;
+    }
+    .req-contact-info {
+        padding-top: 140px;
+    }
+    .req-quote{
+        padding-left: 20px;
+        padding-right: 0px;
+        padding-top: 20px;
+    } 
+    .req-quote-about{
+        padding: 25px;
+    }
+    .unveiling-card {
+        padding: 25px;
+    }
+    .unveiling-tomorrow {
+        padding-bottom: 440px;
+    }
+    .req-quote-main{
+        padding: 20px;
+    } 
+}
+
+@media (max-width:991px) {
+    .unveiling-tomorrow{
+        padding-top: 70px;
+    }
+    .unveiling-content P{
+        padding-top: 25px;
+        text-align: center;
+    }
+    .unveiling-tomorrow .prifix{
+        display: grid;
+        justify-items: center;
+    }
+    .unveiling-tomorrow .prifix h3{
+        text-align: center;
+    }
+    .unveiling-content{
+        padding-left: 12px;
+    }
+    .req-contact-info{
+        padding-top: 40px;
+    }
+    .req-quote-main{
+        flex-direction: column;
+    }
+    .req-quote textarea{
+        height: 70px;
+    }
+    .req-quote{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .unveiling-card-main{
+        margin-bottom: 470px;
+    } 
+}
+
+@media (max-width:767px) {
+    .unveiling-tomorrow{
+        padding-top: 50px;
+    }
+    .unveiling-card{
+        padding: 18px;
+    }
+    .unveiling-card-main{
+        justify-content: center;
+    }
+    .unveiling-card{
+        padding: 25px;
+    }
+    .req-quote {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 35px;
+    }
+   
+    .unveiling-card-main{
+        margin-bottom: 570px;
+    }
+}
+
+@media (max-width:575px) {
+    .req-quote {
+        padding-top: 30px;
+    }
+    .unveiling-card-main {
+        margin-bottom: 930px;
+    }
+    .req-quote-about{
+        padding: 15px;
+    }
+    .c-name, .p-number, .p-location{
+        padding-left: 8px;
+    }
+}
+
+@media (max-width:500px) {
+    .unveiling-card-main {
+        margin-bottom: 980px;
+    }
+}
+
+@media (max-width:470px) {
+    .unveiling-card{
+        padding: 20px;
+    }
+    .unveiling-card-main {
+        margin-bottom: 1040px;
+    }
+}
+
+
+@media (max-width:430px) {
+    .unveiling-card-main {
+        margin-bottom: 1070px;
+    }
+}
+

@@ -1,0 +1,92 @@
+.faq{
+    background-image: url('../images/faq-bg.png');
+    background-repeat: no-repeat;
+}
+
+.accordion-button:focus{
+    box-shadow: none;
+}
+
+.faq-content{
+    max-width: 720px;
+}
+
+.faq-content h6{
+    color: #253745 !important;
+    font-size: 18px;
+    font-family: var(--primary-font-family);
+}
+
+.faq-content button{
+    color: #253745 !important;
+    font-size: 18px;
+    font-family: var(--primary-font-family);
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.accordion-item {
+    border: none;
+    margin-bottom: 15px;
+    box-shadow: 0px 10px 40px 0px rgba(0,0,0,0.03);
+}
+
+.accordion-button{
+    padding: 20px 25px; 
+}
+
+.accordion-body{
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+    padding-top: 0;
+}
+
+.accordion-header{
+    background-color: #FFFFFF;
+}
+
+.accordion{
+    --bs-accordion-bg: transparent;
+}
+.accordion-button::after{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f106";
+    background-image: none;
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: none;
+}
+
+@media (max-width:1499px) {
+  
+}
+
+@media (max-width:1199px) {
+
+}
+
+@media (max-width:991px) {
+  
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:575px) {
+   
+}
+
+@media (max-width:450px) {
+    .accordion-button{
+        padding: 15px;
+    }
+}
+
+

@@ -1,0 +1,274 @@
+.service-detail-content img{
+    margin-bottom: 30px;
+}
+
+.service-detail-content p:last-child{
+    padding-top: 10px;
+    padding-bottom: 40px;
+    border-bottom: 1px dashed #F5F5F5;
+}
+
+.fossil-resources-content h4{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.fossil-resources-content h6{
+    font-weight: 500;
+    color: #253745;
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+.fossil-resources-content p{
+    margin-bottom: 25px;
+}
+
+
+.fossil-resources-content-img div:last-child{
+    padding-left: 25px;
+}
+
+.fossil-resources-content-img{
+   padding-top: 15px;
+}
+
+.fossil-resources-content-img h4{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.fossil-resources-content-img h6{
+    font-weight: 500;
+    color: #253745;
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+.fossil-resources-content-img p{
+    margin-bottom: 25px;
+}
+
+.fossil-resources-content-img p:last-child{
+    margin-bottom: 0;
+}
+
+.service-detail .service-link{
+    padding: 35px 40px 40px 40px;
+    background-color: #EDF7EC;
+}
+
+.service-link .service-link-btn{
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 25px;
+    background-color: #FFFFFF;
+    font-family: var(--primary-font-family);
+    font-weight: 500;
+    color: #515151;
+    margin-bottom: 15px;
+}
+
+.service-link .service-link-btn i{
+    color: #515151;
+    font-size: 16px;
+}
+
+.service-link .service-link-btn:hover{
+    background-color: #4AAB3D;
+    color: #FFFFFF;
+    transition: all 600ms;
+}
+
+.service-link .service-link-btn:hover p{
+    color: #FFFFFF;
+    transition: all 600ms;
+}
+
+.service-link .service-link-btn:hover i{
+    color: #FFFFFF;
+    transition: all 600ms;
+}
+
+.service-link a:last-child .service-link-btn{
+    margin-bottom: 0;
+}
+
+.service-detail .contact-info{
+    background-color: #EDF7EC;
+    padding: 35px 40px 35px 40px;
+    margin-top: 30px;
+}
+
+.service-detail .contact-info h5{
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+.service-detail .contact-info a{
+    display: flex;
+    margin-bottom: 24px;
+    align-items: center;
+    color: #253745;
+    font-family: var(--primary-font-family);
+    font-weight: 500;
+}
+
+.service-detail .contact-info a:last-child{
+    margin-bottom: 0;
+}
+
+.service-detail .contact-info .social-icon{
+    width: 42px;
+    height: 42px;
+    border-radius: 100%;
+    background-color: #ddefdb;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.service-detail .contact-info a:hover{
+    color: #4AAB3D;
+    transition: all 500ms;
+}
+
+.service-detail-content{
+    flex-direction: column;
+}
+
+.cta-content{
+    position: relative;
+    min-height: 496px;
+    background-image: url('../images/cta-img.png');
+    background-repeat: no-repeat;
+}
+
+.cta-content-box{
+    padding: 85px;
+    padding-left: 65px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: #FFFFFF;
+    margin-bottom: -60px;
+    box-shadow: 0px 10px 40px 0px rgba(0,0,0,0.03);
+} 
+
+.cta-content-box p{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+
+@media (max-width:1399px) {
+    .service-detail .contact-info {
+        padding: 30px 20px 30px 20px;
+    }
+    .service-detail .service-link{
+        padding: 30px 20px 30px 20px;
+    }
+}
+
+@media (max-width:1199px) {
+    .cta-content-box{
+        padding: 65px;
+        padding-left: 45px;
+    }
+}
+
+@media (max-width:991px) {
+    .fossil-resources-content-img {
+        flex-direction: column;
+    }
+    .fossil-resources-content-img div:last-child{
+        padding-left: 0;
+        padding-bottom: 25px;
+    }
+    .service-detail .contact-info {
+        padding: 30px 40px 30px 40px;   
+    }
+    .service-detail .service-link{
+        padding: 30px 40px 30px 40px;
+    }
+    .cta-content-box{
+        margin: 0;
+        position: unset;
+        margin-top: 480px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cta-content{
+        position: unset;
+    }
+}
+
+@media (max-width:767px) {
+    .service-detail .contact-info {
+        padding: 25px;
+    }
+    .service-detail .service-link{
+        padding: 25px;
+    }
+    .cta-content{
+        min-height: 390px;
+    }
+    .cta-content-box p{
+        margin-top: 12px;
+        margin-bottom: 15px;
+    }
+    .service-detail .contact-info {
+        padding: 25px;   
+    }
+    .service-detail .service-link{
+        padding: 25px;
+    }
+    .service-detail .contact-info a{
+        margin-bottom: 15px;
+    }
+    .service-detail-content{
+        text-align: center;
+    } 
+    .fossil-resources-content, .fossil-resources-content-img{
+        text-align: center;
+    }
+    .cta-content-box h3{
+        text-align: start;
+        margin: 0;
+    }
+    .cta-content-box {
+        padding: 30px;
+    }
+}
+
+@media (max-width:575px) {
+    .cta-content-box{
+        padding: 20px;
+    }
+    .cta-content-box h3{
+        text-align: start;
+    }
+}
+
+@media (max-width:450px) {
+
+    .service-detail .contact-info {
+        padding: 15px;   
+    }
+    .service-detail .service-link{
+        padding: 15px;
+    }
+    .service-link .service-link-btn{
+        padding: 10px 18px;
+    }
+}
+
+

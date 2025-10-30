@@ -1,0 +1,153 @@
+.who-we-are{
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+}
+
+.who-we-img{
+    padding: 0;
+}
+
+.who-we-are .who-we-img img{
+    max-height: 657px;
+    object-fit: cover;
+}
+
+.who-we-are-2{
+    padding-left: 0;
+}
+
+.who-we-info p{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.who-we-content{
+    padding-left: 75px;
+    padding-right: 0;
+    flex-direction: column;
+}
+
+.who-we-button{
+    margin-top: 15px;
+}
+
+.who-we-button{
+    display: inline-block;
+}
+
+.who-we-sign {
+    display: inline-block;
+    margin-left: 30px;
+    background-image: url('../images/who-we-sign.png');
+    background-size: cover;
+    padding: 15px 30px 10px 0;
+}
+
+.who-we-sign span{
+    font-size: 16px;
+    font-family: var(--primary-font-family);
+    font-weight: 400;
+    line-height: 30px;
+} 
+
+.who-we-are{
+    position: relative;
+}
+
+.who-we-are::before{
+    content: '';
+    position: absolute;
+    background-image: url('../images/who-we-pattern.svg');
+    top: 0;
+    right: 0;
+    z-index: 9;
+    width: 27%;
+    height: 50%;
+    background-size: cover;
+}
+.who-we-are-2{
+    margin-left: -40px;
+}
+
+@media (max-width:1399px) {
+    .who-we-button{
+        margin-top: 0;
+        flex-wrap: wrap;
+        row-gap: 15px;
+    }
+    .who-we-content {
+        padding-left: 20px;
+    }
+    .who-we-are-2{
+        margin: 0;
+    }
+}
+
+@media (max-width:1199px) {
+    .who-we-are-2{
+        align-items: center !important;
+    }
+   
+}
+
+@media (max-width:991px) {
+    .who-we-are .row {
+        row-gap: 30px;
+    }
+    .who-we-are::before{
+        display: none;
+    }
+    .who-we-img{
+        padding: 0 12px;
+    }
+}
+
+@media (max-width:767px) {
+    .who-we-content{
+        order: 3;
+    }
+    .who-we-are-2{
+        order: 2;
+    }
+    .who-we-are .row{
+        justify-content: center;
+    }
+    .who-we-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .who-we-info h2{
+        margin-bottom: 0;
+    }
+    .who-we-img{
+        padding: 0;
+    }
+    .who-we-are .who-we-img img{
+        max-height: 480px;
+    }
+    .who-we-content{
+        align-items: center;
+    }
+    .who-we-content h2{ 
+        text-align: center;
+    }
+    .who-we-content p{ 
+        text-align: center;
+    }
+    .who-we-content .prifix{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:575px) {
+    .who-we-are .who-we-img img{
+        max-height: 440px;
+    }
+}
+
+@media (max-width:430px) {
+
+}
+

@@ -1,0 +1,151 @@
+.energy-on-demand{
+    background-color: #253745;
+    position: relative;
+    z-index: 1;
+}
+
+.energy-on-demand::after{
+    content: '';
+    position: absolute;
+    background-image: url('../images/energy-on-demand-bg.png');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+    opacity: 0.04;
+}
+
+.energy-on-demand::before{
+    content: '';
+    position: absolute;
+    background-image: url('../images/energy-on-demand-pattern.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    bottom: 0;
+    width: 100%;
+    height: 85%;
+    z-index: -1;
+}
+
+.energy-demand-img{
+    margin-top: 60px;
+}
+
+.energy-demand-img img{
+    margin-bottom: -120px;   
+}
+
+.energy-demand-content{
+    padding: 120px 0 120px 55px;
+}
+
+.energy-demand-content .prifix h3{
+    color: #FFFFFF;
+}
+
+.energy-demand-content .prifix p{
+    color: #EDEDED;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.energy-demand-box{
+    padding: 25px 35px 30px 35px;
+    background-color: #253745;
+}
+
+.demand-box-info{
+    padding-left: 25px;
+}
+
+.demand-box-info h5{
+    padding-bottom: 10px;
+    color: #FFFFFF;
+}
+
+.demand-box-info p{
+    color: #EDEDED;
+}
+
+.demand-box-2{
+    margin-top: 15px;
+}
+
+@media (max-width:1399px) {
+    .energy-demand-content {
+        padding: 100px 12px 100px 12px;
+    }
+    
+}
+
+@media (max-width:1199px) {
+  
+}
+
+@media (max-width:991px) {
+    .energy-demand-content {
+        padding: 15px 12px 70px 12px;
+    }
+    .energy-on-demand::before{
+        display: none;
+    }
+    
+    .energy-demand-img img{
+        margin-bottom: 0;   
+    }
+    .energy-on-demand .row{
+        justify-content: center;
+    }
+    .energy-demand-img{
+        display: flex;
+        justify-content: center;
+    }
+    .energy-on-demand .prifix{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .energy-on-demand .prifix p{
+        text-align: center;
+    }
+}
+
+@media (max-width:767px) {
+    .energy-demand-content {
+        padding: 15px 12px 50px 12px;
+    }
+    .energy-demand-content .prifix p {
+        margin-top: 0;
+    }
+    .demand-box-info h5{
+        padding-bottom: 5px;
+    }
+}
+
+@media (max-width:575px) {
+    .energy-demand-box{
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .energy-demand-box h5{
+        text-align: center;
+    }
+
+    .energy-demand-box p{
+        text-align: center;
+    }
+
+    .demand-box-info {
+        padding-left: 0;
+        padding-top: 15px;
+    }
+}
+
+@media (max-width:450px) {
+
+}
+
+

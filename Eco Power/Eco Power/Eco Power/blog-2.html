@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Power</title>
+
+    <!-- favicon icon -->
+    <link rel="icon" sizes="16x16" href="images/favicon.ico" type="image/favicon-icon">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-icons.min.css">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- owl carousel css -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+
+    <!-- animate css -->
+    <link rel="stylesheet" href="css/animate.min.css">
+
+    <!-- slick-css -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+
+    <!-- Swiper-css -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <!-- fonts -->
+    <link rel="stylesheet" href="css/fonts.css">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/section-banner.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="logo col-lg-2 col-md-11 col-sm-10 col-10">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="logo" class="img-fluid">
+                    </a>
+                </div>
+                <div class="nav-items col-lg-10 d-flex gx-0 d-none d-lg-block">
+                    <div class="navbar-contact col-lg-12 d-flex">
+                        <div class="nav-contact col-lg-6 d-flex align-items-center">
+                            <a href="tel:+121234567890">
+                                <svg width="15" height="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M10.9324 14.9983C5.83277 15.1414 -3.19491 6.11619 1.14621 1.21111C1.16186 1.19612 1.82958 0.614931 1.82958 0.614931C2.24865 0.228064 2.79967 0.0153351 3.37035 0.0200959C3.94104 0.0248566 4.48842 0.246749 4.90096 0.640553L6.24767 2.08914C6.64436 2.50314 6.86374 3.05531 6.85918 3.62829C6.85462 4.20127 6.62649 4.74989 6.22326 5.15755L5.98046 5.40377C6.70358 7.00289 7.98296 8.28584 9.58126 9.01461L9.83847 8.76464C10.2556 8.36787 10.8096 8.14656 11.3857 8.14656C11.9618 8.14656 12.5159 8.36787 12.933 8.76464L14.3329 10.0614C14.7476 10.4659 14.9856 11.0175 14.9952 11.5963C15.0048 12.1751 14.7852 12.7343 14.3842 13.1523C14.3842 13.1523 13.8022 13.8184 13.7872 13.8341C13.4122 14.2072 12.9668 14.5022 12.4767 14.7021C11.9866 14.9019 11.4617 15.0026 10.9324 14.9983ZM2.45287 2.56221C-0.587859 6.32304 9.14509 15.4814 12.4374 12.5298C12.4374 12.5298 13.0156 11.868 13.0313 11.853C13.0899 11.7944 13.1229 11.715 13.1229 11.6321C13.1229 11.5493 13.0899 11.4698 13.0313 11.4112L11.6307 10.1151C11.443 9.95888 11.3372 9.95701 11.1633 10.0901L10.4524 10.7888C10.3241 10.9148 10.1624 11.0013 9.98629 11.0381C9.81022 11.0749 9.62728 11.0603 9.45924 10.9963C8.21055 10.5322 7.07635 9.80554 6.13354 8.86543C5.19073 7.92532 4.46134 6.79378 3.99482 5.5475C3.92692 5.37833 3.90987 5.19306 3.94577 5.01436C3.98167 4.83566 4.06896 4.67129 4.19695 4.54137L4.89033 3.83769C4.9219 3.80968 4.94728 3.7754 4.96483 3.73704C4.98238 3.69867 4.99172 3.65707 4.99225 3.6149C4.99278 3.57273 4.98449 3.53091 4.96791 3.49211C4.95133 3.45332 4.92682 3.41841 4.89596 3.38962L3.548 1.94103C3.48836 1.89126 3.41192 1.86612 3.33433 1.87077C3.25674 1.87541 3.18386 1.90949 3.1306 1.96603C3.11558 1.98165 2.45287 2.56221 2.45287 2.56221ZM15 5.93683C14.9982 4.36285 14.3712 2.85385 13.2567 1.74087C12.1422 0.62789 10.6311 0.00181935 9.05497 0C8.80602 0 8.56726 0.098761 8.39122 0.274557C8.21518 0.450352 8.11629 0.688782 8.11629 0.937395C8.11629 1.18601 8.21518 1.42444 8.39122 1.60023C8.56726 1.77603 8.80602 1.87479 9.05497 1.87479C10.1334 1.87611 11.1672 2.3045 11.9298 3.066C12.6923 3.82749 13.1213 4.85992 13.1226 5.93683C13.1226 6.18545 13.2215 6.42388 13.3976 6.59967C13.5736 6.77547 13.8124 6.87423 14.0613 6.87423C14.3103 6.87423 14.549 6.77547 14.7251 6.59967C14.9011 6.42388 15 6.18545 15 5.93683ZM11.871 5.93683C11.8702 5.19125 11.5733 4.47644 11.0453 3.94923C10.5174 3.42203 9.80159 3.12548 9.05497 3.12465C8.80602 3.12465 8.56726 3.22341 8.39122 3.39921C8.21518 3.575 8.11629 3.81343 8.11629 4.06204C8.11629 4.31066 8.21518 4.54909 8.39122 4.72488C8.56726 4.90068 8.80602 4.99944 9.05497 4.99944C9.30393 4.99944 9.54269 5.0982 9.71873 5.274C9.89476 5.44979 9.99366 5.68822 9.99366 5.93683C9.99366 6.18545 10.0926 6.42388 10.2686 6.59967C10.4446 6.77547 10.6834 6.87423 10.9324 6.87423C11.1813 6.87423 11.4201 6.77547 11.5961 6.59967C11.7721 6.42388 11.871 6.18545 11.871 5.93683Z" />
+                                </svg>
+                                +12 123 456 7890
+                            </a>
+                            <a href="mailto:info@ecopower.com">
+                                <i class="fa-regular fa-envelope"></i>
+                                info@ecopower.com
+                            </a>
+                        </div>
+                        <div class="nav-search col-lg-6 d-flex align-items-center">
+                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M17.67 16.0839L14.1862 12.5986C16.7929 9.115 16.0822 4.17775 12.5986 1.57096C9.115 -1.03583 4.17775 -0.325041 1.57096 3.15854C-1.03583 6.64212 -0.325041 11.5794 3.15854 14.1862C5.95684 16.2802 9.80025 16.2802 12.5986 14.1862L16.0839 17.6715C16.5219 18.1095 17.232 18.1095 17.67 17.6715C18.108 17.2335 18.108 16.5234 17.67 16.0854L17.67 16.0839ZM7.90761 13.5135C4.81156 13.5135 2.30176 11.0036 2.30176 7.90761C2.30176 4.81157 4.81156 2.30176 7.90761 2.30176C11.0036 2.30176 13.5135 4.81157 13.5135 7.90761C13.5102 11.0022 11.0023 13.5102 7.90761 13.5135Z"
+                                    fill="#515151" />
+                            </svg>
+                            <input type="search" name="query" placeholder="Type you search word...">
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <img src="images/flag.svg" alt="flag">
+                                    Eng
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#"><img src="images/flag.svg" alt="flag">
+                                            ENG</a></li>
+                                    <li><a class="dropdown-item" href="#"><img src="images/flag.svg" alt="flag">
+                                            GBP</a></li>
+                                    <li><a class="dropdown-item" href="#"><img src="images/flag.svg" alt="flag">
+                                            FRA</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav-menu col-lg-12 d-flex align-items-center">
+                        <div class="menu col-lg-6 d-none d-lg-block">
+                            <ul class="menu-inner d-flex justify-content-start">
+                                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                                <li class="nav-item"><a href="about-us.html" class="nav-link">About</a></li>
+                                <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+                                <li class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" id="pagesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Pages
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="pagesDropdown">
+                                        <li><a href="project.html" class="dropdown-item">Projects</a></li>
+                                        <li><a href="blog.html" class="dropdown-item">Blog</a></li>
+                                        <li><a href="our-team.html" class="dropdown-item">Our Team</a></li>
+                                        <li><a href="faq.html" class="dropdown-item">FAQ</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="nav-button col-lg-6 d-flex">
+                            <div class="theme-button">
+                                <i class="fa-solid fa-arrow-right"></i>
+                                <a href="contact.html">Request A Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="toggler col-md-1 col-sm-2 col-2 d-lg-none">
+                    <a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
+                        aria-controls="offcanvasScrolling">
+                        <i class="fa-solid fa-bars"></i>
+                    </a>
+                </div>
+                <div class="offcanvas offcanvas-start" id="offcanvasScrolling">
+                    <div class="offcanvas-header">
+                        <a href="index.html">
+                            <img src="images/logo.png" alt="logo">
+                        </a>
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <img src="images/flag.svg" alt="flag">
+                                Eng
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"><img src="images/flag.svg" alt="flag">
+                                        Eng</a></li>
+                                <li><a class="dropdown-item" href="#"><img src="images/flag.svg" alt="flag">
+                                        Eng</a></li>
+                                <li><a class="dropdown-item" href="#"><img src="images/flag.svg" alt="flag">
+                                        Eng</a></li>
+                            </ul>
+                        </div>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><i
+                                class="fa-solid fa-xmark"></i></button>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="menu-inner">
+                            <li><a href="index.html" class="nav-link menu-link">Home</a></li>
+                            <li><a href="about-us.html" class="nav-link menu-link">About</a></li>
+                            <li><a href="services.html" class="nav-link menu-link">Services</a></li>
+                            <li class="dropdown menu-dropdown">
+                                <a href="#" class="nav-link menu-link dropdown-toggle" id="pagesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Pages
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="pagesDropdown">
+                                    <li><a href="project.html" class="dropdown-item">Projects</a></li>
+                                    <li><a href="blog.html" class="dropdown-item">Blog</a></li>
+                                    <li><a href="our-team.html" class="dropdown-item">Our Team</a></li>
+                                    <li><a href="faq.html" class="dropdown-item">FAQ</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="contact.html" class="nav-link menu-link">Contact</a></li>
+                        </ul>
+                        <div class="nav-contact">
+                            <a href="tel:+121234567890">
+                                <svg width="15" height="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M10.9324 14.9983C5.83277 15.1414 -3.19491 6.11619 1.14621 1.21111C1.16186 1.19612 1.82958 0.614931 1.82958 0.614931C2.24865 0.228064 2.79967 0.0153351 3.37035 0.0200959C3.94104 0.0248566 4.48842 0.246749 4.90096 0.640553L6.24767 2.08914C6.64436 2.50314 6.86374 3.05531 6.85918 3.62829C6.85462 4.20127 6.62649 4.74989 6.22326 5.15755L5.98046 5.40377C6.70358 7.00289 7.98296 8.28584 9.58126 9.01461L9.83847 8.76464C10.2556 8.36787 10.8096 8.14656 11.3857 8.14656C11.9618 8.14656 12.5159 8.36787 12.933 8.76464L14.3329 10.0614C14.7476 10.4659 14.9856 11.0175 14.9952 11.5963C15.0048 12.1751 14.7852 12.7343 14.3842 13.1523C14.3842 13.1523 13.8022 13.8184 13.7872 13.8341C13.4122 14.2072 12.9668 14.5022 12.4767 14.7021C11.9866 14.9019 11.4617 15.0026 10.9324 14.9983ZM2.45287 2.56221C-0.587859 6.32304 9.14509 15.4814 12.4374 12.5298C12.4374 12.5298 13.0156 11.868 13.0313 11.853C13.0899 11.7944 13.1229 11.715 13.1229 11.6321C13.1229 11.5493 13.0899 11.4698 13.0313 11.4112L11.6307 10.1151C11.443 9.95888 11.3372 9.95701 11.1633 10.0901L10.4524 10.7888C10.3241 10.9148 10.1624 11.0013 9.98629 11.0381C9.81022 11.0749 9.62728 11.0603 9.45924 10.9963C8.21055 10.5322 7.07635 9.80554 6.13354 8.86543C5.19073 7.92532 4.46134 6.79378 3.99482 5.5475C3.92692 5.37833 3.90987 5.19306 3.94577 5.01436C3.98167 4.83566 4.06896 4.67129 4.19695 4.54137L4.89033 3.83769C4.9219 3.80968 4.94728 3.7754 4.96483 3.73704C4.98238 3.69867 4.99172 3.65707 4.99225 3.6149C4.99278 3.57273 4.98449 3.53091 4.96791 3.49211C4.95133 3.45332 4.92682 3.41841 4.89596 3.38962L3.548 1.94103C3.48836 1.89126 3.41192 1.86612 3.33433 1.87077C3.25674 1.87541 3.18386 1.90949 3.1306 1.96603C3.11558 1.98165 2.45287 2.56221 2.45287 2.56221ZM15 5.93683C14.9982 4.36285 14.3712 2.85385 13.2567 1.74087C12.1422 0.62789 10.6311 0.00181935 9.05497 0C8.80602 0 8.56726 0.098761 8.39122 0.274557C8.21518 0.450352 8.11629 0.688782 8.11629 0.937395C8.11629 1.18601 8.21518 1.42444 8.39122 1.60023C8.56726 1.77603 8.80602 1.87479 9.05497 1.87479C10.1334 1.87611 11.1672 2.3045 11.9298 3.066C12.6923 3.82749 13.1213 4.85992 13.1226 5.93683C13.1226 6.18545 13.2215 6.42388 13.3976 6.59967C13.5736 6.77547 13.8124 6.87423 14.0613 6.87423C14.3103 6.87423 14.549 6.77547 14.7251 6.59967C14.9011 6.42388 15 6.18545 15 5.93683ZM11.871 5.93683C11.8702 5.19125 11.5733 4.47644 11.0453 3.94923C10.5174 3.42203 9.80159 3.12548 9.05497 3.12465C8.80602 3.12465 8.56726 3.22341 8.39122 3.39921C8.21518 3.575 8.11629 3.81343 8.11629 4.06204C8.11629 4.31066 8.21518 4.54909 8.39122 4.72488C8.56726 4.90068 8.80602 4.99944 9.05497 4.99944C9.30393 4.99944 9.54269 5.0982 9.71873 5.274C9.89476 5.44979 9.99366 5.68822 9.99366 5.93683C9.99366 6.18545 10.0926 6.42388 10.2686 6.59967C10.4446 6.77547 10.6834 6.87423 10.9324 6.87423C11.1813 6.87423 11.4201 6.77547 11.5961 6.59967C11.7721 6.42388 11.871 6.18545 11.871 5.93683Z" />
+                                </svg>
+                                +12 123 456 7890
+                            </a>
+                            <a href="mailto:info@ecopower.com">
+                                <i class="fa-regular fa-envelope"></i>
+                                info@ecopower.com
+                            </a>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="nav-button">
+                            <div class="theme-button">
+                                <i class="fa-solid fa-arrow-right"></i>
+                                <a href="contact.html">Request A Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- blog-banner -->
+    <section class="section-banner">
+        <div class="container">
+            <div class="row">
+                <div class="sec-banner-content">
+                    <h1>Latest News</h1>
+                    <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
+                        aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Latest News</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blog-banner-end -->
+
+    <!-- blog -->
+    <section class="blog padding-vertical">
+        <div class="container">
+            <div class="row">
+                <div class="blog-post-main col-lg-8">
+                    <div class="col-lg-12 blog-box">
+                        <div class="blog-img">
+                            <img src="images/blog-img-3.png" alt="blog-img" class="w-100">
+                        </div>
+                        <div class="blog-content">
+                            <h4><a href="blog-details.html">Green Building Design: Constructing for Sustainability</a></h4>
+                            <ul class="date-details">
+                                <li>01 Jan, 2024</li>
+                                <li>Admin</li>
+                                <li>No Comments</li>
+                            </ul>
+                            <p>Explore the principles of green building design and how architects and builders are
+                                incorporating sustainability into construction practices. Learn about eco-friendly
+                                materials, energy-efficient designs, and the impact of green buildings on the
+                                environment.</p>
+                        </div>
+                        <div class="theme-button-blog">
+                            <div class="theme-button">
+                                <i class="fa-solid fa-arrow-right"></i>
+                                <a href="blog-details.html">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 blog-box">
+                        <div class="blog-img">
+                            <img src="images/blog-img-4.png" alt="blog-img" class="w-100">
+                        </div>
+                        <div class="blog-content">
+                            <h4><a href="blog-details.html">Biodiversity Conservation: Preserving Earth's Natural Heritage</a></h4>
+                            <ul class="date-details">
+                                <li>01 Jan, 2024</li>
+                                <li>Admin</li>
+                                <li>No Comments</li>
+                            </ul>
+                            <p>Delight in the wonders of Earth's biodiversity and understand the importance of
+                                conservation efforts. Discover how protecting ecosystems, wildlife, and natural habitats
+                                contributes to maintaining a balanced and resilient planet.</p>
+                        </div>
+                        <div class="theme-button-blog">
+                            <div class="theme-button">
+                                <i class="fa-solid fa-arrow-right"></i>
+                                <a href="blog-details.html">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button-group">
+                        <a href="blog.html" class="page-button">1</a>
+                        <a href="blog-2.html" class="page-button active">2</a>
+                        <a href="blog.html" class="page-button">3</a>
+                    </div>
+                </div>
+                <div class="blog-card col-lg-4">
+                    <div class="blog-search">
+                        <div class="blog-search-input">
+                            <input type="search" placeholder="Search..." class="search-input">
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </div>
+                    <div class="recent-post">
+                        <h5>Recent Posts</h5>
+                        <div class="recent-post-main d-flex">
+                            <a href="blog-details.html">
+                            <div class="recent-post-info d-flex">
+                                <div class="recent-post-img">
+                                    <img src="images/recent-post.png" alt="recent-post">
+                                </div>
+                                <div class="recent-post-title">
+                                    <p>The Rise of Solar Power: Illuminating a Greener Future</p>
+                                    <span>01 Jan, 2024</span>
+                                </div>
+                            </div>
+                            </a>
+                            <a href="blog-details.html">
+                            <div class="recent-post-info d-flex">
+                                <div class="recent-post-img">
+                                    <img src="images/recent-post-2.png" alt="recent-post">
+                                </div>
+                                <div class="recent-post-title">
+                                    <p>Wind Energy Unleashed: Harnessing the Power of the Wind</p>
+                                    <span>01 Jan, 2024</span>
+                                </div>
+                            </div>
+                            </a>
+                            <a href="blog-details.html">
+                            <div class="recent-post-info d-flex">
+                                <div class="recent-post-img">
+                                    <img src="images/recent-post-3.png" alt="recent-post">
+                                </div>
+                                <div class="recent-post-title">
+                                    <p>The Impact of Electric Vehicles on a Sustainable Tomorrow</p>
+                                    <span>01 Jan, 2024</span>
+                                </div>
+                            </div>
+                            </a>
+                            <a href="blog-details.html">
+                            <div class="recent-post-info d-flex">
+                                <div class="recent-post-img">
+                                    <img src="images/recent-post-4.png" alt="recent-post">
+                                </div>
+                                <div class="recent-post-title">
+                                    <p>Green Building Design: Constructing for Sustainability</p>
+                                    <span>01 Jan, 2024</span>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="blog-newsletter">
+                        <h5>
+                            Our Newsletter
+                        </h5>
+                        <div class="blog-newsletter-btn">
+                            <form>
+                                <input for="validationDefault02" form-control id="validationDefaultUsername"
+                                    aria-describedby="inputGroupPrepend2" required class="newsletter-input" type="email"
+                                    placeholder="Enter your email address">
+                                <button class="newsletter-button" type="submit"><i
+                                        class="fa-solid fa-arrow-right"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blog-end -->
+
+    <!-- footer -->
+    <footer>
+        <section class="company">
+            <div class="container">
+                <div class="row">
+                    <div class="company-logo col-lg-12 d-flex">
+                        <img src="images/company-logo-1.svg" alt="company-logo">
+                        <img src="images/company-logo-2.svg" alt="company-logo">
+                        <img src="images/company-logo-3.svg" alt="company-logo">
+                        <img src="images/company-logo-4.svg" alt="company-logo">
+                        <img src="images/company-logo-5.svg" alt="company-logo">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer-content padding-top">
+            <div class="container">
+                <div class="row">
+                    <div class="company-link col-lg-2 col-md-6 col-sm-12">
+                        <h5>
+                            Company
+                        </h5>
+                        <ul>
+                            <li><a href="about-us.html">About Us</a></li>
+                            <li><a href="our-team.html">Our Team</a></li>
+                            <li><a href="blog.html">Latest News</a></li>
+                            <li><a href="project.html">Our Projects</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="company-link service-link col-lg-3 col-md-6 col-sm-12">
+                        <h5>
+                            Services
+                        </h5>
+                        <ul>
+                            <li><a href="service-details.html">Solar Panel Energy</a></li>
+                            <li><a href="service-details.html">Wind Turbine Energy</a></li>
+                            <li><a href="service-details.html">Hydropower Plants Energy</a></li>
+                            <li><a href="service-details.html">Fossil Resources Service</a></li>
+                        </ul>
+                    </div>
+                    <div class="company-link support-link col-lg-2 col-md-6 col-sm-12">
+                        <h5>
+                            Support
+                        </h5>
+                        <ul>
+                            <li><a href="">Privacy Policy</a></li>
+                            <li><a href="">Terms and Conditions</a></li>
+                            <li><a href="">Disclaimer</a></li>
+                            <li><a href="contact.html">Customer Support</a></li>
+                        </ul>
+                    </div>
+                    <div class="company-link newsletter-link col-lg-5 col-md-6 col-sm-12">
+                        <h5>
+                            Our Newsletter
+                        </h5>
+                        <form>
+                            <input for="validationDefault02" form-control id="validationDefaultUsername"
+                                aria-describedby="inputGroupPrepend2" required class="newsletter-input" type="email"
+                                placeholder="Enter your email address">
+                            <button class="newsletter-button" type="submit"><i
+                                    class="fa-solid fa-arrow-right"></i></button>
+                        </form>
+                        <div class="social-icon d-flex">
+                            <h5>Follow Us:</h5>
+                            <ul class="socialicon d-flex">
+                                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="https://x.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="https://www.pinterest.com/" target="_blank"><i class="fa-brands fa-pinterest-p"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container">
+            <div class="row">
+                <div class="copyright col-12">
+                    <p class="text-center">©EcoPower 2023. All Right Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+     
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>

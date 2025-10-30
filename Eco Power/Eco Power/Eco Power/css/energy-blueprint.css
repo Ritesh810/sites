@@ -1,0 +1,207 @@
+.energy-blueprint{
+    padding-bottom: 97px;
+    background-color: #253745;
+    position: relative;
+    z-index: 1;
+}
+
+.energy-blueprint::before{
+    content: '';
+    position: absolute;
+    background-image: url('../images/energy-bluprint-bg.png');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+}
+
+.energy-blueprint .prifix{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.energy-blueprint .prifix h3{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.energy-blueprint .prifix p{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    color: #EDEDED;
+    text-align: center;
+}
+
+.blueprint-box{
+    padding-top: 20px;
+    padding-bottom: 35px;
+    background-color: rgba(37, 55, 69, 0.4);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.blueprint-box:hover{
+    background-color: rgba(37, 55, 69, 1);
+    transition: all 1s;
+}
+
+.blueprint-box-main{
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.blueprint-box h5{
+    color: #FFFFFF;
+    padding-top: 22px;
+    padding-bottom: 23px;
+    padding-left: 30px;
+    display: inline-block;
+    font-weight: 500;
+}
+
+.blueprint-box p{
+    padding-bottom: 15px;
+    color: #EDEDED;
+    padding-top: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
+    text-align: start;
+}
+
+.blueprint-box img{
+    width: 55px;
+    height: 55px;
+    margin-left: 35px; 
+    margin-top: auto;
+}
+
+.blueprint-box-inner{
+    width: 96%;
+    margin-left: -20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #4AAB3D;
+    position: relative;
+}
+
+.blueprint-box-inner::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 20px;
+     height: 20px;
+     background-color: #1e7e34; /* Color of the triangle */
+     clip-path: polygon(100% 0, 0 0, 100% 100%);
+}
+
+.blueprint-box-inner p{
+    width: 55px;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    line-height: 22px;
+    background-color: #FFFFFF;
+    color: #4AAB3D;
+    border-top-left-radius: 50px;      
+    border-bottom-left-radius: 50px;
+}
+
+.energy-blueprint .row{
+    row-gap: 30px;
+}
+
+@media (max-width:1399px) {
+    .blueprint-box p{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .blueprint-box img {
+        margin-left: 25px;
+    }
+
+    .blueprint-box{
+        padding-bottom: 25px;
+    }
+    .blueprint-box h5{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .blueprint-box-main{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .blueprint-box-inner p{
+        line-height: 9px;
+    }
+}
+
+@media (max-width:1199px) {
+    .blueprint-box-inner::before{
+        width: 15px;
+        height: 15px;
+    }
+    .blueprint-box-inner{
+        margin-left: -15px;
+        width: 98%;
+    }
+    .energy-blueprint .row{
+        row-gap: 30px;
+    }
+  
+}
+
+@media (max-width:991px) {
+    .blueprint-box p{
+        padding-top: 15px;
+    }
+    .blueprint-box-inner p{
+        line-height: 25px;   
+    }
+}
+
+@media (max-width:767px) {
+    .blueprint-box h5{
+        padding-top: 10px;
+        padding-bottom: 9px;
+    }
+}
+
+@media (max-width:575px) {
+    .blueprint-box p{
+        padding-left: 15px;
+        padding-top: 15px;
+        padding-right: 15px;
+    }
+    .blueprint-box img {
+        margin-left: 15px;
+    }
+
+    .blueprint-box{
+        padding-bottom: 15px;
+    }
+    .blueprint-box h5 {
+        line-height: 35px;
+    }
+}
+
+@media (max-width:400px) {
+    .blueprint-box-main{
+        padding-right: 0;
+    }
+    .blueprint-box h5{
+        padding-bottom: 9px;
+        font-size: 16px;
+        line-height: 34px;
+        
+    }
+    .blueprint-box-inner p{
+        align-self: center;
+    }
+}
+

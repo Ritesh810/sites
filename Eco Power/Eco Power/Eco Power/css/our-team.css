@@ -1,0 +1,134 @@
+.our-team{
+    background-image: url('../images/our-team-bg.png');
+    background-repeat: no-repeat;
+}
+
+.team-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.our-team .row{
+    row-gap: 30px;
+}
+
+.team-info{
+    background-color: #FFFFFF;
+    padding: 25px 0;
+    width: 88%;
+    z-index: 1;
+    bottom: -50px;
+    height: 104px;
+    overflow: hidden;
+    position: absolute;
+    box-shadow: 0px 10px 40px 0px rgba(0,0,0,0.03);
+}
+
+.team-info h6{
+    font-family: var(--primary-font-family);
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 500;
+    color: #253745;
+    text-align: center;
+}
+
+.team-info p{
+    text-align: center;
+    padding-top: 5px;
+}
+
+.team-info .team-icon a{
+    display: inline-block;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+.team-info .team-icon a:first-child{
+    padding-left: 0;
+}
+
+.team-info .team-icon a i{
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
+    color: #4AAB3D;
+    border-radius: 50%;
+    background-color: #edf7ec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.team-info .team-icon a:hover i{
+    color: #edf7ec;
+    background-color: #4AAB3D;
+    transition: all 800ms;
+}
+
+.team-info .team-icon{
+    display: flex;
+    justify-content: center;
+    transform: translateY(20px); 
+    opacity: 0; 
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.team-box:hover .team-info{
+    height: 159px;
+    transition: all 800ms;
+}
+
+.team-box:hover .team-info .team-icon{
+    transform: translateY(0); 
+    opacity: 1; 
+    transition: all 800ms;
+}
+
+@media (max-width:1499px) {
+   
+}
+
+@media (max-width:1199px) {
+    .team-info{
+        width: 78%;
+        padding: 20px 0;
+        height: 90px;
+    }
+}
+
+@media (max-width:991px) {
+    .team-info p{
+        padding-top: 0;
+    }
+    .team-info .team-icon a{
+        margin-top: 15px;
+    }
+    .team-info{
+        width: 90%;
+    }
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:575px) {
+    .team-info{
+        width: 60%;
+    }    
+}
+
+@media (max-width:450px) {
+    .team-info{
+        width: 90%;
+    }  
+}
+
+
+
+
