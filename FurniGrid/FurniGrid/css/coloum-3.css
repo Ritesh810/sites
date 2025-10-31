@@ -1,0 +1,23 @@
+.coloum-3 .row { row-gap: 30px; }
+.coloum-3 .t-product-img { min-height: 410px; }
+.coloum-3 .treding-product { padding: 0 15px 0 0px; }
+.coloum-3 .treding-product-2 { padding: 0 15px 0 15px; }
+.coloum-3 .treding-product-3 { padding: 0 0 0 15px; }
+@media (max-width:1399px) {
+ .coloum-3 .treding-product { padding: 0 12px 0 12px; }
+.coloum-3 .treding-product-2 { padding: 0 12px 0 12px; }
+.coloum-3 .treding-product-3 { padding: 0 12px 0 12px; }
+ }
+@media (max-width:1199px) {
+ .coloum-3 .t-product-img { min-height: 310px; }
+.p-filter-coloum .coloum .coloum-item-4 { display: none; }
+ }
+@media (max-width:991px) {
+ .p-filter-coloum .coloum .coloum-item-3 { display: none; }
+ }
+@media (max-width:767px) {
+ }
+@media (max-width:575px) {
+ .p-filter-coloum .coloum .coloum-item-2 { display: none; }
+}
+

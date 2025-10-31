@@ -1,0 +1,46 @@
+.map { padding-top: 60px; padding-bottom: 60px; border-bottom: 1px solid rgba(0, 0, 0, 0.06); }
+.map iframe { width: 100%; height: 447px; }
+.contact-form h5 { font-family: var(--secondary-font-family); font-weight: 400; font-size: 24px; color: #000; padding-bottom: 40px; padding-top: 60px; }
+.contact-form .f-name { padding-right: 10px; }
+.contact-form .e-mail { padding-left: 10px; padding-right: 10px; }
+.contact-form .p-number { padding-left: 10px; }
+.contact-form input { font-family: var(--primary-font-family); font-weight: 400; font-size: 16px; line-height: 14px; text-transform: capitalize; color: rgba(97, 97, 97, 0.44); padding: 15px 0 18px 20px; border-radius: 8px; border: 1px solid  rgba(0, 0, 0, 0.17); }
+.contact-form input:focus { border: 1px solid  rgba(0, 0, 0, 0.17); }
+.contact-form ::placeholder { font-family: var(--primary-font-family); font-weight: 400; font-size: 16px; text-transform: capitalize; color: rgba(97, 97, 97, 0.44); }
+.contact-form textarea { margin: 30px 0; padding: 15px 0 18px 20px; }
+.contact-form textarea { height: 195px; font-family: var(--primary-font-family); font-weight: 400; font-size: 16px; color: rgba(97, 97, 97, 0.44); text-transform: capitalize; border: 1px solid  rgba(0, 0, 0, 0.17); }
+.contact-form textarea:focus { border: 1px solid  rgba(0, 0, 0, 0.17); }
+.contact-form .theme-button { padding: 15px 30px; }
+.contact .get-in-touch { padding-top: 60px; }
+.contact .get-in-touch-inner { padding: 30px; background: #fcfcfc; }
+.contact .get-in-touch-inner p { font-family: var(--secondary-font-family); padding-bottom: 12px; padding-top: 10px; }
+.get-in-touch-inner .address .con-title { font-family: var(--secondary-font-family); font-weight: 500; font-size: 18px; color: #000; display: block; }
+.get-in-touch-inner .address a { font-family: var(--primary-font-family); font-weight: 400; font-size: 16px; line-height: 25px; color: #616161; display: flex; margin-top: 15px; padding-bottom: 20px; border-bottom: 1px solid rgba(0, 0, 0, 0.15); margin-bottom: 20px; align-self: center; transition: all 400ms; }
+.get-in-touch-inner .address a:hover { color: #000; }
+.get-in-touch-inner .address:last-child a { padding-bottom: 0; margin-bottom: 0; border: none; }
+.get-in-touch-inner .address a img { margin-right: 15px; margin-top: 2px; align-self: self-start; }
+.contact-form { padding: 0 15px 0 0; }
+.get-in-touch { padding: 0 0 0 15px; }
+@media (max-width:1399px) {
+ .contact .form-row { flex-wrap: wrap; }
+.contact-form { padding: 0 12px 0 12px; }
+.get-in-touch { padding: 0 12px 0 12px; }
+ }
+@media (max-width:1199px) {
+ .contact-form textarea { margin-top: 25px; }
+.contact-form .p-number { padding: 25px 15px 0 0 ; }
+ }
+@media (max-width:991px) {
+ .contact-form input { padding: 13px 0 13px 20px; }
+.contact-form  textarea { margin: 20px 0; height: 150px; }
+.contact-form h5 { padding-top: 50px; padding-bottom: 35px; }
+.contact .get-in-touch { padding-top: 40px; }
+ }
+@media (max-width:767px) {
+ .contact-form  h5 { padding-bottom: 30px; }
+.map { padding-bottom: 50px; }
+ }
+@media (max-width:575px) {
+ .contact-form .e-mail { padding: 25px 15px 0 0 ; }
+}
+

@@ -1,0 +1,43 @@
+.my-account { padding-top: 60px; }
+.my-account .nav-link { padding: 18px 20px; font-family: var(--secondary-font-family); font-size: 16px; line-height: 19px; font-weight: 400; background-color: #fff; color: #588157; display: inline-block; margin-bottom: 15px; border: 1px solid rgba(88, 129, 87, 0.5); }
+.my-account .nav-pills .nav-link.active, .nav-pills .show>.nav-link { background-color: #588157; box-shadow: none; }
+.my-account .account-tabs { padding-right: 50px; }
+.my-account .acccont-content { padding-left: 50px; border-left: 1px solid rgba(88, 129, 87, 0.2); }
+.my-account .dashboard .welcome { padding-bottom: 25px; }
+.my-account .dashboard .welcome span { color: #000; }
+.my-account .dashboard h6 { padding-bottom: 20px; }
+.my-account .dashboard .first-order { padding: 14px 20px; background: rgba(0, 147, 6, 0.05); color: #009306; margin-bottom: 30px; }
+.my-account .dashboard .first-order p { padding-left: 7px; line-height: 19px; }
+.my-account .dashboard .first-order a { text-decoration: underline; color: #117010; }
+.my-account .dashboard .table { border-collapse: collapse; width: 100%; font-family: var(--primary-font-family); font-size: 16px; line-height: 19px; color: #616161; margin-bottom: 25px; }
+.my-account .dashboard .table td { padding: 12px 20px; }
+.my-account table, th, td { border: 1px solid rgba(88, 129, 87, 0.2); border-collapse: collapse; color: #616161 !important; }
+.my-account .address .d-add { padding-top: 30px; padding-bottom: 25px; }
+.my-account .address .address-table { border: 1px solid #e0e0e0; border-radius: 5px; background-color: #fff; border: 1px solid rgba(88, 129, 87, 0.2); }
+.my-account .address .address-table h5 { font-size: 16px; color: #000; }
+.my-account .address .address-table .theme-button a { padding: 10px 25px; font-size: 15px; }
+.my-account .address .address-table .white-btn { color: #588157; background-color: #fff; margin-right: 10px; }
+.my-account .address .address-table .tr { border-bottom: 1px solid rgba(88, 129, 87, 0.2); ; padding: 10px 25px; }
+.my-account .address .address-table .white-btn:hover { color: #fff; background-color: #588157; }
+.my-account .address-details { padding: 20px 25px; }
+.my-account .address-details p { padding-bottom: 2px; }
+@media (max-width:911px) {
+ .my-account .account-tabs { padding-right: 25px; }
+.my-account .acccont-content { padding-left: 25px; }
+.my-account .nav-link { padding: 15px 20px; }
+.my-account .address .d-add { padding-top: 25px; padding-bottom: 20px; }
+.my-account .dashboard .welcome { padding-bottom: 15px; }
+.my-account .dashboard .first-order { margin-bottom: 25px; }
+.my-account .dashboard .table { margin-bottom: 20px; }
+ }
+@media (max-width:767px) {
+ .my-account .acccont-content { padding-left: 12px; border: none; }
+.my-account .account-tabs { padding-right: 12px; }
+.my-account .account-tabs { padding-right: 12px; padding-bottom: 20px; }
+ }
+@media (max-width:575px) {
+ .my-account .address .address-table .tr { padding: 10px 15px; }
+.my-account .address-details { padding: 10px 15px; }
+.my-account .nav-link { padding: 13px 20px; }
+.my-account { padding-top: 50px; }
+ }

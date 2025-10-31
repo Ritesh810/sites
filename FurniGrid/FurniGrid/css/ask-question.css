@@ -1,0 +1,16 @@
+.ask-pop-up { font-family: var(--primary-font-family); font-weight: 400; font-size: 16px; line-height: 20px; color: #616161; transition: all 400ms; border: none; padding: 0; }
+.ask-pop-up:active { border: none; }
+.close-btn { display: inline-block; border: none; background-color: transparent; width: 30px; height: 30px; margin-left: auto; font-size: 20px; margin-top: -10px; margin-right: -12px; }
+.ask-que-pop-up { padding: 30px; }
+.ask-que-pop-up h4 { font-family: var(--secondary-font-family); font-weight: 500; font-size: 22px; color: #616161; display: inline-block; padding: 0; }
+.ask-que-pop-up span { color: #000; }
+.ask-que-pop-up form { margin-top: 25px; }
+.ask-que-pop-up form input { font-family: var(--primary-font-family); font-weight: 400; font-size: 16px; line-height: 19px; color: rgba(0, 0, 0, 0.5); padding: 15px; border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 5px; margin-bottom: 20px; }
+.ask-que-pop-up form ::placeholder { font-family: var(--primary-font-family); font-weight: 400; font-size: 16px; line-height: 19px; color: rgba(0, 0, 0, 0.5); }
+.ask-que-pop-up form textarea { font-family: var(--primary-font-family); font-weight: 400; font-size: 16px; line-height: 19px; color: rgba(0, 0, 0, 0.5); padding: 15px; height: 146px; }
+.ask-que-pop-up form input:hover { border: 1px solid rgba(0, 0, 0, 0.1); }
+.ask-que-pop-up form input:active { border: 1px solid rgba(0, 0, 0, 0.1); }
+.ask-que-pop-up form input:focus { border: 1px solid rgba(0, 0, 0, 0.1); }
+.ask-que-pop-up .theme-button { padding: 15px 30px; margin: 0; background-color: #588157; color: #fff; border: 1px solid #588157; }
+.ask-que-pop-up .theme-button:hover { background-color: #fff; color: #588157; }
+.product-section .modal { top: 20% !important; }

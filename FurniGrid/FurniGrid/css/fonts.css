@@ -1,0 +1,22 @@
+/* be vitetnam pro */
+@font-face { font-family: 'bevietnampro'; font-style: normal; font-weight: 300; font-display: swap; src: url('font/bevietnampro-light.woff') format('woff'),
+        url('font/bevietnampro-light.woff2') format('woff2'); }
+@font-face { font-family: 'bevietnampro'; font-style: normal; font-weight: 400; font-display: swap; src: url('font/bevietnampro-regular.woff') format('woff'),
+        url('font/bevietnampro-regular.woff2') format('woff2'); }
+@font-face { font-family: 'bevietnampro'; font-style: normal; font-weight: 500; font-display: swap; src: url('font/bevietnampro-medium.woff') format('woff'),
+        url('font/bevietnampro-medium.woff2') format('woff2'); }
+@font-face { font-family: 'bevietnampro'; font-style: normal; font-weight: 800; font-display: swap; src: url('font/bevietnampro-extrabold.woff') format('woff'),
+        url('font/bevietnampro-extrabold.woff2') format('woff2'); }
+/* roboto  */
+@font-face { font-family: 'roboto'; font-style: normal; font-weight: 400; font-display: swap; src: url('font/roboto-regular.woff') format('woff'),
+        url('font/roboto-regular.woff2') format('woff2'); }
+@font-face { font-family: 'roboto'; font-style: normal; font-weight: 500; font-display: swap; src: url('font/roboto-medium.woff') format('woff'),
+        url('font/roboto-medium.woff2') format('woff2'); }
+@font-face { font-family: 'roboto'; font-style: normal; font-weight: 300; font-display: swap; src: url('font/roboto-light.woff') format('woff'),
+        url('font/roboto-light.woff2') format('woff2'); }
+/* rubik */
+@font-face { font-family: 'rubik'; font-style: normal; font-weight: 600; font-display: swap; src: url('font/rubik-semibold.woff') format('woff'),
+        url('font/rubik-semibold.woff2') format('woff2'); }
+/* sansitaone */
+@font-face { font-family: 'sansitaone'; font-style: normal; font-weight: 400; font-display: swap; src: url('font/sansitaone.woff') format('woff'),
+        url('font/sansitaone.woff2') format('woff2'); }

@@ -1,0 +1,35 @@
+.services { display: flex; justify-content: space-around; padding: 60px 0; }
+.services .service { display: flex; max-width: 275px; padding: 0; column-gap: 25px; padding: 20px 0; max-width: 275px; position: relative; }
+.services .service::before { content: ''; position: absolute; width: 1px; border-left: 1px solid rgba(0, 0, 0, 0.1); height: 100%; right: 0; top: 0; margin-right: -59px; }
+.services .service:last-child::before { display: none; }
+.services .service .service-img { display: grid; align-items: center; }
+.services .service h5 { font-family: var(--secondary-font-family); font-size: 18px; font-weight: 500; color: #191c1f; }
+.service-des { display: flex; flex-direction: column; justify-content: center; }
+.services .service p { font-family: var(--secondary-font-family); font-weight: 400; font-size: 16px; line-height: 19px; padding-top: 10px; }
+.services .service-2 { max-width: 248px; }
+.services .service-3 { max-width: 265px; }
+.services .service-4 { max-width: 210px; }
+@media (max-width:1399px) {
+ .services .service::before { display: none; }
+.services .service { max-width: 25%; padding: 10px 0; padding-left: 12px; padding-right: 12px; column-gap: 15px; }
+.services .service p { line-height: 25px; }
+.services .service-2 { max-width: 25%; }
+.services .service-3 { max-width: 25%; }
+.services .service-4 { max-width: 25%; }
+}
+@media (max-width:991px) {
+.services .service .service-img { width: 50px; }
+.services .row { row-gap: 30px; }
+.services .service { max-width: 50%; padding: 0; padding-left: 12px; padding-right: 12px; padding-left: 10%; }
+}
+@media (max-width:767px) {
+.services .service p { padding-top: 5px; }
+.services { padding: 50px 0; }
+.services .service { padding-left: 6%; }
+}
+@media (max-width:575px) {
+.services .service { max-width: 100%; padding-left: 25%; }
+}
+@media (max-width:460px) {
+.services .service {   padding-left: 12px; }
+}

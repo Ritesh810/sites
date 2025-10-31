@@ -1,0 +1,20 @@
+.best-seller .section-title { padding-bottom: 10px; display: flex; align-items: center; justify-content: space-between; padding-right: 0; padding-left: 0; }
+.best-seller .row { row-gap: 30px; }
+.best-seller .section-title a { text-decoration: underline; color: #000000; font-family: var(--primary-font-family); font-weight: 500; font-size: 16px; display: flex; align-items: center; }
+.best-seller .section-title a:hover { color: #588157; filter: brightness(0) saturate(100%) invert(45%) sepia(12%) saturate(998%) hue-rotate(70deg) brightness(99%) contrast(96%); transition: all 500ms; }
+.best-seller .section-title svg { margin-left: 10px; }
+.best-seller .treding-product { padding-left: 0; padding-right: 15px; }
+.best-seller .treding-product-2 { padding-left: 15px; padding-right: 15px; }
+.best-seller .treding-product-3 { padding-left: 15px; padding-right: 15px; }
+.best-seller .treding-product-4 { padding-left: 15px; padding-right: 0px; }
+@media (max-width:1399px) {
+ .best-seller .treding-product { padding-left: 12px; padding-right: 12px; }
+.best-seller .section-title { padding-bottom: 10px; padding-right: 12px; padding-left: 12px; }
+ }
+@media (max-width:991px) {
+ .best-seller .section-title { padding-bottom: 0px; }
+ }
+@media (max-width:767px) {
+ .best-seller .row { row-gap: 25px; }
+ }
+

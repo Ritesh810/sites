@@ -1,0 +1,26 @@
+.faq { position: relative; overflow: hidden; z-index: 0; background-color: transparent; }
+.faq::before { position: absolute; content: ''; width: 60%; height: 100%; right: -1.5%; top: 0; background-image: url('../images/faq-bg.png'); background-repeat: no-repeat; background-position: top right; z-index: -1; }
+.faq::after { position: absolute; content: ''; width: 60%; height: 100%; left: -13%; top: 0; background-image: url('../images/faq-bg.png'); background-repeat: no-repeat; background-position: bottom  left; z-index: -1; }
+.accordion-button { background-color: transparent; border: none; padding: 20px 0 20px 0; font-family: var(--secondary-font-family); font-weight: 400; font-size: 18px; color: #000; }
+.accordion-button:focus { box-shadow: none; }
+.accordion-button::after { flex-shrink: 0; width: auto; height: auto; margin-left: auto; content: ""; background-image: none; background-repeat: no-repeat; background-size: unset; transition: var(--bs-accordion-btn-icon-transition); }
+.accordion-button::after { content: '\002B'; font-size: 1.25rem; color: #000; transform: rotate(0deg); }
+.accordion-button:not(.collapsed)::after { content: '\2212'; font-size: 1.5rem; color: #000; }
+.accordion-button:not(.collapsed)::after { background-image: none; transform: var(--bs-accordion-btn-icon-transform); }
+.accordion-button:not(.collapsed) { color: unset; box-shadow: none; background-color: unset; }
+.accordion-body { padding: 0 0 20px 0; font-family: var(--primary-font-family); font-weight: 400; font-size: 16px; line-height: 30px; color: #616161; padding-right: 70px; }
+.accordion-item { border: none; border-bottom: 1px solid rgba(0, 0, 0, 0.06); background-color: transparent; }
+.accordion-body { border-top: none; padding-bottom: 20px; }
+.accordion-header { margin: 0; }
+.accordion-flush .accordion-item { border: none; }
+.accordion-item:last-child { border-bottom: 1px solid rgba(0, 0, 0, 0.05); }
+.accordion-button:focus { box-shadow: none; }
+
+@media (max-width:991px) {
+ .accordion-body { padding-right: 30px; }
+ }
+@media (max-width:767px) {
+ .accordion-body { padding-right: 12px; }
+.faq::after { display: none; }
+ }
+

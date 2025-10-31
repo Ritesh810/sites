@@ -1,0 +1,6 @@
+.header { position: relative; overflow: hidden; }
+.mega-menu { position: absolute; width: 100%; top: 130px; z-index: 99999; left: 0; background-color: #fff; display: none; transition: opacity 0.3s ease; }
+.mega-menu.show { display: block; }
+.mega-menu .container { max-width: 1530px; padding-top: 60px; padding-bottom: 60px; }
+.mega-menu p { text-align: center; font-family: var(--secondary-font-family); font-weight: 400; font-size: 18px; line-height: 21px; text-transform: capitalize; color: #000; padding-top: 15px; }
+

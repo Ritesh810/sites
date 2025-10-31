@@ -1,0 +1,7 @@
+.wishlist { padding-top: 60px; }
+.wishlist .price { font-weight: 600; }
+.wishlist .delete-img { position: absolute; top: 15px; right: 17px; }
+@media (max-width:575px) {
+ .wishlist .delete-img img { margin: 0; }
+ }
+

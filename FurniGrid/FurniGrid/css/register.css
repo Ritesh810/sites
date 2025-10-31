@@ -1,0 +1,38 @@
+.register .register-form { padding-top: 60px; }
+.register .f-name { padding-bottom: 30px; }
+.register .l-name { padding-bottom: 30px; }
+.register .e-mail { padding-bottom: 30px; }
+.register .p-word { padding-bottom: 4px; }
+.register .f-pass { font-family: var(--primary-font-family); font-weight: 400; font-size: 14px; line-height: 18px; text-transform: capitalize; color: #616161; }
+.register-form input { font-family: var(--primary-font-family); font-weight: 400; font-size: 16px; line-height: 20px; text-transform: capitalize; color: rgba(97, 97, 97, 0.44); padding: 15px 0 15px 15px; border-radius: 8px; border: 1px solid  rgba(0, 0, 0, 0.17); }
+.register-form label { font-family: var(--primary-font-family); font-weight: 400; font-size: 16px; line-height: 20px; text-transform: capitalize; color: #000; padding-bottom: 16px; }
+.register-form input:focus { border: 1px solid  rgba(0, 0, 0, 0.17); }
+.register-form ::placeholder { font-family: var(--primary-font-family); font-weight: 400; font-size: 16px; line-height: 20px; text-transform: capitalize; color: rgba(97, 97, 97, 0.44); }
+.register-form textarea { margin: 30px 0; padding: 15px 0 18px 20px; }
+.register-form textarea { height: 195px; font-family: var(--primary-font-family); font-weight: 400; font-size: 16px; color: rgba(97, 97, 97, 0.44); text-transform: capitalize; border: 1px solid  rgba(0, 0, 0, 0.17); }
+.register-form textarea:focus { border: 1px solid  rgba(0, 0, 0, 0.17); }
+.register-form .theme-button { padding: 15px 30px; display: block; margin-top: 30px; }
+.register .form-row { flex-wrap: wrap; }
+.register .log-in { padding: 0; text-align: center; background-color: transparent; color: #588157; }
+.register .log-in:hover { background-color: #588157; color: #fff; transition: all 400ms; }
+@media (max-width:1399px) {
+ }
+@media (max-width:1199px) {
+ }
+@media (max-width:991px) {
+ .contact-form input { padding: 13px 0 13px 20px; }
+ }
+@media (max-width:767px) {
+ .register-form .theme-button { padding: 12px 30px; }
+.register .log-in { padding: 0; }
+ }
+@media (max-width:575px) {
+ .login .f-name { padding-bottom: 28px; }
+.register-form input { padding: 12px 0 12px 15px; }
+.register-form label { padding-bottom: 14px; }
+.register .f-name { padding-bottom: 25px; }
+.register .l-name { padding-bottom: 25px; }
+.register .e-mail { padding-bottom: 25px; }
+ }
+@media (max-width:430px) {
+ }

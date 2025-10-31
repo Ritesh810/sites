@@ -1,0 +1,63 @@
+.product-section-2 .stock-wishlist .wishlist-icon img { width: 16px; height: 14px; padding: 0; }
+.product-section-2 .stock-wishlist .wishlist-icon { width: unset; height: unset; }
+.product-section-2 .stock-wishlist .wishlist-icon a { width: 40px; height: 40px; display: flex; justify-content: center; align-items: center; }
+.product-section-2 .product-details h4 { padding: 7px 0 10px 0; }
+.product-section-2 .product-deal p { color: #1a9452; line-height: 20px; }
+.product-section-2 .product-deal { background: rgba(26, 148, 82, 0.1); padding: 13px 20px; margin: 25px 0; }
+.product-section-2 .product-deal img { margin-right: 10px; }
+.product-section-2 .product-details .theme-button { margin: 0 12px 0 0; }
+.product-section-2 .product-details .buy-now-btn { margin: 0 0 0 13px !important; }
+.product-section-2 .cart-buy-btn { margin-top: 25px; }
+.product-section-2 .payment-box { position: relative; display: flex; justify-content: center; padding: 30px 15px 20px 15px; }
+.product-section-2 .payment-box p { position: absolute; top: -15px; padding: 0 10px; background-color: #fff; }
+.product-section-2 .product-details .com-share-opp { margin-bottom: 32px; }
+.product-section-2 .product-des-accordion { margin-top: 60px; }
+.product-section-2 .products-slider-main { margin: 60px 0 0 0; }
+.product-section-2 .products-products-items-main { position: relative; padding: 0 0 0 285px; }
+.product-section-2 .products-imgs { flex-direction: column; max-width: 171px; position: absolute; left: 80px; top: 60px; row-gap: 28px; }
+.product-section-2 .products-imgs .product-box { min-width: 171px; min-height: 171px; display: flex; justify-content: center; align-items: center; background: rgba(179, 160, 146, 0.08); }
+.product-section-2 .products-imgs .product-inner { min-height: 100%; }
+.product-section-2 .products-imgs .active { box-shadow: inset 0 0 0 10px #fff; border: 1px solid rgba(0, 0, 0, 0.1); }
+.product-section-2 .product-details { padding: 60px 265px 0px 67px; }
+@media (max-width:1799px) {
+ .product-section-2 .products-products-items-main { position: relative; padding: 0px 0px 0px 235px; }
+.product-section-2 .product-details { padding: 60px 125px 0px 67px; }
+.product-section-2 .products-imgs { left: 40px; }
+ }
+@media (max-width:1599px) {
+ .product-section-2 .product-details { padding: 60px 50px 0px 50px; }
+.product-section-2 .products-slider-main .product-slider-img { padding: 50px 0 }
+ }
+@media (max-width:1399px) {
+ .product-section-2 .product-details { padding: 60px 20px 0px 50px; }
+.product-section-2 .products-slider-main .product-slider-img { padding: 50px 20px; }
+ }
+@media (max-width:1350px) {
+ .product-section-2 .products-products-items-main { padding: 0px 0px 0px 200px; }
+.product-section-2 .products-imgs { left: 20px; }
+.product-section-2 .product-details { padding: 60px 20px 0px 20px; }
+ }
+@media (max-width:1199px) {
+ .product-section-2 .products-slider-main .product-slider-img { padding: 50px 35px; }
+ }
+@media (max-width:991px) {
+ .product-section-2 .products-slider-main { padding: 0 20px; }
+.product-section-2 .products-products-items-main { padding: 0px 0px 0px 190px; }
+ }
+@media (max-width:767px) {
+ .product-section-2 .products-imgs .product-box img { max-width: 70% !important; margin: 0 auto; }
+.product-section-2 .products-imgs .product-box { min-width: 140px; min-height: 140px; }
+.product-section-2 .products-imgs .product-inner { display: flex; justify-content: center; align-items: center; }
+.product-section-2 .products-products-items-main { padding: 0px 0px 0px 175px; }
+ }
+@media (max-width:575px) {
+ .product-section-2 .products-imgs .product-box img { max-width: 60% !important; }
+.product-section-2 .products-imgs .product-box { min-width: 110px; min-height: 120px; }
+.product-section-2 .slick-prev { left: 7px; }
+.product-section-2 .slick-next { right: 7px; }
+ }
+@media (max-width:430px) {
+ .product-section-2 .products-imgs .product-box img { max-width: 55% !important; }
+.product-section-2 .products-imgs .product-box { max-width: 110px; min-height: 110px; }
+.product-section-2 .products-products-items-main { padding: 0px 0px 0px 125px; }
+ }

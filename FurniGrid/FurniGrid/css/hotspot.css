@@ -1,0 +1,65 @@
+.hotspot { overflow: hidden; }
+.hotspot .hotspot-img { width: 100%; padding: 0; min-height: 723px; position: relative; }
+.hotspot-main-box input { display: none; }
+.hotspot-box { display: none; background-color: white; padding: 10px; border: 1px solid #ccc; border-radius: 5px; position: absolute; top: -40; left: 50px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); transition: all 500ms; }
+.hotspot-toggle:checked+.hover-icon+.hotspot-box { display: block; transition: all 500ms; }
+.hotspot-toggle:checked+.hover-icon i { transform: rotate(45deg); }
+.hotspot-inner { column-gap: 15px; align-items: center; }
+.hover-icon { cursor: pointer; background: rgba(255, 255, 255, 0.49); border-radius: 50%; width: 34px; height: 34px; text-align: center; display: inline-block; display: flex; justify-content: center; align-items: center; }
+.hover-icon i { color: #000000; width: 20px; height: 20px; font-size: 12px; background-color: #fff; display: flex; justify-content: center; align-items: center; border-radius: 50%; }
+.hotspot-toggle:checked+.hover-icon i { transform: rotate(45deg); }
+.hotspot-box-img { width: 90px; height: 97px; display: flex; justify-content: center; align-items: center; background-color: #D9D9D9; }
+.hotspots-des p { font-family: var(--secondary-font-family); font-weight: 400; font-size: 16px; line-height: 19px; text-align: center; color: #7b7b7b; padding-top: 5px; padding-bottom: 2px; }
+.hotspots-des .price { font-family: var(--primary-font-family); font-weight: 500; font-size: 14px; color: #000; }
+.hotspots-des .original-price { font-family: var(--primary-font-family); font-weight: 400; font-size: 12px; text-decoration: line-through; color: #cbcbcb; }
+.spot-one .hover-icon { position: absolute; top: 71%; left: 9%; }
+.spot-one .hotspot-box { top: 52%; left: 9%; }
+.spot-two .hover-icon { position: absolute; top: 55%; left: 25%; }
+.spot-two .hotspot-box { top: 37%; left: 19.5%; }
+.spot-three .hover-icon { position: absolute; top: 8%; right: 17.8%; }
+.spot-three .hotspot-box { top: 15%; left: 75%; }
+.spot-four .hover-icon { position: absolute; top: 59%; right: 17.8%; }
+.spot-four .hotspot-box { top: 40%; left: 75%; }
+@media (max-width:1399px) {
+ .hotspot .hotspot-img { width: 100%; min-height: 510px; }
+.spot-one .hotspot-box { top: 46%; left: 2%; }
+.spot-two .hotspot-box { top: 29%; left: 17.5%; }
+.spot-three .hover-icon { top: 8%; right: 17.4%; }
+.spot-three .hotspot-box { top: 16%; left: 73%; }
+.spot-four .hotspot-box { top: 33%; left: 72%; }
+ }
+@media (max-width:1199px) {
+ .hotspot .hotspot-img { width: 100%; min-height: 390px; }
+.spot-one .hotspot-box { top: 37%; left: 2%; }
+.spot-two .hotspot-box { top: 21%; left: 23.5%; }
+.spot-four .hotspot-box { top: 26%; left: 54%; }
+.spot-three .hotspot-box { top: 19%; left: 54%; }
+ }
+@media (max-width:991px) {
+ .hotspot .hotspot-img { width: 100%; min-height: 349px; }
+.hotspot-box-img { width: 88px; height: 75px; }
+.spot-two .hotspot-box { top: 24%; left: 29.5%; }
+.spot-one .hotspot-box { top: 70%; left: 15%; }
+.spot-one .hover-icon { top: 71%; left: 8%; }
+ }
+@media (max-width:767px) {
+ .hotspot .hotspot-img { width: 100%; min-height: 280px; }
+.hotspot-box { padding: 7px; }
+.spot-two .hotspot-box { top: 18%; left: 29.5%; }
+.spot-two .hotspot-box { top: 20%; left: 29.5%; }
+.spot-three .hotspot-box { top: 22%; left: 54%; }
+.spot-four .hotspot-box { top: 23%; left: 54%; }
+ }
+@media (max-width:575px) {
+ .hotspot .hotspot-img { width: 100%; min-height: 235px; }
+.spot-one .hotspot-box { top: 70%; left: 17%; }
+.spot-two .hotspot-box { top: 12%; left: 3.5%; }
+.spot-three .hotspot-box { top: 5%; left: 21%; }
+.spot-four .hotspot-box { top: 19%; left: 22%; }
+ }
+@media (max-width:430px) {
+ .hotspot-main-box { display: none; }
+.hotspot .hotspot-img { width: 100%; min-height: 100%; }
+ }
+@media (max-width:360px) {
+ }

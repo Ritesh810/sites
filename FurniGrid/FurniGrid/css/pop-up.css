@@ -1,0 +1,22 @@
+.pop-up .close-btn { position: absolute; right: 25px; top: 22px; border: none; background: transparent; font-size: 20px; }
+.pop-up { top: 14%; background-color: unset !important; }
+.pop-up .modal-dialog { max-width: 642px !important; }
+.pop-up .pop-up-content { padding: 50px 72px ; text-align: center; background-image: url('../images/pop-up-bg.png'); background-repeat: no-repeat; }
+.pop-up .pop-up-content p { padding-top: 15px; padding-bottom: 30px; }
+.pop-up .news-letter form { border: 1px solid #FFFFFF; border-radius: 8px; background-color: transparent; margin: 0; }
+.pop-up .news-letter form input { padding: 18px 15px 18px 18px; font-family: var(--secondary-font-family); font-size: 14px; line-height: 16px; font-weight: var(--regular-font); color: #b8b8b8; border-top-right-radius: 0; border-bottom-right-radius: 0; background-color: transparent; border: 1px solid rgba(0, 0, 0, 0.1); width: 100%; border-right: none; }
+.pop-up .news-letter form input:focus { border: 1px solid rgba(0, 0, 0, 0.1); border-right: none; }
+.pop-up .form-control:focus { color: unset; background-color: unset; border-color: unset; outline: 0; box-shadow: none; }
+.pop-up .news-letter .news-btn { padding: 15px 30px; font-family: var(--primary-font-family); font-size: 16px; line-height: 20px; font-weight: var(--medium-font); color: #FFFFFF; background-color: #588157; border: none; border-radius: 7px !important; border: 1px solid #588157; }
+.pop-up .news-letter .news-btn:hover { border: 1px solid #588157 !important; background-color: #FFFFFF; color: #588157 !important; transition: all 400ms; }
+.pop-up .news-letter .news-btn:active { border-color: #588157 !important; }
+.pop-up .news-letter form ::placeholder { font-family: var(--secondary-font-family); font-size: 14px; font-weight: var(--regular-font); color: #BBBBBB; }
+@media (max-width:767px) {
+ .pop-up .modal-dialog { max-width: 90% !important; margin: 0 auto; }
+.pop-up .pop-up-content { padding: 40px 30px; }
+ }
+@media (max-width:575px) {
+.pop-up .pop-up-content { padding: 35px 25px; }
+.pop-up .pop-up-content p { padding-top: 15px; padding-bottom: 20px; }
+}
+

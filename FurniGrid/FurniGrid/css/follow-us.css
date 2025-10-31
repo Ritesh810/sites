@@ -1,0 +1,18 @@
+.follow-us .container-fluid { padding: 0 -12px; }
+.follow-us .section-title { padding-bottom: 40px; }
+.follow-us .follow-img { max-height: 384px; max-width: 20%; padding: 0; position: relative; overflow: hidden; }
+.follow-img:hover .i-icon-img { opacity: 1; transition: all 600ms; }
+.follow-us .i-icon-img { position: absolute; top: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); opacity: 0; }
+.follow-us .i-icon-img i { font-size: 32px; color: white; }
+@media (max-width:991px) {
+ .follow-us .follow-img { max-width: 33.333%; }
+.follow-us .i-icon-img i { font-size: 26px; }
+.follow-us .section-title { padding-bottom: 30px; }
+}
+@media (max-width:575px) {
+ .follow-us .follow-img { max-width: 50%; }
+ }
+@media (max-width:430px) {
+ .follow-us .section-title { padding-bottom: 25px; }
+ }
+

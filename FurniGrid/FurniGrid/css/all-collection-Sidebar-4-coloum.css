@@ -1,0 +1,19 @@
+.sidebar-coloum-4 .p-filter-coloum .coloum { transition: all 400ms; padding-left: 0px; border-left: none; }
+.sidebar-coloum-4 .row { row-gap: 30px; }
+.coloum-4-product-main { flex-wrap: wrap; row-gap: 30px; }
+.coloum-4-product-main .t-product-des { padding: 20px 10px 10px 10px; }
+.sidebar-coloum-4 .p-filter { padding: 60px 0 20px 0; border-bottom: 1px solid #EAEAEA; margin-bottom: 40px; }
+.sidebar-coloum-4-inner { padding: 0; }
+.sidebar-coloum-4-inner .coloum-btn { margin-top: 60px; }
+.sidebar-coloum-4 .treding-product { padding: 0 15px 0 0px; }
+.sidebar-coloum-4 .treding-product-2 { padding: 0 15px 0 15px; }
+.sidebar-coloum-4 .treding-product-3 { padding: 0 15px 0 15px; }
+.sidebar-coloum-4 .treding-product-4 { padding: 0 0px 0 15px; }
+@media (max-width:1399px) {
+ .sidebar-coloum-4 .treding-product { padding: 0 12px 0 12px; }
+.sidebar-coloum-4 .treding-product-2 { padding: 0 12px 0 12px; }
+.sidebar-coloum-4 .treding-product-3 { padding: 0 12px 0 12px; }
+.sidebar-coloum-4 .treding-product-4 { padding: 0 12px 0 12px; }
+.sidebar-coloum-4-inner { padding: 0 12px; }
+ }
+

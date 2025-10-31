@@ -1,0 +1,28 @@
+.sale-banner { padding: 71px 0; background-position: right; background-repeat: no-repeat; background-size: cover; }
+.sale-banner .sale-banner-content .sub-title { font-family: var(--secondary-font-family); font-weight: 400; font-size: 18px; line-height: 23px; color: #588157; }
+.sale-banner .sale-banner-content p { padding: 15px 0 30px 0; }
+.sale-banner h1 { font-size: 42px; line-height: 62px; }
+@media (max-width:1399px) {
+ .sale-banner h1 { font-size: 38px; line-height: 54px; }
+.sale-banner { background-position-x:  80%; }
+ }
+@media (max-width:1199px) {
+ .sale-banner h1 { font-size: 36px; line-height: 52px; }
+.sale-banner { background-position-x:  55%; }
+.sale-banner .sale-banner-content p { padding: 5px 0 25px 0; }
+ }
+@media (max-width:991px) {
+ .sale-banner h1 { font-size: 34px; line-height: 48px; }
+.sale-banner { padding: 70px 0; }
+.sale-banner .sale-banner-content { padding-top: 50px; text-align: center; order: 2; }
+.sale-banner .sale-banner-img { justify-content: center; order: 1; }
+.sale-banner { background-position-x:  0%; border-top: 1px solid #e1e1e1; }
+ }
+@media (max-width:767px) {
+ .sale-banner h1 { font-size: 28px; line-height: 42px; }
+ }
+@media (max-width:575px) {
+ .sale-banner .sale-banner-content p { padding: 5px 0 20px 0; }
+.sale-banner { padding: 50px 0; }
+ }
+
