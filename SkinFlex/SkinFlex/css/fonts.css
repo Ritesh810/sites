@@ -1,0 +1,57 @@
+/* alice */
+@font-face {
+    font-family: 'alice';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('font/alice-regular.woff') format('woff'),
+        url('font/alice-regular.woff2') format('woff2');
+}
+
+/* cormorant */
+@font-face {
+    font-family: 'carmorant';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('font/cormorant-semibold.woff') format('woff'),
+        url('font/cormorant-semibold.woff2') format('woff2');
+}
+
+/* tomatogroteck */
+@font-face {
+    font-family: 'tomotogrotesk';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url('font/tomatogrotesk-light.woff') format('woff'),
+        url('font/tomatogrotesk-light.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'tomatogrotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('font/tomatogrotesk-regular.woff') format('woff'),
+        url('font/tomatogrotesk-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'tomatogrotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('font/tomatogrotesk-medium.woff') format('woff'),
+        url('font/tomatogrotesk-medium.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'tomatogrotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('font/tomatogrotesk-semibold.woff') format('woff'),
+        url('font/tomatogrotesk-semibold.woff2') format('woff2');
+}
+

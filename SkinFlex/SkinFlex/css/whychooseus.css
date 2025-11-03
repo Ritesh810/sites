@@ -1,0 +1,147 @@
+.why-choose-us h2{
+    margin-bottom: 15px;
+}
+.why-choose-us p{
+    margin-bottom: 30px;
+}
+
+.why-choose-content h4{
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.why-choose-info-main{
+    flex-wrap: wrap;
+}
+
+.why-choose-content{
+    padding-right: 26px;
+}
+
+.why-choose-content:nth-child(3) p{
+    margin-bottom: 0;
+}
+
+.why-choose-content:nth-child(4) p{
+    margin-bottom: 0;
+}
+
+.why-choose-info img{
+    filter: drop-shadow(20px 10px 0px #f4ebce);
+}
+
+.why-choose-image{
+    position: relative;
+}
+
+.why-choose-image .why-choose-badge{
+    position: absolute;
+    max-width: 374px;
+    height: 135px;
+    border-radius: 80px;
+    display: flex;
+    align-items: center;
+    bottom: 3%;
+    left: 10%;
+    background-color: #FFFFFF;
+    opacity: 0.9;
+    z-index: 1;
+    padding: 20px 30px;
+}
+ 
+.why-choose-image img{
+    border-radius: 460px;
+}
+
+.why-choose-badge-img{
+    width: 20px;
+    height: 30px;
+    margin-right: 15px;
+}
+
+.why-choose-badge-img img{
+    border-radius: 0;
+    width: 20px;
+    height: auto;
+} 
+
+.why-choose-badge h4{
+    text-transform: none;
+}
+
+
+.why-choose-badge p{
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+@media (max-width:1499px) {
+    
+}
+
+@media (max-width:1199px) {
+    .why-choose-content{
+        padding-right: 20px;
+    }
+}
+
+@media (max-width:991px) {
+    .why-choose-us .container .row{
+        justify-content: center;
+    }
+
+    .why-choose-us h5{
+        margin-top: 40px;
+    }
+
+    .why-choose-us h2,p{
+        text-align: center;
+    }
+    .why-choose-content p{
+        text-align: center;
+    }
+    .why-choose-info{
+        display: grid;
+        justify-content: center;
+    } 
+    .why-choose-info-main h4{
+        text-align: center;
+    }
+    .why-choose-content:nth-child(3) p{
+        margin-bottom: 30px;
+    }
+    
+    .why-choose-content:nth-child(4) p{
+        margin-bottom: 30px;
+    }
+    .why-choose-image{
+        justify-content: center !important;
+    }
+    .whychooseus{
+        order: 2;
+    }
+}
+
+@media (max-width:767px) {
+    .why-choose-badge h4{
+        text-align: center;
+    }
+    
+}
+
+@media (max-width:575px) {
+    .why-choose-us h2{
+        margin-bottom: 8px;
+    }
+    .why-choose-image .why-choose-badge{
+        bottom: 1%;
+    }
+}
+
+@media (max-width:450px) {
+
+}
+
+
+
+
