@@ -1,0 +1,142 @@
+.about .about-img img{
+    border-radius: 460px;
+}
+
+.about .about-img{
+    position: relative;
+}
+
+.about {
+    position: relative;
+}
+
+.about .about-img::before{
+    content: '';
+    position: absolute;
+    top: 10%;
+    right: 0;
+    margin-right: 12%;
+    background-image: url('../images/about-badge.png');
+    width: 120px;
+    height: 120px;
+    animation: rotate 3s linear infinite;
+}
+
+.about-content h2{
+    margin-bottom: 15px;
+}
+
+.about-content p{
+    margin-bottom: 40px;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(-384%);
+    }
+    50%{
+        transform: rotate(180deg);  
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@media (max-width:1399px) {
+    .about::before{
+        display: none;
+    }
+    .about::before{
+        display: none;
+    }
+}
+
+@media (max-width:1199px) {
+    .about::before{
+        display: none;
+    }
+    .about::before{
+        display: none;
+    }
+    
+    .about .about-img::before{
+        content: '';
+        position: absolute;
+        top: 1%;
+        right: 0;
+        background-image: url('../images/about-badge.png');
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media (max-width:991px) {
+    .about-img{
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-content{
+        margin-top: 30px;
+    }
+    .about-content h2,h5{
+        text-align: center;
+    }
+    .about-content p{
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .about-button{
+        display: flex;
+        justify-content: center;
+    }
+    .about .about-img::before{
+        top: 10%;
+        left: auto;
+        width: 100px;
+        height: 100px;
+        background-size: 100px;
+        margin-right: 18%;
+    }
+}
+
+@media (max-width:767px) {
+    .about .about-img::before{
+        top: 10%;
+        /* right : 0; */
+        background-image: url('../images/about-badge.png');
+        width: 90px;
+        height: 90px;
+        background-size: 90px;
+    }
+    .about .about-img::before{
+        top: 10%;
+        left: auto;
+        width: 90px;
+        height: 90px;
+        background-size: 90px;
+        margin-right: 7%;
+    }
+}
+
+@media (max-width:575px) {
+    .about .about-img::before{
+        top: 10%;
+        left: auto;
+        width: 90px;
+        height: 90px;
+        background-size: 90px;
+        margin-right: 1%;
+    }
+}
+
+@media (max-width:450px) {
+    .about .about-img::before{
+        top: 10%;
+        right: 0;
+        width: 90px;
+        height: 90px;
+        background-size: 90px;
+        /* transform: translateX(0%); */
+    }
+}

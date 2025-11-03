@@ -1,0 +1,60 @@
+.partners-company{
+    background-color: #FEFCF9;
+    padding: 60px 0;
+}
+
+.company-image{
+    display: flex;
+    align-items: center;
+}
+
+.company-2, .company-4, .company-3{
+    justify-content: center;
+}
+
+.company-5{
+    justify-content: end;
+}
+
+.company-image img{
+    opacity: 0.2;
+}
+
+.company-image img:hover{
+    opacity: 1;
+    transition: all 800ms;
+}
+
+@media (max-width:1499px) {
+    
+}
+
+@media (max-width:1199px) {
+    
+}
+
+@media (max-width:991px) {
+    .partners-company .row{
+        justify-content: center;
+        row-gap: 25px;
+    }
+    .company-5{
+        justify-content: center;
+    }
+    .company-image{
+        justify-content: center;
+    }
+}
+
+@media (max-width:767px) {
+   
+    
+}
+
+@media (max-width:575px) {
+
+}
+
+@media (max-width:450px) {
+
+}

@@ -1,0 +1,99 @@
+.cta{
+    background-color: #403732;
+    margin: 0 10px;
+}
+
+.cta-content h5{
+    color: #EEE1B3;
+}
+
+.cta-content h3{
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.cta-content p{
+    color: #DCDCDC;
+}
+
+.cta-button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cta-button .theme-button{
+    background-color: #FFFFFF;
+    color: #324320;
+    margin-right: 15px;
+    border: 1px solid #FFFFFF;
+}
+
+.cta-button .chat-button{
+    background-color: #403732;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    margin-right: 0;
+}
+
+.cta-button .theme-button:hover{
+    background-color: #403732;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    transition: all 700ms;
+}
+
+.cta-button .chat-button:hover{
+    background-color: #FFFFFF;
+    color: #403732;
+    transition: all 700ms;
+}
+
+@media (max-width:1499px) {
+    
+}
+
+@media (max-width:1199px) {
+    
+}
+
+@media (max-width:991px) {
+    .cta .row{
+        justify-content: center;
+    }
+    .cta-content h3{
+        text-align: center;
+    }
+    .cta-button {
+        margin-top: 25px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width:767px) {
+   
+    
+}
+
+@media (max-width:575px) {
+
+}
+
+@media (max-width:400px) {
+    .cta-button {
+        margin-top: 25px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .cta-button .theme-button{
+        margin-right: 0;
+    }
+}
+
+
+
+
+
+
