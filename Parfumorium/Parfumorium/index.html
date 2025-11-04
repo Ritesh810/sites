@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parfumorium</title>
+
+    <!-- font-avesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- owl-carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+
+    <!-- font -->
+    <link rel="stylesheet" href="css/fonts.css">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/hero-banner.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/prd.css">
+    <link rel="stylesheet" href="css/cta.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="css/testimonial.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid p-0">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="fa-solid fa-bars"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-lg-0 col-lg-5">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#home" title="Home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about" title="about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#menu" title="Menu">Collection</a>
+                            </li>
+                        </ul>
+                        <a class="p-0 logo col-lg-2 text-center" href="#" title="parfumorium">Parfumorium</a>
+                        <div class="user-icon nav-button d-none d-lg-block col-lg-5 text-end">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M15.7569 14.5735L11.8126 10.6129C12.8267 9.44901 13.3824 7.98455 13.3824 6.45999C13.3824 2.89801 10.3807 0 6.69125 0C3.00182 0 0.00012207 2.89801 0.00012207 6.45999C0.00012207 10.022 3.00182 12.92 6.69125 12.92C8.07631 12.92 9.39621 12.5167 10.5247 11.751L14.4989 15.7416C14.665 15.9082 14.8885 16 15.1279 16C15.3545 16 15.5695 15.9166 15.7327 15.7649C16.0795 15.4428 16.0905 14.9085 15.7569 14.5735ZM6.69125 1.68522C9.41832 1.68522 11.6369 3.82713 11.6369 6.45999C11.6369 9.09286 9.41832 11.2348 6.69125 11.2348C3.96418 11.2348 1.74563 9.09286 1.74563 6.45999C1.74563 3.82713 3.96418 1.68522 6.69125 1.68522Z"
+                                    fill="black" />
+                            </svg>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M4.44454 5.3334C4.44454 4.39042 4.81914 3.48605 5.48593 2.81926C6.15273 2.15247 7.05706 1.77787 8.00008 1.77787C8.9431 1.77787 9.84745 2.15247 10.5142 2.81926C11.181 3.48605 11.5556 4.39042 11.5556 5.3334C11.5556 6.27641 11.181 7.18076 10.5142 7.84751C9.84745 8.51435 8.9431 8.88893 8.00008 8.88893C7.05706 8.88893 6.15273 8.51435 5.48593 7.84751C4.81914 7.18076 4.44454 6.27641 4.44454 5.3334ZM11.3992 9.4427C12.2449 8.74306 12.8543 7.79942 13.1439 6.74067C13.4336 5.68184 13.3895 4.55952 13.0177 3.52673C12.6458 2.49394 11.9644 1.60104 11.0663 0.969862C10.1682 0.338692 9.09732 0 7.99963 0C6.90195 0 5.83101 0.338692 4.93295 0.969862C4.03488 1.60104 3.35345 2.49394 2.98163 3.52673C2.6098 4.55952 2.56571 5.68184 2.85537 6.74067C3.14502 7.79942 3.75432 8.74306 4.6001 9.4427C1.76545 10.4409 0.00012207 12.664 0.00012207 15.1111C0.00012207 15.3468 0.093775 15.573 0.260467 15.7396C0.427169 15.9064 0.653256 16 0.889006 16C1.12476 16 1.35084 15.9064 1.51754 15.7396C1.68424 15.573 1.77789 15.3468 1.77789 15.1111C1.77789 13.0933 3.87121 10.6667 8.00008 10.6667C12.1289 10.6667 14.2223 13.0933 14.2223 15.1111C14.2223 15.3468 14.316 15.573 14.4826 15.7396C14.6493 15.9064 14.8754 16 15.1111 16C15.3469 16 15.573 15.9064 15.7397 15.7396C15.9063 15.573 16 15.3468 16 15.1111C16 12.664 14.2365 10.4409 11.3992 9.4427Z"
+                                    fill="black" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- header-end -->
+
+    <!-- hero-banner -->
+    <section class="hero-banner" style="background: url('images/hero-banner.png');background-size: cover;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 banner-content">
+                    <h1>Awaken your senses with our exquisite fragrances.</h1>
+                    <P class="col-lg-11">At Parfumorium, we believe that a fragrance is more than just a scent—it's an
+                        experience, a memory, and an expression of individuality</P>
+                    <div class="theme-button">
+                        <a href="#" target="_blank">Explore More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- hero-banner-end -->
+
+    <!-- about -->
+    <section class="about padding-vertical">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 about-conetnt">
+                    <img src="images/about-img.png" alt="about-img" class="img-fluid">
+                    <p>Welcome to Parfumorium, where elegance meets essence in every bottle. We are a luxury perfume
+                        house dedicated to crafting exquisite fragrances that capture the essence of sophistication and
+                        individuality. Our mission is to create scents that not only enchant the senses but also tell a
+                        unique story, reflecting the beauty and complexity of each person who wears them.</p>
+                </div>
+                <div class="col-lg-6 col-md-6 about-conetnt about-conetnt-2">
+                    <h2>Indulge in Luxurious Fragrance
+                        Creations</h2>
+                    <img src="images/about-img-2.png" alt="about-img" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about-end -->
+
+    <!-- prd -->
+    <section class="prd padding-bottom">
+        <div class="container">
+            <div class="row">
+                <h2 class="text-center">Most Popular Perfume</h2>
+                <div class="prd-item col-lg-3 col-md-6 col-sm-6 col-12">
+                    <a href="http://" target="_blank">
+                        <div class="prd-image">
+                            <img src="images/prd-img.png" alt="product-img">
+                        </div>
+                        <span class="item-name">Velvet Whisper</span>
+                        <span class="item-price">$98.00</span>
+                    </a>
+                </div>
+                <div class="prd-item col-lg-3 col-md-6 col-sm-6">
+                    <a href="http://" target="_blank">
+                        <div class="prd-image">
+                            <img src="images/prd-img-2.png" alt="product-img">
+                        </div>
+                        <span class="item-name">Velvet Whisper</span>
+                        <span class="item-price">$98.00</span>
+                    </a>
+                </div>
+                <div class="prd-item col-lg-3 col-md-6 col-sm-6">
+                    <a href="http://" target="_blank">
+                        <div class="prd-image">
+                            <img src="images/prd-img-3.png" alt="product-img">
+                        </div>
+                        <span class="item-name">Velvet Whisper</span>
+                        <span class="item-price">$98.00</span>
+                    </a>
+                </div>
+                <div class="prd-item col-lg-3 col-md-6 col-sm-6">
+                    <a href="http://" target="_blank">
+                        <div class="prd-image">
+                            <img src="images/prd-img-4.png" alt="product-img">
+                        </div>
+                        <span class="item-name">Velvet Whisper</span>
+                        <span class="item-price">$98.00</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- prd-end -->
+
+    <!-- cta -->
+    <section class="cta">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 cta-info" style="background: #000000;">
+                    <div class="cta-content">
+                        <h2>Experience Pure Luxury With
+                            Our Premium Perfumes</h2>
+                        <p>At Parfumorium, we invite you to immerse yourself in a world where luxury is a journey of
+                            sophistication and elegance. Our premium perfumes are crafted with the utmost care.</p>
+                        <div class="theme-button">Shop Now</div>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex align-items-center gx-0 gy-0 cta-image">
+                    <img src="images/cta-img.png" alt="cta-image" class="" srcset="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- cta-end -->
+
+    <!-- testimonial -->
+    <section class="testimonial padding-vertical">
+        <div class="container">
+            <div class="row">
+                <h2 class="text-center">Stories of Elegance and Essence</h2>
+            <div class="row ">
+                <div class="testimonial-box owl-carousel owl-theme gx-0">
+                    <div class="main-box text-center">
+                        <div class="inner-box">
+                            <img src="images/testimonial-img.png" class="img-fluid" alt="client">
+                            <p class="m-0">Parfumorium has completely transformed my understanding and appreciation of fine fragrances. From the moment I received my first order, I was captivated by the attention to detail and the sheer elegance of the packaging. The unboxing experience itself was a luxurious affair.</p>
+                            <h5 class="m-0">Isabelle Devereux</h5>
+                            <svg width="100" height="15" viewBox="0 0 100 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15.9581 5.66765C15.8528 5.3507 15.5654 5.12631 15.2268 5.09633L10.6081 4.68612L8.78274 0.505394C8.64797 0.198241 8.34132 0 8.00001 0C7.6587 0 7.35193 0.198241 7.21802 0.505394L5.39267 4.68612L0.773215 5.09633C0.434587 5.12691 0.147839 5.3513 0.0418804 5.66765C-0.0634679 5.98459 0.0338237 6.33223 0.289931 6.55197L3.78132 9.54695L2.75188 13.9825C2.67656 14.3087 2.80596 14.6459 3.08258 14.8415C3.23126 14.9472 3.40595 15 3.58124 15C3.73188 15 3.88264 14.9608 4.01728 14.882L8.00001 12.5523L11.982 14.882C12.2741 15.0528 12.6414 15.0371 12.9174 14.8415C13.1941 14.6459 13.3235 14.3087 13.2481 13.9825L12.2187 9.54695L15.7101 6.55197C15.9661 6.33223 16.0635 5.98531 15.9581 5.66765Z" fill="url(#paint0_linear_199_256)"/>
+                                <path d="M36.9581 5.66765C36.8528 5.3507 36.5654 5.12631 36.2268 5.09633L31.6081 4.68612L29.7827 0.505394C29.648 0.198241 29.3413 0 29 0C28.6587 0 28.3519 0.198241 28.218 0.505394L26.3927 4.68612L21.7732 5.09633C21.4346 5.12691 21.1478 5.3513 21.0419 5.66765C20.9365 5.98459 21.0338 6.33223 21.2899 6.55197L24.7813 9.54695L23.7519 13.9825C23.6766 14.3087 23.806 14.6459 24.0826 14.8415C24.2313 14.9472 24.4059 15 24.5812 15C24.7319 15 24.8826 14.9608 25.0173 14.882L29 12.5523L32.982 14.882C33.2741 15.0528 33.6414 15.0371 33.9174 14.8415C34.1941 14.6459 34.3235 14.3087 34.2481 13.9825L33.2187 9.54695L36.7101 6.55197C36.9661 6.33223 37.0635 5.98531 36.9581 5.66765Z" fill="url(#paint1_linear_199_256)"/>
+                                <path d="M57.9581 5.66765C57.8528 5.3507 57.5654 5.12631 57.2268 5.09633L52.6081 4.68612L50.7827 0.505394C50.648 0.198241 50.3413 0 50 0C49.6587 0 49.3519 0.198241 49.218 0.505394L47.3927 4.68612L42.7732 5.09633C42.4346 5.12691 42.1478 5.3513 42.0419 5.66765C41.9365 5.98459 42.0338 6.33223 42.2899 6.55197L45.7813 9.54695L44.7519 13.9825C44.6766 14.3087 44.806 14.6459 45.0826 14.8415C45.2313 14.9472 45.4059 15 45.5812 15C45.7319 15 45.8826 14.9608 46.0173 14.882L50 12.5523L53.982 14.882C54.2741 15.0528 54.6414 15.0371 54.9174 14.8415C55.1941 14.6459 55.3235 14.3087 55.2481 13.9825L54.2187 9.54695L57.7101 6.55197C57.9661 6.33223 58.0635 5.98531 57.9581 5.66765Z" fill="url(#paint2_linear_199_256)"/>
+                                <path d="M78.9581 5.66765C78.8528 5.3507 78.5654 5.12631 78.2268 5.09633L73.6081 4.68612L71.7827 0.505394C71.648 0.198241 71.3413 0 71 0C70.6587 0 70.3519 0.198241 70.218 0.505394L68.3927 4.68612L63.7732 5.09633C63.4346 5.12691 63.1478 5.3513 63.0419 5.66765C62.9365 5.98459 63.0338 6.33223 63.2899 6.55197L66.7813 9.54695L65.7519 13.9825C65.6766 14.3087 65.806 14.6459 66.0826 14.8415C66.2313 14.9472 66.4059 15 66.5812 15C66.7319 15 66.8826 14.9608 67.0173 14.882L71 12.5523L74.982 14.882C75.2741 15.0528 75.6414 15.0371 75.9174 14.8415C76.1941 14.6459 76.3235 14.3087 76.2481 13.9825L75.2187 9.54695L78.7101 6.55197C78.9661 6.33223 79.0635 5.98531 78.9581 5.66765Z" fill="url(#paint3_linear_199_256)"/>
+                                <path d="M99.1826 5.59437L99.1827 5.59439C99.3275 5.6072 99.4425 5.70182 99.4836 5.82504C99.5243 5.94785 99.4883 6.08333 99.3845 6.17247C99.3845 6.1725 99.3845 6.17254 99.3844 6.17257L95.8932 9.16745L95.6631 9.36477L95.7316 9.65999L96.761 14.095C96.761 14.0951 96.761 14.0952 96.761 14.0952C96.79 14.2212 96.7416 14.3535 96.6288 14.4333L96.6283 14.4336C96.513 14.5153 96.3576 14.5223 96.2345 14.4504C96.2344 14.4504 96.2344 14.4504 96.2343 14.4504L92.2525 12.1208L92 11.9731L91.7476 12.1207L87.7648 14.4504L87.7647 14.4505C87.7085 14.4834 87.6453 14.5 87.5812 14.5C87.5063 14.5 87.4335 14.4775 87.3723 14.434L87.3713 14.4333C87.2585 14.3535 87.21 14.2212 87.239 14.0952C87.239 14.0952 87.239 14.0951 87.2391 14.095L88.2684 9.65999L88.3369 9.36477L88.1069 9.16745L84.6155 6.1725C84.6155 6.17249 84.6155 6.17248 84.6155 6.17247C84.5119 6.08356 84.4759 5.94781 84.5162 5.82591C84.5579 5.70218 84.673 5.6075 84.818 5.59433C84.818 5.59432 84.8181 5.59432 84.8182 5.59431L89.4369 5.18416L89.7323 5.15793L89.8509 4.88619L91.6762 0.705461L91.6763 0.705219C91.7289 0.584795 91.8527 0.5 92 0.5C92.1469 0.5 92.2714 0.584539 92.3248 0.706109C92.3248 0.706169 92.3248 0.706229 92.3249 0.70629L94.1499 4.88619L94.2685 5.15793L94.5638 5.18416L99.1826 5.59437Z" stroke="url(#paint4_linear_199_256)"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_199_256" x1="8" y1="0" x2="8" y2="15" gradientUnits="userSpaceOnUse">
+                                <stop offset="0.0985536" stop-color="#FFA364"/>
+                                <stop offset="0.788912" stop-color="#FFC112"/>
+                                </linearGradient>
+                                <linearGradient id="paint1_linear_199_256" x1="29" y1="0" x2="29" y2="15" gradientUnits="userSpaceOnUse">
+                                <stop offset="0.0985536" stop-color="#FFA364"/>
+                                <stop offset="0.788912" stop-color="#FFC112"/>
+                                </linearGradient>
+                                <linearGradient id="paint2_linear_199_256" x1="50" y1="0" x2="50" y2="15" gradientUnits="userSpaceOnUse">
+                                <stop offset="0.0985536" stop-color="#FFA364"/>
+                                <stop offset="0.788912" stop-color="#FFC112"/>
+                                </linearGradient>
+                                <linearGradient id="paint3_linear_199_256" x1="71" y1="0" x2="71" y2="15" gradientUnits="userSpaceOnUse">
+                                <stop offset="0.0985536" stop-color="#FFA364"/>
+                                <stop offset="0.788912" stop-color="#FFC112"/>
+                                </linearGradient>
+                                <linearGradient id="paint4_linear_199_256" x1="92" y1="0" x2="92" y2="15" gradientUnits="userSpaceOnUse">
+                                <stop offset="0.0985536" stop-color="#FFA364"/>
+                                <stop offset="0.788912" stop-color="#FFC112"/>
+                                </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="main-box text-center">
+                        <div class="inner-box">
+                            <img src="images/testimonial-img-2.png" class="img-fluid" alt="client">
+                            <p class="m-0">Parfumorium has completely transformed my understanding and appreciation of fine fragrances. From the moment I received my first order, I was captivated by the attention to detail and the sheer elegance of the packaging. The unboxing experience itself was a luxurious affair.</p>
+                            <h5 class="m-0">Isabelle Devereux</h5>
+                            <svg width="100" height="15" viewBox="0 0 100 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15.9581 5.66765C15.8528 5.3507 15.5654 5.12631 15.2268 5.09633L10.6081 4.68612L8.78274 0.505394C8.64797 0.198241 8.34132 0 8.00001 0C7.6587 0 7.35193 0.198241 7.21802 0.505394L5.39267 4.68612L0.773215 5.09633C0.434587 5.12691 0.147839 5.3513 0.0418804 5.66765C-0.0634679 5.98459 0.0338237 6.33223 0.289931 6.55197L3.78132 9.54695L2.75188 13.9825C2.67656 14.3087 2.80596 14.6459 3.08258 14.8415C3.23126 14.9472 3.40595 15 3.58124 15C3.73188 15 3.88264 14.9608 4.01728 14.882L8.00001 12.5523L11.982 14.882C12.2741 15.0528 12.6414 15.0371 12.9174 14.8415C13.1941 14.6459 13.3235 14.3087 13.2481 13.9825L12.2187 9.54695L15.7101 6.55197C15.9661 6.33223 16.0635 5.98531 15.9581 5.66765Z" fill="url(#paint0_linear_199_256)"/>
+                                <path d="M36.9581 5.66765C36.8528 5.3507 36.5654 5.12631 36.2268 5.09633L31.6081 4.68612L29.7827 0.505394C29.648 0.198241 29.3413 0 29 0C28.6587 0 28.3519 0.198241 28.218 0.505394L26.3927 4.68612L21.7732 5.09633C21.4346 5.12691 21.1478 5.3513 21.0419 5.66765C20.9365 5.98459 21.0338 6.33223 21.2899 6.55197L24.7813 9.54695L23.7519 13.9825C23.6766 14.3087 23.806 14.6459 24.0826 14.8415C24.2313 14.9472 24.4059 15 24.5812 15C24.7319 15 24.8826 14.9608 25.0173 14.882L29 12.5523L32.982 14.882C33.2741 15.0528 33.6414 15.0371 33.9174 14.8415C34.1941 14.6459 34.3235 14.3087 34.2481 13.9825L33.2187 9.54695L36.7101 6.55197C36.9661 6.33223 37.0635 5.98531 36.9581 5.66765Z" fill="url(#paint1_linear_199_256)"/>
+                                <path d="M57.9581 5.66765C57.8528 5.3507 57.5654 5.12631 57.2268 5.09633L52.6081 4.68612L50.7827 0.505394C50.648 0.198241 50.3413 0 50 0C49.6587 0 49.3519 0.198241 49.218 0.505394L47.3927 4.68612L42.7732 5.09633C42.4346 5.12691 42.1478 5.3513 42.0419 5.66765C41.9365 5.98459 42.0338 6.33223 42.2899 6.55197L45.7813 9.54695L44.7519 13.9825C44.6766 14.3087 44.806 14.6459 45.0826 14.8415C45.2313 14.9472 45.4059 15 45.5812 15C45.7319 15 45.8826 14.9608 46.0173 14.882L50 12.5523L53.982 14.882C54.2741 15.0528 54.6414 15.0371 54.9174 14.8415C55.1941 14.6459 55.3235 14.3087 55.2481 13.9825L54.2187 9.54695L57.7101 6.55197C57.9661 6.33223 58.0635 5.98531 57.9581 5.66765Z" fill="url(#paint2_linear_199_256)"/>
+                                <path d="M78.9581 5.66765C78.8528 5.3507 78.5654 5.12631 78.2268 5.09633L73.6081 4.68612L71.7827 0.505394C71.648 0.198241 71.3413 0 71 0C70.6587 0 70.3519 0.198241 70.218 0.505394L68.3927 4.68612L63.7732 5.09633C63.4346 5.12691 63.1478 5.3513 63.0419 5.66765C62.9365 5.98459 63.0338 6.33223 63.2899 6.55197L66.7813 9.54695L65.7519 13.9825C65.6766 14.3087 65.806 14.6459 66.0826 14.8415C66.2313 14.9472 66.4059 15 66.5812 15C66.7319 15 66.8826 14.9608 67.0173 14.882L71 12.5523L74.982 14.882C75.2741 15.0528 75.6414 15.0371 75.9174 14.8415C76.1941 14.6459 76.3235 14.3087 76.2481 13.9825L75.2187 9.54695L78.7101 6.55197C78.9661 6.33223 79.0635 5.98531 78.9581 5.66765Z" fill="url(#paint3_linear_199_256)"/>
+                                <path d="M99.1826 5.59437L99.1827 5.59439C99.3275 5.6072 99.4425 5.70182 99.4836 5.82504C99.5243 5.94785 99.4883 6.08333 99.3845 6.17247C99.3845 6.1725 99.3845 6.17254 99.3844 6.17257L95.8932 9.16745L95.6631 9.36477L95.7316 9.65999L96.761 14.095C96.761 14.0951 96.761 14.0952 96.761 14.0952C96.79 14.2212 96.7416 14.3535 96.6288 14.4333L96.6283 14.4336C96.513 14.5153 96.3576 14.5223 96.2345 14.4504C96.2344 14.4504 96.2344 14.4504 96.2343 14.4504L92.2525 12.1208L92 11.9731L91.7476 12.1207L87.7648 14.4504L87.7647 14.4505C87.7085 14.4834 87.6453 14.5 87.5812 14.5C87.5063 14.5 87.4335 14.4775 87.3723 14.434L87.3713 14.4333C87.2585 14.3535 87.21 14.2212 87.239 14.0952C87.239 14.0952 87.239 14.0951 87.2391 14.095L88.2684 9.65999L88.3369 9.36477L88.1069 9.16745L84.6155 6.1725C84.6155 6.17249 84.6155 6.17248 84.6155 6.17247C84.5119 6.08356 84.4759 5.94781 84.5162 5.82591C84.5579 5.70218 84.673 5.6075 84.818 5.59433C84.818 5.59432 84.8181 5.59432 84.8182 5.59431L89.4369 5.18416L89.7323 5.15793L89.8509 4.88619L91.6762 0.705461L91.6763 0.705219C91.7289 0.584795 91.8527 0.5 92 0.5C92.1469 0.5 92.2714 0.584539 92.3248 0.706109C92.3248 0.706169 92.3248 0.706229 92.3249 0.70629L94.1499 4.88619L94.2685 5.15793L94.5638 5.18416L99.1826 5.59437Z" stroke="url(#paint4_linear_199_256)"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_199_256" x1="8" y1="0" x2="8" y2="15" gradientUnits="userSpaceOnUse">
+                                <stop offset="0.0985536" stop-color="#FFA364"/>
+                                <stop offset="0.788912" stop-color="#FFC112"/>
+                                </linearGradient>
+                                <linearGradient id="paint1_linear_199_256" x1="29" y1="0" x2="29" y2="15" gradientUnits="userSpaceOnUse">
+                                <stop offset="0.0985536" stop-color="#FFA364"/>
+                                <stop offset="0.788912" stop-color="#FFC112"/>
+                                </linearGradient>
+                                <linearGradient id="paint2_linear_199_256" x1="50" y1="0" x2="50" y2="15" gradientUnits="userSpaceOnUse">
+                                <stop offset="0.0985536" stop-color="#FFA364"/>
+                                <stop offset="0.788912" stop-color="#FFC112"/>
+                                </linearGradient>
+                                <linearGradient id="paint3_linear_199_256" x1="71" y1="0" x2="71" y2="15" gradientUnits="userSpaceOnUse">
+                                <stop offset="0.0985536" stop-color="#FFA364"/>
+                                <stop offset="0.788912" stop-color="#FFC112"/>
+                                </linearGradient>
+                                <linearGradient id="paint4_linear_199_256" x1="92" y1="0" x2="92" y2="15" gradientUnits="userSpaceOnUse">
+                                <stop offset="0.0985536" stop-color="#FFA364"/>
+                                <stop offset="0.788912" stop-color="#FFC112"/>
+                                </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="main-box text-center">
+                        <div class="inner-box">
+                            <img src="images/testimonial-img-3.png" class="img-fluid" alt="client">
+                            <p class="m-0">Parfumorium has completely transformed my understanding and appreciation of fine fragrances. From the moment I received my first order, I was captivated by the attention to detail and the sheer elegance of the packaging. The unboxing experience itself was a luxurious affair.</p>
+                            <h5 class="m-0">Isabelle Devereux</h5>
+                            <svg width="100" height="15" viewBox="0 0 100 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15.9581 5.66765C15.8528 5.3507 15.5654 5.12631 15.2268 5.09633L10.6081 4.68612L8.78274 0.505394C8.64797 0.198241 8.34132 0 8.00001 0C7.6587 0 7.35193 0.198241 7.21802 0.505394L5.39267 4.68612L0.773215 5.09633C0.434587 5.12691 0.147839 5.3513 0.0418804 5.66765C-0.0634679 5.98459 0.0338237 6.33223 0.289931 6.55197L3.78132 9.54695L2.75188 13.9825C2.67656 14.3087 2.80596 14.6459 3.08258 14.8415C3.23126 14.9472 3.40595 15 3.58124 15C3.73188 15 3.88264 14.9608 4.01728 14.882L8.00001 12.5523L11.982 14.882C12.2741 15.0528 12.6414 15.0371 12.9174 14.8415C13.1941 14.6459 13.3235 14.3087 13.2481 13.9825L12.2187 9.54695L15.7101 6.55197C15.9661 6.33223 16.0635 5.98531 15.9581 5.66765Z" fill="url(#paint0_linear_199_256)"/>
+                                <path d="M36.9581 5.66765C36.8528 5.3507 36.5654 5.12631 36.2268 5.09633L31.6081 4.68612L29.7827 0.505394C29.648 0.198241 29.3413 0 29 0C28.6587 0 28.3519 0.198241 28.218 0.505394L26.3927 4.68612L21.7732 5.09633C21.4346 5.12691 21.1478 5.3513 21.0419 5.66765C20.9365 5.98459 21.0338 6.33223 21.2899 6.55197L24.7813 9.54695L23.7519 13.9825C23.6766 14.3087 23.806 14.6459 24.0826 14.8415C24.2313 14.9472 24.4059 15 24.5812 15C24.7319 15 24.8826 14.9608 25.0173 14.882L29 12.5523L32.982 14.882C33.2741 15.0528 33.6414 15.0371 33.9174 14.8415C34.1941 14.6459 34.3235 14.3087 34.2481 13.9825L33.2187 9.54695L36.7101 6.55197C36.9661 6.33223 37.0635 5.98531 36.9581 5.66765Z" fill="url(#paint1_linear_199_256)"/>
+                                <path d="M57.9581 5.66765C57.8528 5.3507 57.5654 5.12631 57.2268 5.09633L52.6081 4.68612L50.7827 0.505394C50.648 0.198241 50.3413 0 50 0C49.6587 0 49.3519 0.198241 49.218 0.505394L47.3927 4.68612L42.7732 5.09633C42.4346 5.12691 42.1478 5.3513 42.0419 5.66765C41.9365 5.98459 42.0338 6.33223 42.2899 6.55197L45.7813 9.54695L44.7519 13.9825C44.6766 14.3087 44.806 14.6459 45.0826 14.8415C45.2313 14.9472 45.4059 15 45.5812 15C45.7319 15 45.8826 14.9608 46.0173 14.882L50 12.5523L53.982 14.882C54.2741 15.0528 54.6414 15.0371 54.9174 14.8415C55.1941 14.6459 55.3235 14.3087 55.2481 13.9825L54.2187 9.54695L57.7101 6.55197C57.9661 6.33223 58.0635 5.98531 57.9581 5.66765Z" fill="url(#paint2_linear_199_256)"/>
+                                <path d="M78.9581 5.66765C78.8528 5.3507 78.5654 5.12631 78.2268 5.09633L73.6081 4.68612L71.7827 0.505394C71.648 0.198241 71.3413 0 71 0C70.6587 0 70.3519 0.198241 70.218 0.505394L68.3927 4.68612L63.7732 5.09633C63.4346 5.12691 63.1478 5.3513 63.0419 5.66765C62.9365 5.98459 63.0338 6.33223 63.2899 6.55197L66.7813 9.54695L65.7519 13.9825C65.6766 14.3087 65.806 14.6459 66.0826 14.8415C66.2313 14.9472 66.4059 15 66.5812 15C66.7319 15 66.8826 14.9608 67.0173 14.882L71 12.5523L74.982 14.882C75.2741 15.0528 75.6414 15.0371 75.9174 14.8415C76.1941 14.6459 76.3235 14.3087 76.2481 13.9825L75.2187 9.54695L78.7101 6.55197C78.9661 6.33223 79.0635 5.98531 78.9581 5.66765Z" fill="url(#paint3_linear_199_256)"/>
+                                <path d="M99.1826 5.59437L99.1827 5.59439C99.3275 5.6072 99.4425 5.70182 99.4836 5.82504C99.5243 5.94785 99.4883 6.08333 99.3845 6.17247C99.3845 6.1725 99.3845 6.17254 99.3844 6.17257L95.8932 9.16745L95.6631 9.36477L95.7316 9.65999L96.761 14.095C96.761 14.0951 96.761 14.0952 96.761 14.0952C96.79 14.2212 96.7416 14.3535 96.6288 14.4333L96.6283 14.4336C96.513 14.5153 96.3576 14.5223 96.2345 14.4504C96.2344 14.4504 96.2344 14.4504 96.2343 14.4504L92.2525 12.1208L92 11.9731L91.7476 12.1207L87.7648 14.4504L87.7647 14.4505C87.7085 14.4834 87.6453 14.5 87.5812 14.5C87.5063 14.5 87.4335 14.4775 87.3723 14.434L87.3713 14.4333C87.2585 14.3535 87.21 14.2212 87.239 14.0952C87.239 14.0952 87.239 14.0951 87.2391 14.095L88.2684 9.65999L88.3369 9.36477L88.1069 9.16745L84.6155 6.1725C84.6155 6.17249 84.6155 6.17248 84.6155 6.17247C84.5119 6.08356 84.4759 5.94781 84.5162 5.82591C84.5579 5.70218 84.673 5.6075 84.818 5.59433C84.818 5.59432 84.8181 5.59432 84.8182 5.59431L89.4369 5.18416L89.7323 5.15793L89.8509 4.88619L91.6762 0.705461L91.6763 0.705219C91.7289 0.584795 91.8527 0.5 92 0.5C92.1469 0.5 92.2714 0.584539 92.3248 0.706109C92.3248 0.706169 92.3248 0.706229 92.3249 0.70629L94.1499 4.88619L94.2685 5.15793L94.5638 5.18416L99.1826 5.59437Z" stroke="url(#paint4_linear_199_256)"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_199_256" x1="8" y1="0" x2="8" y2="15" gradientUnits="userSpaceOnUse">
+                                <stop offset="0.0985536" stop-color="#FFA364"/>
+                                <stop offset="0.788912" stop-color="#FFC112"/>
+                                </linearGradient>
+                                <linearGradient id="paint1_linear_199_256" x1="29" y1="0" x2="29" y2="15" gradientUnits="userSpaceOnUse">
+                                <stop offset="0.0985536" stop-color="#FFA364"/>
+                                <stop offset="0.788912" stop-color="#FFC112"/>
+                                </linearGradient>
+                                <linearGradient id="paint2_linear_199_256" x1="50" y1="0" x2="50" y2="15" gradientUnits="userSpaceOnUse">
+                                <stop offset="0.0985536" stop-color="#FFA364"/>
+                                <stop offset="0.788912" stop-color="#FFC112"/>
+                                </linearGradient>
+                                <linearGradient id="paint3_linear_199_256" x1="71" y1="0" x2="71" y2="15" gradientUnits="userSpaceOnUse">
+                                <stop offset="0.0985536" stop-color="#FFA364"/>
+                                <stop offset="0.788912" stop-color="#FFC112"/>
+                                </linearGradient>
+                                <linearGradient id="paint4_linear_199_256" x1="92" y1="0" x2="92" y2="15" gradientUnits="userSpaceOnUse">
+                                <stop offset="0.0985536" stop-color="#FFA364"/>
+                                <stop offset="0.788912" stop-color="#FFC112"/>
+                                </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonial-end -->
+
+    <!-- blog -->
+    <section class="blog padding-bottom">
+        <div class="container">
+            <div class="row">
+                <h2 class="text-center">Read Latest News & Blog</h2>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-12">
+                    <div class="blog-box">
+                        <a href="#" target="_blank"><img src="images/blog-img.png" class="w-100" alt="blog-img"></a>
+                        <div class="blog-content">
+                            <div class="blog-date">
+                                <i><img src="images/blog-date.png" alt="date-icon"></i>
+                                <span>17 June 2024</span>
+                            </div>
+                            <a href="#" target="_blank">
+                                <h4>Seasonal Scents: Choosing the Right Perfume
+                                    for Every Season</h4>
+                                <p>We believe that the quality of our dishes starts with the ingredients we use. Our
+                                    commitment to
+                                    sourcing fresh, local, and sustainable ingredients not only enhances the flavor.</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-12">
+                    <div class="blog-box">
+                        <a href="#" target="_blank"><img src="images/blog-img-2.png" class="w-100" alt="blog-img"></a>
+                        <div class="blog-content">
+                            <div class="blog-date">
+                                <i><img src="images/blog-date.png" alt="date-icon"></i>
+                                <span>17 June 2024</span>
+                            </div>
+                            <a href="#" target="_blank">
+                                <h4>The Role of Top, Heart, and Base Notes in Perfumery</h4>
+                                <p>Educate readers about the structure of perfumes, explaining the roles of top, heart,
+                                    and base notes. Use specific examples from Parfumorium's collection</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-12">
+                    <div class="blog-box">
+                        <a href="#" target="_blank"><img src="images/blog-img-3.png" class="w-100" alt="blog-img"></a>
+                        <div class="blog-content">
+                            <div class="blog-date">
+                                <i><img src="images/blog-date.png" alt="date-icon"></i>
+                                <span>17 June 2024</span>
+                            </div>
+                            <a href="#" target="_blank">
+                                <h4>Layering Fragrances: How to Create a Unique Signature Scent</h4>
+                                <p>Teach readers the art of fragrance layering, combining different perfumes to create a
+                                    personalized and unique scent.</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blog-end -->
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="services">
+                    <div class="fasted-delivery col-lg-3 d-flex">
+                        <div class="services-icon">
+                            <svg width="65" height="35" viewBox="0 0 65 35" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M55.6352 34.9999C54.5395 35.0007 53.4682 34.6765 52.5568 34.0684C51.6454 33.4602 50.9348 32.5954 50.515 31.5834C50.0951 30.5713 49.9848 29.4575 50.1981 28.3828C50.4114 27.308 50.9386 26.3207 51.7131 25.5456C52.4876 24.7706 53.4745 24.2427 54.5491 24.0286C55.6237 23.8146 56.7376 23.924 57.7499 24.3431C58.7623 24.7622 59.6276 25.4722 60.2364 26.3832C60.8452 27.2941 61.1702 28.3652 61.1702 29.4609C61.1695 30.929 60.5862 32.3368 59.5485 33.3753C58.5108 34.4138 57.1033 34.9981 55.6352 34.9999ZM55.6352 25.9424C54.9392 25.9416 54.2585 26.1473 53.6794 26.5334C53.1002 26.9196 52.6486 27.4688 52.3817 28.1116C52.1148 28.7545 52.0445 29.462 52.1798 30.1448C52.3151 30.8276 52.6499 31.4549 53.1418 31.9474C53.6337 32.4398 54.2607 32.7753 54.9433 32.9114C55.6259 33.0475 56.3335 32.9781 56.9767 32.7119C57.6198 32.4457 58.1696 31.9947 58.5564 31.416C58.9432 30.8374 59.1496 30.1569 59.1496 29.4609C59.1493 28.5285 58.779 27.6344 58.1201 26.9748C57.4613 26.3151 56.5676 25.9439 55.6352 25.9424ZM26.4463 34.9999C25.3506 35.001 24.2791 34.677 23.3676 34.069C22.456 33.461 21.7452 32.5963 21.3251 31.5843C20.9051 30.5723 20.7946 29.4584 21.0077 28.3836C21.2208 27.3088 21.7479 26.3213 22.5224 25.5461C23.2968 24.7709 24.2837 24.2429 25.3583 24.0287C26.433 23.8145 27.5469 23.9239 28.5594 24.343C29.5718 24.7621 30.4372 25.472 31.0461 26.383C31.655 27.294 31.9799 28.3651 31.9799 29.4609C31.9789 30.9287 31.3957 32.3361 30.3583 33.3745C29.321 34.4128 27.9141 34.9974 26.4463 34.9999ZM26.4463 25.9424C25.7502 25.9414 25.0694 26.1468 24.4901 26.5328C23.9108 26.9187 23.459 27.4679 23.1919 28.1107C22.9247 28.7535 22.8543 29.4611 22.9894 30.144C23.1246 30.8269 23.4593 31.4543 23.9511 31.9469C24.443 32.4395 25.0699 32.7751 25.7525 32.9113C26.4352 33.0475 27.1429 32.9782 27.7861 32.712C28.4294 32.4459 28.9792 31.9949 29.3661 31.4162C29.7529 30.8375 29.9594 30.157 29.9594 29.4609C29.9587 28.5289 29.5885 27.6352 28.93 26.9756C28.2715 26.3161 27.3783 25.9446 26.4463 25.9424Z"
+                                    fill="white" />
+                                <path
+                                    d="M62.9227 30.4714H60.1599C59.892 30.4714 59.635 30.3649 59.4455 30.1755C59.2561 29.986 59.1496 29.729 59.1496 29.4611C59.1496 29.1931 59.2561 28.9362 59.4455 28.7467C59.635 28.5572 59.892 28.4508 60.1599 28.4508H62.6371V23.0937C62.6365 22.3694 62.451 21.6572 62.0983 21.0246L56.6293 11.2195C56.5826 11.1359 56.5144 11.0662 56.4318 11.0176C56.3491 10.9691 56.2551 10.9435 56.1592 10.9434H48.7061V28.4549H51.1119C51.3798 28.4549 51.6368 28.5613 51.8263 28.7508C52.0157 28.9402 52.1222 29.1972 52.1222 29.4651C52.1222 29.7331 52.0157 29.99 51.8263 30.1795C51.6368 30.369 51.3798 30.4754 51.1119 30.4754H47.6958C47.4279 30.4754 47.1709 30.369 46.9814 30.1795C46.792 29.99 46.6855 29.7331 46.6855 29.4651V9.93313C46.6855 9.66519 46.792 9.40822 46.9814 9.21875C47.1709 9.02929 47.4279 8.92285 47.6958 8.92285H56.1592C56.615 8.92263 57.0626 9.04412 57.4557 9.27478C57.8488 9.50543 58.1732 9.83688 58.3953 10.2349L63.8629 20.0413C64.3827 20.9747 64.6558 22.0253 64.6563 23.0937V28.7377C64.6556 29.1973 64.4727 29.6378 64.1478 29.9628C63.8228 30.2878 63.3822 30.4706 62.9227 30.4714ZM21.9216 30.4714H12.2351C11.9672 30.4714 11.7102 30.3649 11.5207 30.1755C11.3313 29.986 11.2248 29.729 11.2248 29.4611V21.6914C11.2248 21.4235 11.3313 21.1665 11.5207 20.977C11.7102 20.7876 11.9672 20.6811 12.2351 20.6811C12.5031 20.6811 12.76 20.7876 12.9495 20.977C13.139 21.1665 13.2454 21.4235 13.2454 21.6914V28.4508H21.9216C22.1896 28.4508 22.4465 28.5572 22.636 28.7467C22.8255 28.9362 22.9319 29.1931 22.9319 29.4611C22.9319 29.729 22.8255 29.986 22.636 30.1755C22.4465 30.3649 22.1896 30.4714 21.9216 30.4714ZM12.2351 18.1069C11.9672 18.1069 11.7102 18.0005 11.5207 17.811C11.3313 17.6216 11.2248 17.3646 11.2248 17.0967V10.313C11.2248 10.045 11.3313 9.78808 11.5207 9.59862C11.7102 9.40915 11.9672 9.30272 12.2351 9.30272C12.5031 9.30272 12.76 9.40915 12.9495 9.59862C13.139 9.78808 13.2454 10.045 13.2454 10.313V17.1007C13.2443 17.3679 13.1374 17.6239 12.9481 17.8125C12.7587 18.001 12.5024 18.1069 12.2351 18.1069Z"
+                                    fill="white" />
+                                <path
+                                    d="M47.6958 30.4713H30.9697C30.7017 30.4713 30.4448 30.3648 30.2553 30.1754C30.0658 29.9859 29.9594 29.7289 29.9594 29.461C29.9594 29.193 30.0658 28.9361 30.2553 28.7466C30.4448 28.5572 30.7017 28.4507 30.9697 28.4507H46.6855V2.02055H13.2454V6.18154C13.2454 6.44948 13.139 6.70645 12.9495 6.89591C12.76 7.08538 12.5031 7.19182 12.2351 7.19182C11.9672 7.19182 11.7102 7.08538 11.5207 6.89591C11.3313 6.70645 11.2248 6.44948 11.2248 6.18154V1.83466C11.2256 1.34806 11.4193 0.881621 11.7635 0.537671C12.1077 0.193721 12.5743 0.00035622 13.0608 0H46.8714C47.3578 0.000712622 47.824 0.194235 48.1679 0.538147C48.5118 0.882058 48.7054 1.3483 48.7061 1.83466V29.461C48.7061 29.7289 48.5996 29.9859 48.4102 30.1754C48.2207 30.3648 47.9637 30.4713 47.6958 30.4713ZM16.2291 22.7016H3.40665C3.13871 22.7016 2.88174 22.5951 2.69228 22.4057C2.50282 22.2162 2.39638 21.9592 2.39638 21.6913C2.39638 21.4234 2.50282 21.1664 2.69228 20.9769C2.88174 20.7875 3.13871 20.681 3.40665 20.681H16.2291C16.497 20.681 16.754 20.7875 16.9434 20.9769C17.1329 21.1664 17.2394 21.4234 17.2394 21.6913C17.2394 21.9592 17.1329 22.2162 16.9434 22.4057C16.754 22.5951 16.497 22.7016 16.2291 22.7016Z"
+                                    fill="white" />
+                                <path
+                                    d="M26.4463 18.107H8.55367C8.28573 18.107 8.02876 18.0005 7.8393 17.8111C7.64983 17.6216 7.54339 17.3646 7.54339 17.0967C7.54339 16.8287 7.64983 16.5718 7.8393 16.3823C8.02876 16.1928 8.28573 16.0864 8.55367 16.0864H26.4463C26.7143 16.0864 26.9712 16.1928 27.1607 16.3823C27.3502 16.5718 27.4566 16.8287 27.4566 17.0967C27.4566 17.3646 27.3502 17.6216 27.1607 17.8111C26.9712 18.0005 26.7143 18.107 26.4463 18.107ZM7.99734 12.7727H1.01028C0.742334 12.7727 0.485366 12.6663 0.295903 12.4768C0.106439 12.2873 0 12.0304 0 11.7624C0 11.4945 0.106439 11.2375 0.295903 11.0481C0.485366 10.8586 0.742334 10.7522 1.01028 10.7522H7.99734C8.26529 10.7522 8.52225 10.8586 8.71172 11.0481C8.90118 11.2375 9.00762 11.4945 9.00762 11.7624C9.00762 12.0304 8.90118 12.2873 8.71172 12.4768C8.52225 12.6663 8.26529 12.7727 7.99734 12.7727ZM19.2006 7.19194H6.86718C6.59924 7.19194 6.34227 7.0855 6.15281 6.89604C5.96335 6.70657 5.85691 6.4496 5.85691 6.18166C5.85691 5.91372 5.96335 5.65675 6.15281 5.46729C6.34227 5.27783 6.59924 5.17139 6.86718 5.17139H19.2006C19.4686 5.17139 19.7255 5.27783 19.915 5.46729C20.1045 5.65675 20.2109 5.91372 20.2109 6.18166C20.2109 6.4496 20.1045 6.70657 19.915 6.89604C19.7255 7.0855 19.4686 7.19194 19.2006 7.19194Z"
+                                    fill="white" />
+                            </svg>
+                        </div>
+                        <div class="services-content">
+                            <span>Fasted Delivery</span>
+                            <p>Free delivery order above $150</p>
+                        </div>
+                    </div>
+                    <div class="fasted-delivery support col-lg-3 d-flex">
+                        <div class="services-icon">
+                            <svg width="36" height="35" viewBox="0 0 36 35" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M6.97341 6.57576C9.89139 3.65777 13.771 2.05078 17.8976 2.05078C21.0534 2.05078 24.1044 3.01075 26.6703 4.7829L24.6894 4.98606L24.8987 7.02611L30.2307 6.47924L29.6838 1.14721L27.6437 1.35646L27.821 3.08533C24.9173 1.08397 21.4666 0 17.8976 0C13.2232 0 8.82861 1.82034 5.5233 5.12565C2.21799 8.43097 0.397644 12.8256 0.397644 17.5C0.397644 20.9995 1.42741 24.3773 3.37558 27.2682L5.07623 26.1222C5.05264 26.0871 5.02974 26.0518 5.00643 26.0166C3.33286 23.4889 2.44843 20.5472 2.44843 17.5C2.44843 13.3734 4.05542 9.49375 6.97341 6.57576ZM32.4198 7.73179L30.7191 8.87783C30.7426 8.91283 30.7655 8.94831 30.7889 8.98345C32.4624 11.5111 33.3469 14.4528 33.3469 17.5C33.3469 21.6266 31.7399 25.5063 28.8219 28.4242C25.904 31.3422 22.0244 32.9492 17.8976 32.9492C14.7419 32.9492 11.6909 31.9892 9.12502 30.2171L11.1059 30.0139L10.8966 27.9739L5.56459 28.5208L6.11146 33.8528L8.15158 33.6435L7.97426 31.9147C10.8781 33.916 14.3288 35 17.8976 35C22.5721 35 26.9667 33.1797 30.2721 29.8743C33.5774 26.569 35.3976 22.1744 35.3976 17.5C35.3976 14.0005 34.3679 10.6227 32.4198 7.73179Z"
+                                    fill="white" />
+                                <path
+                                    d="M8.94131 19.6528L10.2689 18.4258C11.2746 17.5006 11.4657 16.877 11.4657 16.1931C11.4657 14.8857 10.3493 14.0509 8.73015 14.0509C7.34225 14.0509 6.3466 14.6343 5.8136 15.5193L7.29201 16.344C7.57358 15.8915 8.03624 15.6601 8.54914 15.6601C9.15254 15.6601 9.45428 15.9317 9.45428 16.3843C9.45428 16.6759 9.37382 16.9978 8.81061 17.5207L6.17563 19.9847V21.2318H11.6568V19.6529L8.94131 19.6528ZM17.9831 19.8841H19.029V18.3052H17.9831V17.1084H16.1024V18.3052H14.6743L17.5406 14.1918H15.4789L12.3209 18.5867V19.8841H16.0421V21.2318H17.9831V19.8841ZM20.8396 22.2375L24.1584 12.7637H22.4588L19.1399 22.2375H20.8396ZM25.8481 16.8569V15.7707H27.6986L25.3251 21.2318H27.4975L29.9816 15.4388V14.1918H24.1484V16.8569H25.8481Z"
+                                    fill="white" />
+                            </svg>
+                        </div>
+                        <div class="services-content">
+                            <span>Support 24/7</span>
+                            <p>Contact us 24 hours a day</p>
+                        </div>
+                    </div>
+                    <div class="fasted-delivery exchange col-lg-3 d-flex">
+                        <div class="services-icon">
+                            <svg width="36" height="35" viewBox="0 0 36 35" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M34.2831 12.0315L32.3273 12.6743C32.8373 14.2263 33.096 15.8499 33.096 17.5C33.096 26.0143 26.1691 32.9412 17.6548 32.9412C13.6989 32.9412 9.98814 31.4644 7.15328 28.8235H10.1058V26.7647H3.58616V32.9412H5.64498V30.2237C6.88604 31.3939 8.29524 32.3867 9.81293 33.1487C12.2598 34.3771 14.8982 35 17.6548 35C22.3292 35 26.7238 33.1797 30.0292 29.8744C33.3346 26.569 35.1548 22.1744 35.1548 17.5C35.1548 15.6311 34.8615 13.7912 34.2831 12.0315ZM17.6548 2.05882C21.5851 2.05882 25.3126 3.5396 28.1525 6.17647H25.2038V8.23529H31.7234V2.05882H29.6646V4.77249C26.4326 1.71809 22.1616 0 17.6548 0C12.9804 0 8.58574 1.82027 5.28043 5.12565C1.97513 8.43102 0.154785 12.8256 0.154785 17.5C0.154785 19.5006 0.489893 21.4632 1.15084 23.3332L3.09197 22.6472C2.50919 20.9981 2.21361 19.2663 2.21361 17.5C2.21361 8.98574 9.14052 2.05882 17.6548 2.05882Z"
+                                    fill="white" />
+                                <path
+                                    d="M20.743 14.0688H22.8019C22.8019 11.653 21.009 9.64878 18.6842 9.3147V7.20605H16.6254V9.3147C14.3006 9.64885 12.5078 11.653 12.5078 14.0688C12.5067 14.9847 12.8124 15.8746 13.376 16.5965C13.9397 17.3184 14.7289 17.8308 15.6177 18.0519L16.6254 18.3039V23.5898C15.4427 23.2842 14.5666 22.2083 14.5666 20.9315H12.5078C12.5078 23.3474 14.3006 25.3516 16.6254 25.6856V27.7943H18.6842V25.6856C21.009 25.3515 22.8019 23.3473 22.8019 20.9315C22.8029 20.0156 22.4973 19.1258 21.9336 18.4038C21.3699 17.6819 20.5808 17.1695 19.6919 16.9484L18.6842 16.6965V11.4106C19.8669 11.7161 20.743 12.7921 20.743 14.0688ZM19.1925 18.9457C19.6357 19.056 20.0291 19.3114 20.3102 19.6713C20.5912 20.0312 20.7436 20.4749 20.743 20.9315C20.743 22.2083 19.8669 23.2842 18.6842 23.5898V18.8186L19.1925 18.9457ZM16.1171 16.0546C15.6739 15.9444 15.2805 15.6889 14.9995 15.329C14.7184 14.9691 14.566 14.5254 14.5666 14.0688C14.5666 12.7921 15.4427 11.7161 16.6254 11.4106V16.1817L16.1171 16.0546Z"
+                                    fill="white" />
+                            </svg>
+                        </div>
+                        <div class="services-content">
+                            <span>Exchange</span>
+                            <p>100% money back guarantee</p>
+                        </div>
+                    </div>
+                    <div class="fasted-delivery payment col-lg-2 d-flex">
+                        <div class="services-icon">
+                            <svg width="46" height="35" viewBox="0 0 46 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M24.2021 27.9024H4.05736C3.41178 27.9018 2.79283 27.645 2.33634 27.1885C1.87984 26.732 1.6231 26.1131 1.62246 25.4675V9.78507H39.0697V13.4236C39.0697 13.6389 39.1552 13.8453 39.3074 13.9975C39.4596 14.1498 39.6661 14.2353 39.8813 14.2353C40.0966 14.2353 40.303 14.1498 40.4552 13.9975C40.6074 13.8453 40.693 13.6389 40.693 13.4236V4.05736C40.6914 2.9816 40.2634 1.95035 39.5026 1.18975C38.7419 0.429147 37.7105 0.00128831 36.6348 0H4.05818C2.98228 0.00128876 1.95081 0.429259 1.19004 1.19004C0.429259 1.95081 0.00128876 2.98228 0 4.05818V25.4675C0.00128876 26.5434 0.429259 27.5749 1.19004 28.3356C1.95081 29.0964 2.98228 29.5244 4.05818 29.5257H24.2021C24.4174 29.5257 24.6238 29.4402 24.7761 29.2879C24.9283 29.1357 25.0138 28.9293 25.0138 28.714C25.0138 28.4988 24.9283 28.2923 24.7761 28.1401C24.6238 27.9879 24.4174 27.9024 24.2021 27.9024ZM1.62246 4.05899C1.6231 3.41341 1.87984 2.79446 2.33634 2.33796C2.79283 1.88147 3.41178 1.62473 4.05736 1.62408H36.6348C37.2804 1.62473 37.8993 1.88147 38.3558 2.33796C38.8123 2.79446 39.069 3.41341 39.0697 4.05899V5.26832H1.62327L1.62246 4.05899ZM1.62246 6.89159H39.0697V8.16261H1.62327L1.62246 6.89159Z" fill="white"/>
+                                <path d="M5.87621 22.6301C5.66095 22.6301 5.45451 22.7157 5.3023 22.8679C5.15009 23.0201 5.06458 23.2265 5.06458 23.4418C5.06458 23.657 5.15009 23.8635 5.3023 24.0157C5.45451 24.1679 5.66095 24.2534 5.87621 24.2534H11.6632C11.8784 24.2534 12.0849 24.1679 12.2371 24.0157C12.3893 23.8635 12.4748 23.657 12.4748 23.4418C12.4748 23.2265 12.3893 23.0201 12.2371 22.8679C12.0849 22.7157 11.8784 22.6301 11.6632 22.6301H5.87621ZM45.1155 18.6734C45.0181 18.2092 44.9694 17.6021 44.4313 17.447L35.6007 14.6055C35.4389 14.554 35.265 14.554 35.1032 14.6055L26.2742 17.447C25.7385 17.6045 25.6898 18.2067 25.5892 18.6726C24.2898 25.1714 26.8245 30.9916 32.0458 33.4996L35.0009 34.9199C35.1106 34.9727 35.2307 35.0001 35.3524 35.0001C35.474 35.0001 35.5942 34.9727 35.7038 34.9199L38.6598 33.4996C43.881 30.9916 46.415 25.1722 45.1155 18.6734ZM37.9569 32.037L35.3524 33.2869L32.7478 32.037C28.1751 29.8537 25.9926 24.6073 27.21 18.8512L35.3524 16.2304L43.4955 18.8512C44.7105 24.6089 42.5288 29.8545 37.9569 32.037Z" fill="white"/>
+                                <path d="M39.2791 22.0065L34.979 25.8374L33.0839 23.9431C32.9308 23.7952 32.7258 23.7134 32.513 23.7153C32.3001 23.7171 32.0966 23.8025 31.9461 23.953C31.7956 24.1034 31.7103 24.307 31.7084 24.5198C31.7066 24.7326 31.7884 24.9377 31.9362 25.0907L34.3727 27.5273C34.5192 27.6737 34.716 27.7587 34.9231 27.7647C35.1301 27.7707 35.3316 27.6974 35.4863 27.5597L40.3585 23.2183C40.5137 23.0737 40.606 22.8741 40.6159 22.6622C40.6257 22.4504 40.5522 22.2431 40.4111 22.0847C40.2701 21.9264 40.0726 21.8295 39.861 21.8149C39.6495 21.8003 39.4406 21.8691 39.2791 22.0065Z" fill="white"/>
+                            </svg>
+                        </div>
+                        <div class="services-content">
+                            <span>Secure Payment</span>
+                            <p>Your moeny is safe</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-content d-flex">
+                    <div class="footer-about col-lg-3">
+                        <a href="#" target="_blank" class="logo">Parfumorium</a>
+                        <p>We are a luxury perfume house dedicated to crafting exquisite fragrances that capture the
+                            essence of sophistication and individuality</p>
+                        <div class="social-icon">
+                            <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_202_401)">
+                                    <path
+                                        d="M8.5 1.53142C10.7695 1.53142 11.0387 1.53992 11.9347 1.581C12.8612 1.6235 13.8153 1.83458 14.4904 2.50962C15.1718 3.19104 15.3765 4.13596 15.419 5.06529C15.4601 5.96133 15.4686 6.2305 15.4686 8.5C15.4686 10.7695 15.4601 11.0387 15.419 11.9347C15.3772 12.8563 15.1612 13.8196 14.4904 14.4904C13.809 15.1718 12.8647 15.3765 11.9347 15.419C11.0387 15.4601 10.7695 15.4686 8.5 15.4686C6.2305 15.4686 5.96133 15.4601 5.06529 15.419C4.15083 15.3772 3.17475 15.1562 2.50962 14.4904C1.83175 13.8125 1.6235 12.8584 1.581 11.9347C1.53992 11.0387 1.53142 10.7695 1.53142 8.5C1.53142 6.2305 1.53992 5.96133 1.581 5.06529C1.62279 4.14729 1.84096 3.17829 2.50962 2.50962C3.18962 1.82963 4.13808 1.6235 5.06529 1.581C5.96133 1.53992 6.2305 1.53142 8.5 1.53142ZM8.5 0C6.19154 0 5.90183 0.00991667 4.99517 0.051C3.68121 0.111208 2.37646 0.476708 1.42658 1.42658C0.473167 2.38 0.111208 3.68192 0.051 4.99517C0.00991667 5.90183 0 6.19154 0 8.5C0 10.8085 0.00991667 11.0982 0.051 12.0048C0.111208 13.3174 0.478125 14.6257 1.42658 15.5734C2.37929 16.5261 3.68333 16.8888 4.99517 16.949C5.90183 16.9901 6.19154 17 8.5 17C10.8085 17 11.0982 16.9901 12.0048 16.949C13.3181 16.8888 14.6242 16.5226 15.5734 15.5734C16.5275 14.6193 16.8888 13.3181 16.949 12.0048C16.9901 11.0982 17 10.8085 17 8.5C17 6.19154 16.9901 5.90183 16.949 4.99517C16.8888 3.68121 16.5226 2.37575 15.5734 1.42658C14.6221 0.475292 13.3145 0.1105 12.0048 0.051C11.0982 0.00991667 10.8085 0 8.5 0Z"
+                                        fill="white" />
+                                    <path
+                                        d="M8.5 4.13525C7.92682 4.13525 7.35924 4.24815 6.82969 4.4675C6.30013 4.68685 5.81896 5.00836 5.41366 5.41366C5.00836 5.81896 4.68685 6.30013 4.4675 6.82969C4.24815 7.35924 4.13525 7.92682 4.13525 8.5C4.13525 9.07319 4.24815 9.64077 4.4675 10.1703C4.68685 10.6999 5.00836 11.181 5.41366 11.5863C5.81896 11.9917 6.30013 12.3132 6.82969 12.5325C7.35924 12.7519 7.92682 12.8648 8.5 12.8648C9.65761 12.8648 10.7678 12.4049 11.5863 11.5863C12.4049 10.7678 12.8648 9.65761 12.8648 8.5C12.8648 7.3424 12.4049 6.23221 11.5863 5.41366C10.7678 4.59511 9.65761 4.13525 8.5 4.13525ZM8.5 11.3333C7.74856 11.3333 7.02789 11.0348 6.49653 10.5035C5.96518 9.97212 5.66667 9.25145 5.66667 8.5C5.66667 7.74856 5.96518 7.02789 6.49653 6.49653C7.02789 5.96518 7.74856 5.66667 8.5 5.66667C9.25145 5.66667 9.97212 5.96518 10.5035 6.49653C11.0348 7.02789 11.3333 7.74856 11.3333 8.5C11.3333 9.25145 11.0348 9.97212 10.5035 10.5035C9.97212 11.0348 9.25145 11.3333 8.5 11.3333Z"
+                                        fill="white" />
+                                    <path
+                                        d="M13.0376 4.98238C13.6009 4.98238 14.0576 4.52571 14.0576 3.96238C14.0576 3.39905 13.6009 2.94238 13.0376 2.94238C12.4742 2.94238 12.0176 3.39905 12.0176 3.96238C12.0176 4.52571 12.4742 4.98238 13.0376 4.98238Z"
+                                        fill="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_202_401">
+                                        <rect width="17" height="17" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_202_406)">
+                                    <path
+                                        d="M15.0078 0H1.99219C0.893695 0 0 0.893695 0 1.99219V15.0078C0 16.1063 0.893695 17 1.99219 17H15.0078C16.1063 17 17 16.1063 17 15.0078V1.99219C17 0.893695 16.1063 0 15.0078 0ZM15.6719 15.0078C15.6719 15.374 15.374 15.6719 15.0078 15.6719H11.2227V10.2598H13.2743L13.6133 8.20117H11.2227V6.77344C11.2227 6.20981 11.6551 5.77734 12.2188 5.77734H13.5801V3.71875H12.2188C10.5279 3.71875 9.16479 5.08838 9.16479 6.77921V8.20117H7.17188V10.2598H9.16479V15.6719H1.99219C1.62602 15.6719 1.32812 15.374 1.32812 15.0078V1.99219C1.32812 1.62602 1.62602 1.32812 1.99219 1.32812H15.0078C15.374 1.32812 15.6719 1.62602 15.6719 1.99219V15.0078Z"
+                                        fill="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_202_406">
+                                        <rect width="17" height="17" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M10.0825 7.19834L16.2751 0H14.8076L9.43065 6.25022L5.13607 0H0.18277L6.67703 9.45144L0.18277 17H1.65029L7.32853 10.3996L11.8639 17H16.8172L10.0822 7.19834H10.0825ZM8.07256 9.53471L7.41456 8.59356L2.17906 1.10472H4.43308L8.65819 7.14845L9.3162 8.0896L14.8083 15.9455H12.5543L8.07256 9.53507V9.53471Z"
+                                    fill="white" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="help-info col-lg-3 justify-content-center">
+                        <h5>
+                            Help & Information
+                        </h5>
+                        <ul>
+                            <li><a href="#" target="_blank"></a>Home Page</li>
+                            <li><a href="#" target="_blank"></a>About Us</li>
+                            <li><a href="#" target="_blank"></a>Privacy Policy</li>
+                            <li><a href="#" target="_blank"></a>Blog</li>
+                            <li><a href="#" target="_blank"></a>Terms & Conditions</li>
+                        </ul>
+                    </div>
+                    <div class="contact-info col-lg-2">
+                        <h5>
+                            contact Info
+                        </h5>
+                        <div class="contact-bar">
+                            <div class="d-flex justify-content-sm-start ">
+                                <a href="tel:876456978910" class="theme-icon" title="Call us on">
+                                    <svg width="19" height="19" viewBox="0 0 19 19" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M10.2775 0.794236C10.2775 0.583927 10.361 0.382232 10.5097 0.233522C10.6584 0.0848111 10.8601 0.00126635 11.0704 0.00126635C13.1728 0.00357515 15.1883 0.839764 16.6749 2.32637C18.1615 3.81298 18.9977 5.82858 19 7.93096C19 8.14127 18.9165 8.34296 18.7677 8.49167C18.619 8.64038 18.4173 8.72393 18.207 8.72393C17.9967 8.72393 17.795 8.64038 17.6463 8.49167C17.4976 8.34296 17.4141 8.14127 17.4141 7.93096C17.4122 6.24907 16.7432 4.63661 15.554 3.44733C14.3647 2.25806 12.7523 1.58909 11.0704 1.5872C10.8601 1.5872 10.6584 1.50366 10.5097 1.35495C10.361 1.20624 10.2775 1.00454 10.2775 0.794236V0.794236ZM11.0704 4.75908C11.9116 4.75908 12.7184 5.09326 13.3132 5.6881C13.9081 6.28295 14.2423 7.08972 14.2423 7.93096C14.2423 8.14127 14.3258 8.34296 14.4745 8.49167C14.6232 8.64038 14.8249 8.72393 15.0352 8.72393C15.2455 8.72393 15.4472 8.64038 15.5959 8.49167C15.7446 8.34296 15.8282 8.14127 15.8282 7.93096C15.8269 6.66949 15.3252 5.46006 14.4333 4.56807C13.5413 3.67608 12.3319 3.1744 11.0704 3.17314C10.8601 3.17314 10.6584 3.25669 10.5097 3.4054C10.361 3.55411 10.2775 3.7558 10.2775 3.96611C10.2775 4.17642 10.361 4.37812 10.5097 4.52683C10.6584 4.67554 10.8601 4.75908 11.0704 4.75908V4.75908ZM18.2808 13.2748C18.7403 13.7356 18.9984 14.3598 18.9984 15.0106C18.9984 15.6614 18.7403 16.2856 18.2808 16.7464L17.5592 17.5782C11.0649 23.7959 -4.73878 7.99598 1.38286 1.48095L2.29476 0.687978C2.75608 0.24128 3.37471 -0.00583146 4.01683 0.000104521C4.65894 0.0060405 5.27291 0.264547 5.72589 0.719697C5.75047 0.744279 7.21982 2.65296 7.21982 2.65296C7.65581 3.111 7.89852 3.71944 7.89748 4.35182C7.89645 4.98419 7.65176 5.59184 7.21427 6.04845L6.29602 7.20301C6.80419 8.43775 7.55133 9.55991 8.49451 10.505C9.43769 11.4501 10.5583 12.1995 11.792 12.7102L12.9537 11.7864C13.4104 11.3492 14.0179 11.1048 14.6501 11.1039C15.2822 11.103 15.8905 11.3457 16.3483 11.7816C16.3483 11.7816 18.2562 13.2502 18.2808 13.2748ZM17.1897 14.4278C17.1897 14.4278 15.2921 12.9679 15.2675 12.9433C15.1042 12.7813 14.8835 12.6905 14.6534 12.6905C14.4234 12.6905 14.2026 12.7813 14.0393 12.9433C14.0178 12.9655 12.4185 14.2398 12.4185 14.2398C12.3107 14.3256 12.1824 14.3818 12.0463 14.403C11.9101 14.4241 11.7709 14.4094 11.6421 14.3604C10.0439 13.7653 8.59222 12.8337 7.38542 11.6286C6.17861 10.4236 5.24488 8.97326 4.64746 7.37588C4.59449 7.2454 4.57722 7.10317 4.59743 6.9638C4.61764 6.82444 4.67459 6.69297 4.76244 6.58291C4.76244 6.58291 6.03673 4.9827 6.05814 4.96208C6.22011 4.79872 6.31099 4.57798 6.31099 4.34793C6.31099 4.11787 6.22011 3.89714 6.05814 3.73377C6.03355 3.70998 4.57372 1.81082 4.57372 1.81082C4.40791 1.66215 4.19152 1.58252 3.96889 1.58827C3.74626 1.59402 3.53427 1.68471 3.37635 1.84175L2.46445 2.63472C-2.00942 8.01422 11.6858 20.9499 16.3999 16.495L17.1223 15.6624C17.2916 15.5056 17.3932 15.2891 17.4058 15.0587C17.4184 14.8283 17.3409 14.6021 17.1897 14.4278V14.4278Z"
+                                            fill="white" />
+                                    </svg>
+                                    +1 123-456-0606
+                                </a>
+                            </div>
+                            <div class="d-flex justify-content-sm-start">
+                                <a href="mailto:info@example.com" class="theme-icon" title="Mail us at">
+                                    <svg width="19" height="19" viewBox="0 0 19 19" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M14.6818 0H6.04545C5.2062 0.00101205 4.38546 0.226183 3.68359 0.647978C2.98172 1.06977 2.42916 1.66991 2.09345 2.375H0.863636C0.634586 2.375 0.414916 2.45841 0.252953 2.60687C0.09099 2.75534 0 2.9567 0 3.16667C0 3.37663 0.09099 3.57799 0.252953 3.72646C0.414916 3.87493 0.634586 3.95833 0.863636 3.95833H1.72727V5.54167H0.863636C0.634586 5.54167 0.414916 5.62507 0.252953 5.77354C0.09099 5.92201 0 6.12337 0 6.33333C0 6.5433 0.09099 6.74466 0.252953 6.89313C0.414916 7.04159 0.634586 7.125 0.863636 7.125H1.72727V8.70833H0.863636C0.634586 8.70833 0.414916 8.79174 0.252953 8.94021C0.09099 9.08867 0 9.29004 0 9.5C0 9.70996 0.09099 9.91133 0.252953 10.0598C0.414916 10.2083 0.634586 10.2917 0.863636 10.2917H1.72727V11.875H0.863636C0.634586 11.875 0.414916 11.9584 0.252953 12.1069C0.09099 12.2553 0 12.4567 0 12.6667C0 12.8766 0.09099 13.078 0.252953 13.2265C0.414916 13.3749 0.634586 13.4583 0.863636 13.4583H1.72727V15.0417H0.863636C0.634586 15.0417 0.414916 15.1251 0.252953 15.2735C0.09099 15.422 0 15.6234 0 15.8333C0 16.0433 0.09099 16.2447 0.252953 16.3931C0.414916 16.5416 0.634586 16.625 0.863636 16.625H2.09345C2.42916 17.3301 2.98172 17.9302 3.68359 18.352C4.38546 18.7738 5.2062 18.999 6.04545 19H14.6818C15.8267 18.9987 16.9242 18.5813 17.7337 17.8392C18.5432 17.0972 18.9986 16.0911 19 15.0417V3.95833C18.9986 2.9089 18.5432 1.90282 17.7337 1.16076C16.9242 0.418698 15.8267 0.00125705 14.6818 0ZM17.2727 15.0417C17.2727 15.6716 16.9998 16.2756 16.5139 16.721C16.028 17.1664 15.369 17.4167 14.6818 17.4167H6.04545C5.3583 17.4167 4.6993 17.1664 4.21341 16.721C3.72752 16.2756 3.45455 15.6716 3.45455 15.0417V3.95833C3.45455 3.32844 3.72752 2.72435 4.21341 2.27895C4.6993 1.83356 5.3583 1.58333 6.04545 1.58333H14.6818C15.369 1.58333 16.028 1.83356 16.5139 2.27895C16.9998 2.72435 17.2727 3.32844 17.2727 3.95833V15.0417ZM10.3636 9.5C11.0508 9.5 11.7098 9.24978 12.1957 8.80438C12.6816 8.35898 12.9545 7.75489 12.9545 7.125C12.9545 6.49511 12.6816 5.89102 12.1957 5.44562C11.7098 5.00022 11.0508 4.75 10.3636 4.75C9.67648 4.75 9.01748 5.00022 8.53159 5.44562C8.0457 5.89102 7.77273 6.49511 7.77273 7.125C7.77273 7.75489 8.0457 8.35898 8.53159 8.80438C9.01748 9.24978 9.67648 9.5 10.3636 9.5ZM14.6818 14.25C14.6818 14.46 14.5908 14.6613 14.4289 14.8098C14.2669 14.9583 14.0472 15.0417 13.8182 15.0417C13.5891 15.0417 13.3695 14.9583 13.2075 14.8098C13.0455 14.6613 12.9545 14.46 12.9545 14.25C12.9545 13.6201 12.6816 13.016 12.1957 12.5706C11.7098 12.1252 11.0508 11.875 10.3636 11.875C9.67648 11.875 9.01748 12.1252 8.53159 12.5706C8.0457 13.016 7.77273 13.6201 7.77273 14.25C7.77273 14.46 7.68174 14.6613 7.51977 14.8098C7.35781 14.9583 7.13814 15.0417 6.90909 15.0417C6.68004 15.0417 6.46037 14.9583 6.29841 14.8098C6.13644 14.6613 6.04545 14.46 6.04545 14.25C6.22768 9.01867 14.5013 9.02025 14.6818 14.25Z"
+                                            fill="white" />
+                                    </svg>
+                                    info@example.com
+                                </a>
+                            </div>
+                            <div class="d-flex justify-content-sm-start">
+                                <a href="https://maps.app.goo.gl/DkqeUHZ5oDy6vR388" target="new"
+                                    class="theme-icon align-items-start" title="">
+                                    <svg width="19" height="19" viewBox="0 0 19 19" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M17.78 6.40692L12.2985 1.1511C11.5557 0.415706 10.5534 0.00223197 9.50837 9.00971e-06C8.4633 -0.00221395 7.45932 0.406993 6.71333 1.13922L1.21917 6.40692C0.834903 6.77719 0.528962 7.22096 0.319524 7.71186C0.110086 8.20276 0.00142518 8.73078 0 9.26452L0 15.0399C0.00125705 16.0898 0.418698 17.0963 1.16076 17.8387C1.90282 18.5811 2.9089 18.9987 3.95833 19H15.0417C16.0911 18.9987 17.0972 18.5811 17.8392 17.8387C18.5813 17.0963 18.9987 16.0898 19 15.0399V9.26452C18.9986 8.7307 18.8899 8.20261 18.6803 7.71169C18.4707 7.22077 18.1646 6.77704 17.78 6.40692ZM7.82088 2.27101C8.26978 1.82589 8.87692 1.57721 9.50895 1.57959C10.141 1.58197 10.7462 1.8352 11.1918 2.28368L16.5332 7.40328L11.1791 12.7605C10.7265 13.1921 10.1253 13.4329 9.5 13.4329C8.87473 13.4329 8.27346 13.1921 7.82088 12.7605L2.46604 7.40328L7.82088 2.27101ZM17.4167 15.0399C17.4167 15.6701 17.1664 16.2744 16.721 16.72C16.2756 17.1656 15.6716 17.416 15.0417 17.416H3.95833C3.32844 17.416 2.72435 17.1656 2.27895 16.72C1.83356 16.2744 1.58333 15.6701 1.58333 15.0399V9.26452C1.58413 9.11078 1.59977 8.95747 1.63004 8.80674L6.70146 13.8804C7.4462 14.6182 8.45192 15.0321 9.5 15.0321C10.5481 15.0321 11.5538 14.6182 12.2985 13.8804L17.37 8.80674C17.4002 8.95747 17.4159 9.11078 17.4167 9.26452V15.0399Z"
+                                            fill="white" />
+                                    </svg>
+                                    120 King St, Charleston SC 29401, USA
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="newsletter col-lg-4">
+                        <h5>
+                            Newsletter
+                        </h5>
+                        <p>
+                            Stay ahead of the pack with our curated updates delivered right to your inbox.
+                        </p>
+                        <form>
+                            <input class="newsletter-input" type="email" placeholder="Enter Email">
+                            <button class="newsletter-button" type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right text-center">
+            <p> © 2024 Parfumorium All Right Reserved.</p>
+        </div>
+    </footer>
+    <!-- footer-end -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        var owl = $('.owl-carousel');
+    owl.owlCarousel({
+    loop:true,
+    nav:true,
+    padding:0,
+    dots: false,
+    stagePadding :0,
+    responsive:{
+        0:{
+            items:1
+        },
+        575:{
+            items:1
+        },   
+        768:{
+            items:1
+        },            
+        992:{
+            items:1
+        },
+        1200:{
+            items:1
+        },
+        1400:{
+          items:1
+        }
+    }
+});
+    </script>
+</body>
+
+</html>

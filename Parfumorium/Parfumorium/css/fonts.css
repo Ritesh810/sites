@@ -1,0 +1,57 @@
+/* regular anton */
+@font-face {
+    font-family: 'anton';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('font/anton-regular.woff') format('woff'),
+        url('font/anton-regular.woff2') format('woff2');
+}
+
+/* playfairdisplay */
+@font-face {
+    font-family: 'playfairdisplay';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('font/playfairdisplay-semibold.woff') format('woff'),
+        url('font/playfairdisplay-semibold.woff2') format('woff2');
+}
+
+/* geist */
+@font-face {
+    font-family: 'geist';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('font/geist-regular.woff') format('woff'),
+        url('font/geist-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'geist';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('font/Geist-Medium.woff') format('woff'),
+        url('font/Geist-Medium.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'geist';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('font/geist-semibold.woff') format('woff'),
+        url('font/geist-semibold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'geist';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('font/Geist-Bold.woff') format('woff'),
+        url('font/Geist-Bold.woff2') format('woff2');
+}
+

@@ -1,0 +1,19 @@
+.hero-banner{
+    padding: 325px 0 355px 0;
+    height: 1000px;
+    width: 100%;
+    top: 0px;
+    position: relative;
+}
+
+.banner-content p{
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.banner-content h1{
+    margin: 0;
+    font-family: var(--primary-font-family);
+    line-height: 80px;
+}
+

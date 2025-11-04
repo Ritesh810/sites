@@ -1,0 +1,303 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: var(--primary-font-family);
+    background-color: #F5F5F5;
+}
+
+:root{
+    --primary-color: #FFFFFF;
+    --secondary-color: #000000;
+
+    --primary-font-family: 'playfairdisplay';
+    --secondary-font-family:'geist';
+
+    --h1-font: 60px;
+    --h2-font: 42px;
+    --h3-font: 42px;
+    --h4-font: 22px;
+    --h5-font: 20px;
+    --h6-font: 18px;
+
+    --semi-bold-font: 600;
+    --regular-font: 400;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+.padding-vertical {
+    padding: 120px 0;
+}
+
+.padding-top{
+    padding-top: 120px;
+}
+
+.padding-bottom{
+    padding-bottom: 120px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1350px;
+}
+
+h1 {
+    font-size: var(--h1-font);
+}
+
+h2 {
+    font-size: var(--h2-font);
+    font-family: var(--primary-font-family);
+    font-size: 42px;
+    font-weight: 700;
+    color: #000000;
+    line-height: 56px;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-size: var(--h3-font);
+}
+
+h4 {
+    font-size: var(--h4-font);
+}
+
+h6 {
+    font-size: var(--h6-font);
+}
+
+p {
+    font-family: var(--secondary-font-family) ;
+    font-size: 16px;
+    font-weight: var(--regular-font);
+    line-height: 30px;
+    color: #424242;
+    margin: 0;
+    padding: 0;
+}
+
+.primary-color {
+    color: var(--primary-color);
+}
+
+.secondary-color {
+    color: var(--secondary-color);
+}
+
+/* .regular-icon i {
+    font-size: 20px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: var(--theme-icon-bg-color);
+    color: var(--secondary-color);
+    transition: all 0.3s;
+} */
+
+/* .regular-icon:hover i {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+} */
+
+.theme-button{
+    padding: 15px 30px;
+    color: #FFFFFF;
+    background-color: #000000;
+    display: inline-block;
+    border: 4px double #FFFFFF;
+}
+.theme-button a{
+    font-family: var(--secondary-font-family);
+    font-size: 16px;
+    font-weight: var(--semi-bold-font);
+    line-height: 25px;
+    text-decoration: none;
+}
+
+.theme-button:hover{
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 4px double #000000;
+    transition: all 900ms;
+}
+
+ol, ul{
+    padding-left: 0;
+}
+
+@media (max-width:1399px) {
+    .padding-vertical {
+        padding: 100px 0;
+    }
+
+    .padding-top{
+        padding-top: 100px;
+    }
+    .padding-bottom{
+        padding-bottom: 100px;
+    }
+
+    h2{
+        font-size: 38px;
+        line-height: 44px;
+    }
+}
+
+@media (max-width:1199px) {
+
+    h1 {
+        font-size: 70px;
+    }
+
+    h2 {
+        font-size: 38px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    h5 {
+        font-size: 35px;
+    }
+
+    h6 {
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width:991px) {
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 34px;
+        line-height: 40px;
+    }
+
+    h3 {
+        font-size: 34px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    h5 {
+        font-size: 35px;
+    }
+
+    h6 {
+        font-size: 18px;
+    }
+
+    .padding-vertical {
+        padding: 70px 0;
+    }
+
+    .padding-top{
+        padding-top: 70px;
+    }
+
+    .padding-bottom{
+        padding-bottom: 70px;
+    }
+
+    .nav-button{
+        display: none;
+    }
+
+    .theme-button {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    .padding-vertical {
+        padding: 70px 0;
+    }
+
+}
+
+@media (max-width:767px) {
+
+    p {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    h3 {
+        font-size: 30px;   
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    h5 {
+        font-size: 28px;
+    }
+
+    h6 {
+        font-size: 16px;
+    }
+    .padding-vertical {
+        padding: 50px 0;
+    }
+    .padding-top{
+        padding-top: 50px;
+    }
+    .padding-bottom{
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width:575px) {
+    h2 {
+        font-size: 28px;
+        line-height: 34px;
+        margin-bottom: 10px;
+    }
+
+    p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .theme-button{
+        padding: 8px 15px;
+       
+    }
+    .theme-button a{
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+
+@media (max-width:430px) {
+   
+}
