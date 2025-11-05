@@ -1,0 +1,178 @@
+.renewable-company {
+    background-image: url('../images/renewable-bg.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: -100px;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    overflow: hidden;
+}
+
+.renewable-img {
+    padding: 0;
+}
+
+.renewable-bg {
+    width: 100%;
+}
+
+.renewable-content{
+    max-width: 660px;
+}
+
+.progress-content h6{
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.progress-bar{
+    text-align: unset;
+}
+
+.progress-content .progress{
+    margin-bottom: 25px;
+}
+
+.progress{
+    height: 10px;
+    background-color: #9AE62D;
+}
+
+.item-bar{
+    background-color: rgba(154, 230, 45, 0.3);
+    border-radius: 5px;
+} 
+
+.item-label{
+    font-family: var(--primary-font-family);
+    font-weight: 500;
+    color: #000000;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.item-value{
+    display: block;
+    float : inline-end;
+    margin-bottom: 10px;
+}
+
+.renewable-content p {
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+.renewable-content {
+    margin-top: auto;
+    padding: 85px 0 85px 85px;
+    background-color: #F5FDEA;
+}
+
+.renewable-bg{
+    background-color: #F5FDEA;
+    display: flex;
+    align-self: flex-end;
+}
+
+.renewable-company-content{
+    display: flex;
+    padding: 0;
+}
+
+@media (max-width:1899px) {
+    .renewable-bg {
+        margin-top: 37%;
+    }
+    .renewable-img .img-fluid{
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+@media (max-width:1699px) {
+    .renewable-bg {
+        margin-top: 40%;
+    }
+    .renewable-img .img-fluid{
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+@media (max-width:1399px) {
+    .renewable-company {
+        border-bottom-left-radius: 120px;
+        border-bottom-right-radius: 120px;
+    }
+    .renewable-bg {
+        margin-top: 43%;
+    }
+    .renewable-content {
+        padding: 60px 20px 85px 40px;
+    }
+}
+
+@media (max-width:1199px) {
+    .renewable-content {
+        padding: 30px 20px 90px 20px;
+    }
+    .renewable-company {
+        border-bottom-left-radius: 90px;
+        border-bottom-right-radius: 90px;
+    }
+}
+
+@media (max-width:991px) {
+    .renewable-company {
+        border-bottom-left-radius: 70px;
+        border-bottom-right-radius: 70px;
+    }
+    .renewable-bg {
+        margin-top: 0%;
+    }
+    .renewable-img .img-fluid{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+    .renewable-content {
+       max-width: 100%;
+       padding-left: 20px;
+       padding-right: 20px;
+    }
+    .renewable-content h5{
+        text-align: center;
+    }
+    .renewable-content h2{
+        text-align: center;
+    }
+    .renewable-content p{
+        text-align: center;
+    }
+    .renewable-content {
+        padding-bottom: 70px;
+    }
+}
+
+@media (max-width:767px) {
+    .renewable-company {
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+    .renewable-content {
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width:575px) {
+    .ecopower-solution{
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+}
+
+@media (max-width:430px) {
+   
+}

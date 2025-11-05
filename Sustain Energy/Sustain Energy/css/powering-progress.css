@@ -1,0 +1,249 @@
+.powering-progress .section-des{
+    padding-top: 60px;
+}
+
+.powering-progress-title{
+    margin-bottom: 40px;
+}
+
+.project-tabs .project-tab a{
+    font-family: var(--primary-font-family);  
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    padding-left: 30px;
+}
+
+.project-tabs .project-tab{
+    padding: 25px 0;
+    background-color: #F1F1F1;
+    font-family: var(--primary-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: start;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    z-index: 1;
+}
+
+.project-tabs .nav-link{
+    width: 100%;
+}
+
+.project-tab .tabs-num h6{ 
+    -webkit-text-fill-color: transparent; 
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #EAEAEA;
+    font-size: 120px;
+    line-height: 120px;
+}
+
+.project-tabs .project-tab:hover{
+    background-color: #181818;
+    color: #FFFFFF;
+    transition: all 500ms;
+}
+
+.project-tabs .project-tab:hover h6{
+    -webkit-text-stroke-color: #2C2C2C;
+    transition: all 400ms;
+}
+
+button.nav-link.active .project-tab {
+    background-color: #181818;
+    color: #FFFFFF;
+    transition: all 500ms;
+}
+
+button.nav-link.active .project-tab h6 {
+    -webkit-text-stroke-color: #2C2C2C;
+    transition: all 400ms;
+}
+
+.project-tabs .nav-link{
+    margin-bottom: 20px;
+}
+
+.project-tabs .nav-link:last-child{
+    margin-bottom: 0;
+}
+
+.project-tabs .project-tab:active h6{
+    -webkit-text-stroke-color: #2C2C2C;
+    transition: all 400ms;
+}
+
+.project-tabs .project-tab:last-child{
+    margin-bottom: 0;
+}
+
+.project-tab .tabs-num{
+    position: absolute;
+    right: 0;
+    top: -40%;
+    z-index: -1;
+}
+
+.powering-progress-img img{
+    border-radius: 20px;
+    height: 110%;
+    object-fit: cover;
+}
+
+.powering-progress-img{
+    padding-left: 34px;
+}
+
+.powering-progress-content .client-info h6{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.powering-progress-content .client-info p{
+    padding: 0;
+}
+
+.powering-progress-content p{
+    padding-top: 15px;
+}
+
+.powering-progress-content {
+    padding-left: 30px;
+    align-self: center;
+}
+
+.nav-link:focus-visible{
+    box-shadow: none;
+}
+
+@media (max-width:1399px) {
+    .powering-progress-img{
+        padding-left: 12px;
+    }
+    .powering-progress-content{
+        padding-left: 12px;
+    }
+}
+
+@media (max-width:1199px) {
+    .powering-progress .section-des{
+        padding-top: 50px;
+    }
+    .powering-progress-img img{
+        height: 100%;
+    }
+}
+
+@media (max-width:991px) {
+    .powering-progress-title{
+        flex-direction: column;
+        text-align: center;
+    }
+    .powering-progress .section-des{
+        padding-top: 10px;
+    }
+    .project-tabs .project-tab{
+        padding: 15px 0;
+        font-size: 16px;
+        padding-left: 25px;
+    }
+
+    .project-tabs .nav-link{
+        width: 49%;
+    }
+    .powering-progress-content{
+        padding-top: 0px;
+        text-align: center;
+    }
+    .project-tab .tabs-num h6{ 
+        font-size: 105px;
+        line-height: 105px;
+    }
+    .project-tabs{
+        align-self: center;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+        justify-content: space-between;
+    }
+    .powering-progress-img{
+        padding-left: 0;
+    }
+    .tab-menu-info{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:767px) {
+    .project-tabs .project-tab{
+        padding: 15px 0;
+        padding-left: 20px;
+        margin-bottom: 15px;
+    }
+    .powering-progress-title{
+        margin-bottom: 30px;
+    }
+    .project-tab .tabs-num h6{ 
+        font-size: 90px;
+        line-height: 90px;
+    }
+    .project-tabs .project-tab a {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .tab-menu-info{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .powering-progress-img{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+    .tab-info-main{
+        flex-wrap: wrap;
+    }
+    .powering-progress-content {
+        padding: 0;
+    }
+    .project-tabs .nav-link {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width:575px) {
+    .powering-progress-img{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .powering-progress-title {
+        margin-bottom: 25px;
+    }
+    .powering-progress-img {
+        margin-top: 0px;
+    }
+    .project-tabs .project-tab{
+        padding: 15px 0;
+        padding-left: 20px;
+        width: 100%;
+    }
+    .project-tab .tabs-num h6 {
+        font-size: 70px;
+        line-height: 88px;
+    }
+    .project-tabs .nav-link{
+        width: 100%;
+    }
+}
+
+@media (max-width:430px) {
+   
+}
+
+
+
+ 

@@ -1,0 +1,79 @@
+.company{
+    padding-top: 440px;
+}
+
+.company-logo img{
+    filter: brightness(0) saturate(100%) invert(98%) sepia(0%) saturate(506%) hue-rotate(136deg) brightness(87%) contrast(99%);
+}
+
+.company-logo img:hover{
+    filter: brightness(0) saturate(100%) invert(88%) sepia(29%) saturate(1148%) hue-rotate(27deg) brightness(95%) contrast(88%);
+    transition: all 600ms;
+}
+
+.company-logo{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 35px;
+    row-gap: 30px;
+}
+
+@media (max-width:1399px) {
+    .company{
+        padding-top: 320px;
+    }
+}
+
+@media (max-width:1199px) {
+    .company{
+        padding-top: 260px;
+    }
+}
+
+@media (max-width:991px) {
+    .company .container .row{
+        row-gap: 25px;
+        justify-content: center;
+    }
+    .company-logo{
+        padding: 0 12px;
+    }
+    .company-logo{
+        justify-content: center;
+        column-gap: 80px;
+        row-gap: 30px;
+    }
+    .company {
+        padding-top: 120px;
+    }
+}
+
+@media (max-width:767px) {
+    
+    .footer-content {
+        padding-bottom: 40px;
+    }
+    .newsletter-link .social-icon {
+        margin-top: 25px;
+    }
+    .company-logo{
+        justify-content: center;
+        column-gap: 50px;
+        row-gap: 30px;
+    }
+}
+
+@media (max-width:575px) {
+    .company-link {
+        text-align: center;
+    }
+}
+
+@media (max-width:460px) {
+    .company-logo{
+        justify-content: center;
+        column-gap: 0px;
+        row-gap: 24px;
+        flex-direction: column;
+    }
+}

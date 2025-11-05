@@ -1,0 +1,132 @@
+.about{
+    position: relative;
+}
+
+.about::before{
+    content: '';
+    position: absolute;
+    background-image: url('../images/about-bg.png');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 10px;
+    z-index: -1;
+}
+
+.about .about-img img{
+    border-radius: 20px;
+    height: 650px;
+    object-fit: cover;
+}
+
+.about .about-img-2 img{
+    border-radius: 20px;
+    height: 84%;
+}
+
+.about .about-img-2{
+    padding-right: 0;
+}
+
+.counter-main .counter-box .counter-number span{
+    font-weight: var(--bold-font);
+    font-size: 24px;
+    color: #000000;
+    padding-bottom: 10px;
+}
+
+.counter-main .counter-box {
+    margin-top: 30px;
+    padding-left: 40px;
+}
+
+.counter-main .counter-box:first-child{
+    padding-left: 0;
+}
+
+.counter-description span{
+    color: #808080;
+    font-size: 16px;
+    font-family: var(--primary-font-family);
+}
+
+.about-content{
+    align-self: center;
+    padding-left: 85px;
+}
+
+.about-content p{
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+@media (max-width:1399px) {
+    .about-content{
+        padding-left: 40px;
+    }
+    
+}
+
+@media (max-width:1199px) {
+    .about-content{
+        padding-left: 25px;
+    }
+    .counter-main .counter-box .counter-number span{
+        font-weight: var(--bold-font);
+        font-family: var(--primary-font-family);
+        font-size: 22px;
+        color: #000000;
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width:991px) {
+    .about .about-img img{
+        height: 550px;
+        object-position: top;
+    }
+    .about-content{
+        margin-top: 50px;
+        padding-left: 12px;
+        text-align: center;
+    }
+    .counter-main .counter-box{
+        margin-top: 25px;
+    }
+    .counter-main .counter-box h3 {
+        padding-bottom: 0;
+    }
+    .about-content{
+        margin-top: 40px;
+    }
+    .about::before{
+        display: none;
+    }
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:575px) {
+    .about .about-img img{
+        height: 460px;
+        margin-bottom: 25px;
+    }
+    .about-content{
+        margin-top: 70px;
+    }
+    .counter-main{
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:430px) {
+    .about .about-img img {
+        height: 400px;
+    }
+    .about-content {
+        margin-top: 80px;
+    }
+}

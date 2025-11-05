@@ -1,0 +1,134 @@
+.ecopower-solution{
+    background-color: #181818;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    position: relative;
+    z-index: 1;
+}
+
+.ecopower-solution::before{
+    content: '';
+    position: absolute;
+    background-image: url('../images/solution-bg.png');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    z-index: -1;
+    top: 0;
+}
+
+
+.ecopower-solution .section-title{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.ecopower-solution .container{
+    padding-bottom: 80px;
+    border-bottom: 1px solid #262626;
+}
+
+.ecopower-solution h2{
+    color: #FFFFFF;
+    margin: 0 auto;
+}
+
+.solutions-box img{
+    border-radius: 15px;
+}
+
+.solutions-box h4{
+    padding-top: 25px;
+    padding-bottom: 10px;
+    color: #FFFFFF;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.solutions-box p{
+    color: #DDDDDD;
+}
+
+
+@media (max-width:1399px) {
+    .ecopower-solution{
+        border-top-left-radius: 120px;
+        border-top-right-radius: 120px;
+    }
+}
+
+@media (max-width:1199px) {
+    .solutions-box h4{
+        padding-top: 20px;
+    }
+    .ecopower-solution .container{
+        padding-bottom: 60px;
+    }
+    .ecopower-solution{
+        border-top-left-radius: 90px;
+        border-top-right-radius: 90px;
+    }
+}
+
+@media (max-width:991px) {
+    .ecopower-solution{
+        border-top-left-radius: 70px;
+        border-top-right-radius: 70px;
+    }
+    .ecopower-solution .row{
+        row-gap: 40px;
+    }
+    .ecopower-solution .section-title{
+        margin-bottom: 0;
+    }
+    .ecopower-solution .container{
+        padding-bottom: 40px;
+        border-bottom: 1px solid #262626;
+    }
+    .nurturing-solar .section-title{
+        text-align: center;
+    }
+    .ecopower-solution .container {
+        border: none;
+    }
+    .renewable-img {
+        padding-top: 70px;
+    }
+    .ecopower-solution::before{
+        display: none;
+    }
+}
+
+@media (max-width:767px) {
+    .ecopower-solution{
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+    }
+    .ecopower-solution .row{
+        row-gap: 30px;
+        justify-content: center;
+    }
+    .solutions-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .solutions-box p{
+        text-align: center;
+    }
+    .renewable-img {
+        padding-top: 50px;
+    }
+}
+
+@media (max-width:575px) {
+    .ecopower-solution{
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+    }
+}
+
+@media (max-width:430px) {
+   
+}
