@@ -1,0 +1,110 @@
+.cyber-security{
+    background-color: #001530;
+}
+
+.cyber-security .section-title {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.cyber-security .section-title p{
+    padding-top: 15px;
+}
+
+.cyber-box{
+    background-color: #001B3D;
+    padding: 30px 42px 30px 30px;
+    border-left: 15px solid rgba(1, 112, 255, 0.3);
+    height: 100%;
+}
+
+.cyber-box h5{
+    color: #FFFFFF;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.cyber-box p{
+    padding-top: 10px;
+}
+
+.cyber-security .row{
+    row-gap: 30px;
+}
+
+.cyber-box-main{
+    padding-right: 15px;
+    padding-left: 0px;
+}
+
+.cyber-box-main-2{
+    padding-right: 0px;
+    padding-left: 15px;
+}
+
+.cyber-box-main-3{
+    padding-right: 15px;
+    padding-left: 0;
+}
+
+.cyber-box-main-4{
+    padding-right: 0;
+    padding-left: 15px;
+}
+
+@media (max-width:1399px) {
+    .cyber-box-main{
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+    
+    .cyber-box-main-2{
+        padding-right:12px;
+        padding-left: 12px;
+    }
+    
+    .cyber-box-main-3{
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+    
+    .cyber-box-main-4{
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+}
+
+@media (max-width:1199px) {
+    .cyber-box{
+        padding: 25px;
+    }
+}
+
+@media (max-width:991px) {
+    .cyber-box{
+        border-width: 10px;
+    }
+    .cyber-box {
+        padding: 20px;
+    }
+    .cyber-security .section-title{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:575px) {
+  
+}
+
+@media (max-width:430px) {
+    .cyber-box {
+        padding: 15px;
+    }
+    .cyber-box p{
+        padding-top: 5px;
+    }
+}

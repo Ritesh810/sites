@@ -1,0 +1,42 @@
+/* rubik */
+@font-face {
+    font-family: 'rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('font/rubik-regular.woff') format('woff'),
+        url('font/rubik-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('font/rubik-medium.woff') format('woff'),
+        url('font/rubik-medium.woff2') format('woff2');
+}
+
+/* titilliumweb */
+@font-face {
+    font-family: 'titilliumweb';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('font/titilliumweb-semibold.woff') format('woff'),
+        url('font//titilliumweb-semibold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'titilliumweb';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('font/titilliumweb-bold.woff') format('woff'),
+        url('font/titilliumweb-bold.woff2') format('woff2');
+}
+
+
+
+
+

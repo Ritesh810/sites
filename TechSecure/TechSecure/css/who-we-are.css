@@ -1,0 +1,138 @@
+.who-we-are{
+    background-color: #001530;
+    position: relative;
+    z-index: 0;
+}
+
+.who-we-are::before{
+    content: '';
+    position: absolute;
+    width: 70%;
+    height: 150%;
+    bottom: -50%;
+    right: 0;
+    background-image: url('../images/who-we-are-shape.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    z-index: -1;
+}
+
+.who-we-are .row{
+    align-items: center;
+}
+
+.counter-main .counter-box .counter-number span{
+    font-family: var(--secondary-font-family);
+    font-weight: var(--bold-font);
+    font-size: 50px;
+    line-height: 76px;
+    color: #1DBFFF;
+}
+
+.who-we-are-content p{
+    padding-right: 25px;
+}
+
+.counter-main .counter-box {
+    margin-top: 30px;
+    padding-left: 50px;
+}
+
+.who-we-are-content p{
+    padding-top: 15px;
+}
+
+.counter-main .counter-box:first-child{
+    padding-left: 0;
+}
+
+.counter-description span{
+    color:#FFFFFF;
+    font-size: 16px;
+    font-family: var(--primary-font-family);
+    line-height: 30px;
+}
+
+.who-we-are-img img{
+    width: 117% !important;
+    margin-left: -20px;
+}   
+
+@media (max-width:1599px) {
+    .who-we-are-img img{
+        width: 100% !important;
+        margin-left: -20px;
+    }  
+}
+
+@media (max-width:1399px) {
+    .who-we-are-content p{
+        padding-right: 0px;
+    }
+}
+
+@media (max-width:1199px) {
+    .counter-main .counter-box {
+        margin-top: 15px;
+        padding-left: 35px;
+    }
+    .counter-main .counter-box .counter-number span {
+        font-size: 40px;
+    }
+}
+
+@media (max-width:991px) {
+    .who-we-are::before{
+        display: none;
+    }
+    .who-we-are-img{
+        order: 1;
+        display: flex;
+        justify-content: center;
+    }
+    .who-we-are .row{
+        justify-content: center;
+    }
+    .who-we-are-content{
+        text-align: center;
+        margin-top: 40px;
+        order: 2;
+    }
+    .counter-main{
+        justify-content: center;
+    }
+    .counter-main .counter-box .counter-number span {
+        font-size: 36px;
+        line-height: 61px;
+    }
+    .counter-number{
+        justify-content: center;
+    }
+    .who-we-are::before{
+        display: none;
+    }
+}
+
+@media (max-width:767px) {
+    .who-we-are-content{
+        margin-top: 30px;
+    }
+    .counter-main .counter-box .counter-number span {
+        font-size: 34px;
+        line-height: 55px;
+    }
+}
+
+@media (max-width:575px) {
+    .counter-main .counter-box .counter-number span {
+        font-size: 30px;
+        line-height: 46px;
+    }
+    .who-we-are-content p {
+        padding-top: 10px;
+    }
+}
+
+@media (max-width:430px) {
+    
+}

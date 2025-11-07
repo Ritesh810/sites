@@ -1,0 +1,72 @@
+.hero-banner{
+    padding: 225px 0 433px 0;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-content {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.hero-content p{
+    max-width: 775px;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.hero-content .theme-button{
+    border: 2px solid #0052B2 !important;
+}
+
+@media (max-width:1399px) {
+    .hero-banner {
+        padding: 225px 0 300px 0;
+        background-size: cover;
+    }
+}
+
+@media (max-width:1199px) {
+    .hero-banner {
+        padding: 225px 0 245px 0;
+        background-size: cover;
+    }
+}
+
+@media (max-width:991px) {
+    .hero-banner {
+        padding: 225px 0 180px 0;
+        background-size: cover;
+        margin-top: 0;
+    }
+    .hero-content p {
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width:767px) {
+    .hero-banner {
+        padding: 220px 0 130px 0;
+        background-size: cover;
+    }
+    .hero-content p {
+        padding-bottom: 15px;
+    }
+
+}
+
+@media (max-width:575px) {
+    .hero-banner {
+        padding: 190px 0 100px 0;
+        background-size: cover;
+    }
+}
+
+@media (max-width:430px) {
+    .hero-banner {
+        padding: 160px 0 100px 0;
+        background-size: cover;
+    }
+}
+
